@@ -1,0 +1,906 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color, colortbl}
+\definecolor{blue1}{RGB}{0, 102, 204}
+\usepackage[colorlinks = true, linkcolor = blue, citecolor = blue, urlcolor = blue]{hyperref}
+\usepackage{array}
+\usepackage[english]{babel}
+\usepackage{amsfonts}
+\usepackage{url}
+\usepackage{fullpage}
+\usepackage{pdflscape}
+\usepackage{bm}
+\usepackage[margin = 1.5cm]{geometry}
+\usepackage[affil-it]{authblk}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage[labelfont = bf]{caption}
+\usepackage{amsmath}
+
+\setlength{\doublerulesep}{0pt}
+
+%Numbering figures
+\numberwithin{figure}{section}
+
+\title{Appendix S9: results after Qiime Open ref clustering}
+\author{Adrien Taudiere\thanks{\texttt{adrien.taudiere@cefe.cnrs.fr}}}
+
+\affil{{\footnotesize CEFE - Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier: France}}
+
+\date{\today}
+
+\sloppy
+\hyphenpenalty 10000
+
+
+
+%%%%%%% Allow a subsubsub section  %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\makeatletter
+\newcounter {subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@arabic\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+          {-3.25ex\@plus -1ex \@minus -.2ex}%
+          {1.5ex \@plus .2ex}%
+          {\normalfont\normalsize\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
+         {3.25ex \@plus1ex \@minus.2ex}%
+         {-1em}%
+         {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{6}{\parindent}%
+          {3.25ex \@plus1ex \@minus .2ex}%
+          {-1em}%
+          {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{4}{10.0em}{4.1em}}
+\renewcommand*\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+\renewcommand*\l@subparagraph{\@dottedtocline{6}{12em}{6em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+\usepackage{hyperref}
+
+\makeatletter
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@paragraph{5}
+\def\toclevel@subparagraph{6}
+\makeatother
+
+
+\definecolor{ligthgray}{RGB}{218, 218, 218}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\selectlanguage{english}
+
+<<knitr_parameters, include = FALSE>>= 
+library(knitr)
+opts_chunk$set(fig.keep = 'high', dev = 'pdf', fig.width = 7, fig.height = 7, 
+               fig.align = 'center', tidy = FALSE, warning = FALSE, size = "small", 
+               fig.show = "hold")#, cache =  TRUE)
+options(digit = 2)
+@
+
+
+<<crop-hook, include = FALSE>>=
+knit_hooks$set(crop = hook_pdfcrop)
+@
+
+\maketitle
+
+\vfill
+\begin{center}
+\textbf{To set the filter parameter, see directly section 'Choice of filter parameters'~\ref{section:filter}.}
+
+\textbf{Don't forgot to set working directory.}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{Introduction}
+
+This supplementary material presents the ecological analysis of endophytic fungal communities in \textit{Pinus nigra} subsp. \textit{laricio}, an endemic species of Corsica. The dataset analyse here was computed using Qiime Open ref clustering (see article for more details).
+
+\subsection{R requirements}
+
+First we need to install packages.
+<<R_requirement_installations, results = "hide", message = FALSE, eval = FALSE>>= 
+install.packages(c('ape', 'biom', 'optparse', 'RColorBrewer', 'randomForest',  'vegan', 
+                  'VennDiagram', 'venneuler', 'xtable', 'schoRsch', 'ape', 
+                 'ips', 'adegenet', 'mvabund', 'rCharts', 'networkD3', 'data.tree'))
+
+# Upgrade Bioconductor to the latest version available for this version of R
+source("http://bioconductor.org/biocLite.R")
+biocLite(c("multtest", "DECIPHER", "edgeR", "phyloseq", 'DESeq2', 'metagenomeSeq'))
+
+require(devtools)
+install_github('ramnathv/rCharts')
+install_github("timelyportfolio/d3treeR")
+@
+
+<<R_requirement_load, results = "hide", message = FALSE>>= 
+#Load the packages. 
+lapply(list("ggplot2", "phyloseq", "cluster", "plyr", "VennDiagram",
+            "circlize", "xtable", "schoRsch", "DESeq2", "mvabund", 
+            "edgeR", "phangorn", "DECIPHER", "ips", "adegenet", "multtest", 
+            "networkD3", "treemap", "data.tree", "d3treeR", "venneuler",
+            "gridExtra"), library, 
+       character.only = TRUE)
+library(vegan)
+@
+
+
+<<Set_color_theme, echo = FALSE>>=
+#We choose a color theme for phyloseq using color Brewer palette.
+theme_set(theme_bw())
+pal = "Dark2"
+scale_colour_discrete <- function(palname = pal, ...) {
+  scale_colour_brewer(palette = palname, ...)
+}
+scale_fill_discrete <- function(palname = pal, ...) {
+  scale_fill_brewer(palette = palname, ...)
+}
+@
+
+  \subsection{System and session informations}
+  This document was created with \Sexpr{sessionInfo()[[1]]$version.string} on \Sexpr{Sys.info()[1]} the \Sexpr{Sys.time()}. See below for more information. 
+<<sessionInfo>>=
+sessionInfo()
+@
+
+  \subsection{Some usefull functions}
+ 
+The function \texttt{as.binaryOtuTable} convert a phyloseq object into a phyloseq object with binary (\textit{i.e.} 0/1) OTU table. It allow to suppress effect due to number of sequences wich may be the result of a lot of molecular artefact (Lindhal et al., 2013).
+
+\texttt{funky.color} and \texttt{transpa} allow to create nice color palette. 
+
+\texttt{accu\_plot} allow to plot accumulation curves in fonction of a factor in samples data (\texttt{@sam\_data} of phyloseq object).
+
+\texttt{otu\_circle} use the package \texttt{circlize} to plot circle of OTUs/sequences distributions in samples. \texttt{sankey\_phyloseq} is an alternative using Sankey plot.
+
+\texttt{phyloseq\_to\_edgeR}, wrote by Paul J. McMurdie, convert phyloseq OTU count data into DGEList for edgeR package.
+
+\texttt{plot\_deseq2\_phyloseq} and \texttt{plot\_edgeR\_phyloseq} plot the result of differential analysis of count data (either using package DESeq2 or edgeR).
+
+<<>>=
+setwd("~/Documents/GitHub/FEF_paper/")
+source(file = "functions_for_phyloseq.R")
+@
+
+
+\section{Data}
+  
+  \subsection{Choice of filter parameters}
+  \label{section:filter}
+<<>>=
+#Choose the dataset folder
+data_folder <- "Open_ref"
+
+#Choose the minimum number of sequences by sample.
+N_sam_min <- 20000
+
+#Choose the minimum number of samples by OTU.
+N_otu_sam_min <- 1
+
+#Choose the minimum number of sequences by OTU.
+N_seq_otu_min <- 5
+@
+
+
+  \subsection{Load and convert loading}
+  \subsubsection{Otu table}
+<<message = FALSE>>=
+#Import biom data
+dataBiom   <- import_biom(paste("data/", data_folder, "/otu_table.biom", sep=""))
+@
+
+  \subsubsection{Taxonomy}
+<<>>=
+#Import taxonomy data
+taxRDP_brut <- readLines(paste("data/", data_folder, "/tax_assignments.txt", sep=""))
+taxRDP_brut <- gsub(";", "\t", taxRDP_brut)
+taxRDP_brut <- gsub(")", "", taxRDP_brut)
+taxRDP_brut <- gsub("\\(", "\t", taxRDP_brut)
+taxRDP_brut <- gsub("*__", "\t", taxRDP_brut)
+taxRDP_brut <- read.table(textConnection(taxRDP_brut), sep = "\t", fill = TRUE)
+@
+
+<<>>=
+# Format taxonomy for phyloseq
+taxRDP <- taxRDP_brut[match(taxa_names(dataBiom), taxRDP_brut[, 1]), 
+                       c(3, 5, 7, 9, 11, 13, 15)]
+taxRDP <- tax_table(as.matrix(taxRDP))
+taxa_names(taxRDP) <- taxa_names(dataBiom)
+colnames(taxRDP) <- c("Domain", "Phylum", "Class", "Order", "Family", 
+                      "Genus", "Species")
+@
+
+
+\subsubsection{Add FUNguild information to taxonomy Table}
+
+<<>>=
+taxRDP2 <- as.data.frame(taxRDP)
+funguild <- read.delim(paste("data/", data_folder, "/FUNGUILD.guilds.txt", sep=""))
+funguild <- funguild[!is.na(match(funguild$OTU_ID, rownames(taxRDP2))),]
+
+match_interm <- match(funguild$OTU_ID, rownames(taxRDP2))
+
+taxRDP2$Trophic_Mode <- NA
+taxRDP2$Trophic_Mode[match_interm] <- as.character(funguild$Trophic.Mode)
+taxRDP2$Guild <- NA
+taxRDP2$Guild[match_interm] <- as.character(funguild$Guild)
+taxRDP2$Confidence_Ranking <- NA
+taxRDP2$Confidence_Ranking[match_interm] <- as.character(funguild$Confidence.Ranking)
+taxRDP2$Growth_Morphology <- NA
+taxRDP2$Growth_Morphology[match_interm] <- as.character(funguild$Growth.Morphology)
+taxRDP2$Trait<-NA
+taxRDP2$Trait[match_interm] <- as.character(funguild$Trait)
+
+
+taxRDP2 <- tax_table(as.matrix(taxRDP2))
+taxa_names(taxRDP2) <- taxa_names(dataBiom)
+colnames(taxRDP2) <- c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species",
+                       "Trophic_Mode", "Guild", "Confidence_Ranking", "Growth_Morphology", 
+                       "Trait")
+@
+
+ \subsubsection{Representative sequences}
+<<>>=
+map_endo <- 
+  import_qiime(map = "data/map_qiimedata.txt")
+map_endo <- map_endo[order(rownames(map_endo)),]
+@
+
+ \subsubsection{Samples information}
+<<message = FALSE>>=
+repset <- import_qiime(refseqfilename = paste("data/", data_folder, "/seq.fasta", sep=""))
+names(repset) <- unlist(strsplit(names(repset), split = " "))[seq(1, 2*length(repset), by=2)]
+@
+
+ \subsubsection{Create the phyloseq object}
+
+<<>>=
+data_all <- merge_phyloseq(dataBiom, repset, taxRDP2)
+sample_data(data_all) <- map_endo
+data_all@tax_table[data_all@tax_table == ""] <- NA
+@
+
+\subsubsection{Caracteristics of the phyloseq data}
+  
+<<>>=
+data_all
+@
+
+The data are made of \Sexpr{sum(data_all@otu_table)} sequences representing \Sexpr{dim(data_all@tax_table)[1]} OTUs allocate to \Sexpr{dim(data_all@otu_table)[2]} samples.
+
+  \subsection{Filter sample by number of sequences}
+
+<<>>=
+N_sam_min
+@
+
+If we discard samples with less than \Sexpr{N_sam_min} sequences, we keep \Sexpr{sum(sample_sums(data_all)>N_sam_min)} on the \Sexpr{dim(data_all@otu_table)[2]} samples (\Sexpr{round(sum(sample_sums(data_all)>N_sam_min)/dim(data_all@otu_table)[2]*100, 2)}\%).
+
+<<fig.cap =  "Number of sequences by sample", fig.height = 4>>=
+barplot(sort(sample_sums(data_all)))
+abline(h = N_sam_min)
+data.f1 <- prune_samples(sample_sums(data_all) > N_sam_min, data_all)
+data.f1 <- prune_taxa(taxa_sums(data.f1) >=  1, data.f1)
+@
+
+  \subsection{Filter OTUs by number of samples}
+
+First, we can visualize the number of OTU present in a given number of samples (Figure \ref{fig:nbOtu_sample}).
+
+<<nbOtu_sample, fig.height = 4, fig.cap =  "Number of OTU present in a given number of samples. Vertical bar illustrate the filtering parameter.">>=
+df_nbOtu_sample <- data.frame("Nb of OTUs" = table(rowSums(as.binaryOtuTable(
+  data.f1)@otu_table))[table(rowSums(as.binaryOtuTable(data.f1)@otu_table)) > 1], 
+  "Nb samples" = as.numeric(names(table(rowSums(as.binaryOtuTable(data.f1)@otu_table))
+                            [table(rowSums(as.binaryOtuTable(data.f1)@otu_table)) > 1])))
+
+g <- ggplot(df_nbOtu_sample, aes(y = Nb.of.OTUs.Freq, x = Nb.samples))
+g + geom_point(size = 4, col = rgb(0.1, 0.1, 0.1, 0.5)) + 
+  scale_y_continuous(trans = 'log10') + 
+  geom_smooth(size = 2, col = rgb(0.1, 0.1, 0.1, 0.5))
+  
+summary(df_nbOtu_sample$Nb.samples)
+@
+
+<<>>=
+N_otu_sam_min 
+@
+
+<<>>=
+data.f2 <- prune_taxa(rowSums(as.binaryOtuTable(data.f1)@otu_table) >= 
+                        N_otu_sam_min, data.f1)
+@
+
+If we discard OTUs present in less than \Sexpr{N_otu_sam_min} sample, we keep \Sexpr{sum(rowSums(as.binaryOtuTable(data.f2)@otu_table)>= N_otu_sam_min)} on the \Sexpr{dim(data.f1@otu_table)[1]} OTUs (\Sexpr{round(sum(rowSums(as.binaryOtuTable(data.f2)@otu_table)>= N_otu_sam_min)/dim(data.f1@otu_table)[1]*100, 2)}\%).
+
+ \subsection{Filter OTUs by number of sequences}
+
+ First, we can visualize the number of sequences by OTU (Figure \ref{fig:nbseq_Otu}).
+
+<<nbseq_Otu, fig.height = 4, fig.cap =  "Number of sequences by OTU (log10 transformed). Horizontal bar illustrate the filtering parameter.">>=
+df_nbseq_Otu <- data.frame("Nb of sequences by OTUs" = rowSums(data.f2@otu_table))
+g <- ggplot(df_nbseq_Otu, aes(x = Nb.of.sequences.by.OTUs))
+g + geom_histogram(size = 2, col = rgb(0.8, 0.8, 0.8, 0.3)) + 
+  scale_x_continuous(trans = 'log10') +
+  geom_vline(xintercept= N_seq_otu_min)
+
+summary(df_nbseq_Otu[, 1])
+@
+
+<<>>=
+N_seq_otu_min
+@
+
+If we discard OTUs with less than \Sexpr{N_otu_sam_min} sequences, we keep \Sexpr{sum(rowSums(data.f2@otu_table)>= N_seq_otu_min)} on the \Sexpr{dim(data_all@otu_table)[1]} OTUs (\Sexpr{round(sum(rowSums(data.f2@otu_table)>= N_seq_otu_min)/dim(data_all@otu_table)[1]*100, 2)}\%).
+
+<<>>=
+data.f3 <- prune_taxa(rowSums(data.f2@otu_table) >= N_seq_otu_min, data.f2)
+@
+
+\subsection{Summary of filtration workflow}
+
+The filtered data are made of \Sexpr{sum(data.f3@otu_table)} sequences representing \Sexpr{dim(data.f3@tax_table)[1]} OTUs allocate to \Sexpr{dim(data.f3@otu_table)[2]} samples.
+
+<<echo = FALSE>>=
+df_filtr <- data.frame("Nb of OTUs" = c(dim(data_all@otu_table)[1], 
+                                        dim(data.f1@otu_table)[1], 
+                                        dim(data.f2@otu_table)[1], 
+                                        dim(data.f3@otu_table)[1]),  
+                       "Nb of samples" = c(dim(data_all@otu_table)[2], 
+                                           dim(data.f1@otu_table)[2], 
+                                           dim(data.f2@otu_table)[2], 
+                                           dim(data.f3@otu_table)[2]), 
+                       "Nb of sequences" = c(sum(data_all@otu_table), 
+                                             sum(data.f1@otu_table), 
+                                             sum(data.f2@otu_table), 
+                                             sum(data.f3@otu_table)))
+
+rownames(df_filtr) <- c("No filter", 
+                        paste("Nb of sequences by sample >= ", N_sam_min), 
+                        paste("Nb of sample by OTUs >= ", N_otu_sam_min), 
+                        paste("Nb of sequences by OTUs >= ", N_seq_otu_min))
+@
+
+
+<<echo = FALSE, results = "asis">>=
+xtable(df_filtr, caption = "Number of OTUs, samples and sequences after filtering")
+@
+
+
+\section{Simple description of the dataset}
+
+  \subsection{Number of sequences and OTUs by samples}
+
+<<fig.height = 4, fig.cap = "Number of OTUs by samples in fonction the number of sequences by samples (log10 axe). The tendency is represented by the line obtain from loess (Local Polynomial Regression Fitting).">>=
+df_nbseq_nbotu <- data.frame("Nb of sequences by samples" = colSums(data.f3@otu_table), 
+                             "Nb of OTUs by samples" = 
+                               colSums(as.binaryOtuTable(data.f3)@otu_table))
+
+g <- ggplot(df_nbseq_nbotu, aes(x = Nb.of.OTUs.by.samples, 
+                                y = Nb.of.sequences.by.samples))
+g + geom_point(size = 3, col = rgb(0.1, 0.1, 0.1, 0.5)) + 
+  scale_y_continuous(trans = 'log10') +
+  geom_smooth(size = 2, col = rgb(0.1, 0.1, 0.1, 0.5))
+@
+
+<<fig.width=4, fig.height = 3, fig.cap="Distribution of reference sequences length.">>=
+ggplot(as.data.frame(data.f3@refseq@ranges), aes(x = width)) + geom_density() + 
+  ylab("Reference sequences length")
+@
+ 
+  \subsection{Number of sequences and samples for each OTUs}
+  
+<<fig.height = 4, fig.cap = "Number of sequences by OTUs (log10 axe) in fonction the number of samples where OTUs were found. The tendency is represented by the line obtain from gam (Generalized additive models with integrated smoothness estimation).">>=
+df_nbseq_nbsam <- data.frame("Nb of sequences by OTUs" = rowSums(data.f3@otu_table)
+                             [rowSums(data.f3@otu_table) > 0], 
+                             "Nb of samples by OTUs" = 
+                               rowSums(as.binaryOtuTable(data.f3)@otu_table)
+                             [rowSums(data.f3@otu_table) > 0])
+
+g <- ggplot(df_nbseq_nbsam, aes(y = Nb.of.samples.by.OTUs, 
+                                x = Nb.of.sequences.by.OTUs))
+g + geom_point(size = 3, col = rgb(0.1, 0.1, 0.1, 0.5)) + 
+  scale_x_continuous(trans = 'log10') +
+  geom_smooth(size = 2, col = rgb(0.1, 0.1, 0.1, 0.5), method = "gam", 
+              formula  = y ~ s(x, bs = "cs"))
+@
+
+  \subsection{Distribution of sequences in the taxonomy}
+<<fig.cap="Distribution of the number of sequences in the taxonomy. Color represent Class, bold lines delimit Order and thick line delimit species.", fig.height=4>>=
+df3 <- data.frame(as.data.frame(data.f3@tax_table), nb.seq = rowSums(data.f3@otu_table))
+tm <- treemap(df3, index = c("Order", "Species"), vSize = "nb.seq", vColor = "Class", 
+        type = "categorical", palette = "Paired")
+# For an interactive version in html
+# d3tree(tm) 
+@
+
+<<fig.cap="Distribution of the number of sequences in the taxonomy considering only OTUs with 1000 sequences or more.", dev='png', eval=FALSE>>=
+data.f3_MINSEQ1000 <- subset_taxa(data.f3, rowSums(data.f3@otu_table)>999)  
+sankey_phyloseq(data.f3_MINSEQ1000, tax2remove =
+                  c("Incertae sedis", "unidentified", "Xylariales", "NA"),
+                nbSeq = TRUE, taxa = c(1:6))
+@
+
+<<fig.cap="Distribution of the number of OTUs in the taxonomy.", dev='png', eval=FALSE>>=
+sankey_phyloseq(data.f3, tax2remove = c("Incertae sedis", "unidentified", "Xylariales"),
+                nbSeq = FALSE, taxa = c(1:5), min.prop.tax = 0.01)
+@
+
+  \subsection{Focus on the 30 more abundant OTUs (number of sequences)}
+
+<<fig.height = 4, fig.cap = "Number of sequences of the 30 more abundant OTUs (number of sequences).">>=
+the30mostfrequents <- sort(decreasing = T, rowSums(data.f3@otu_table))[1:30]
+barplot(the30mostfrequents, horiz = T, cex.names = 0.4, las = 2)
+@
+
+<<echo = FALSE>>=
+df_the30mostfrequents <-
+  as.data.frame(data.f3@tax_table[rowSums(data.f3@otu_table) > min(the30mostfrequents)][, -1])
+df_the30mostfrequents <-
+  df_the30mostfrequents[order(rowSums(data.f3@otu_table)
+                              [rowSums(data.f3@otu_table) > 
+                                min(the30mostfrequents)], decreasing = T),]
+df_the30mostfrequents$Nb.sequences <- 
+  sort(rowSums(data.f3@otu_table)[rowSums(data.f3@otu_table) > 
+                                    min(the30mostfrequents)], decreasing = T)
+@
+
+\begin{landscape}
+<<results = "asis">>=
+print(xtable(df_the30mostfrequents[, c(1:8, 12)], auto = T, 
+             caption = "Taxonomie of the 30 more
+             frequent OTUs (number of sequences)"), 
+      size = "\\tiny", include.rownames = FALSE)
+@
+\end{landscape}
+
+<<fig.cap = "Number of sequences of the 30 most abundant OTUs (number of sequences). Colors indicate Order, bold lines delimit Class and thick lines delimit species.", fig.height=4>>=
+treemap(df_the30mostfrequents, index = c("Class", "Species"), vSize = "Nb.sequences",
+        vColor = "Order", type = "categorical", palette = "Paired")
+@
+
+  \subsection{Focus on the 30 more frequent OTUs (number of samples)}
+
+<<fig.height = 4, fig.cap = "Number of samples of the 30 more frequent OTUs (number of samples).">>=
+the30mostfrequents_samp <- sort(decreasing = T, 
+                                rowSums(as.binaryOtuTable(data.f3)@otu_table))[1:30]
+barplot(the30mostfrequents_samp, horiz = T, cex.names = 0.4, las = 2)
+@
+
+
+<<echo = FALSE>>=
+df_the30mostfrequents_samp <- as.data.frame(data.f3@tax_table[rowSums(as.binaryOtuTable(data.f3)@otu_table) > min(the30mostfrequents_samp)][, -1])
+df_the30mostfrequents_samp <- df_the30mostfrequents_samp[order(rowSums(as.binaryOtuTable(data.f3)@otu_table)[rowSums(as.binaryOtuTable(data.f3)@otu_table) > min(the30mostfrequents_samp)], decreasing = T),]
+df_the30mostfrequents_samp$Nb.samples <- sort(rowSums(as.binaryOtuTable(data.f3)@otu_table)[rowSums(as.binaryOtuTable(data.f3)@otu_table) > min(the30mostfrequents_samp)], decreasing = T)
+@
+
+\begin{landscape}
+<<results = "asis">>=
+print(xtable(df_the30mostfrequents_samp[, c(1:8, 12)], auto = T, 
+      caption = "Taxonomie of the 30 more frequent OTUs (number of samples)"), 
+      size = "\\tiny", include.rownames = FALSE)
+@
+\end{landscape}
+
+
+\section{Number of sequences and OTUs in function of putative ecology (using FUNGuild software; Nguyen et al, 2015)}
+
+<<>>=
+tabPutativeEcology <- apply(data.f3@tax_table, 2, function(x) table(x))
+tabPutativeEcology_percent <- apply(data.f3@tax_table, 2, function(x) 
+  round(table(x)/dim(data.f3@tax_table)[1]*100, 3))
+sum(data.f3@otu_table[data.f3@tax_table[,"Trophic_Mode"]=="-"]) /
+  sum(data.f3@otu_table)*100
+
+tmdata <- as.data.frame(data.f3@tax_table[data.f3@tax_table[,"Trophic_Mode"]!="-"])
+tmdata$Nb.sequences <- rowSums(data.f3@otu_table[data.f3@tax_table[,"Trophic_Mode"]!="-"])
+tmdata$Nb.OTU <- rep(1, length(tmdata$Nb.sequences))
+@
+
+<<fig.cap = "Distribution of OTUs into functional Guild.", fig.height=4>>=
+ggplot(tmdata) + geom_bar(aes(x= Trophic_Mode, fill=Guild), position = "dodge") + 
+  scale_fill_discrete("Paired")+ theme_grey()
+@
+
+<<fig.cap = "Distribution of sequences (log10 transformed) into functional Guild.", fig.height=4>>=
+ggplot(tmdata, stat="identity") + 
+  geom_bar(aes(x= Trophic_Mode, weight = Nb.sequences,  fill=Guild), position = "dodge") + 
+  scale_fill_discrete("Paired") + scale_y_log10() + theme_grey()
+@
+
+\section{Distribution of fungal endophytic alpha-biodiversity}
+  \subsection{Local diversity = Diversity by sites}
+  
+<<fig.height = 4, fig.width=4, fig.cap = "Rarefaction curves for each sites. Notes that if singletons were removed, these curves are biaised.">>=
+accu_plot(data.f3, "Sites", nbSeq = FALSE)
+@
+
+<<fig.height = 5, fig.cap = "Rarefaction curves for each samples using sequences number on x-axes. Notes that if singletons were removed, these curves are biaised.">>=
+accu_plot(data.f3, "Sites", step = 5000)
+@
+
+<<fig.height = 5, fig.cap = "Diversity of each sites">>=
+measures_index <- c("Observed", "Chao1", "Shannon", "Simpson")
+p <- plot_richness(data.f3, x = "Sites", color = "Sites", measures = measures_index)
+p + geom_boxplot(data = p$data, alpha = 0.5)
+@
+
+  \subsection{Diversity by age of tree}
+  
+<<fig.height = 4, fig.width=4, fig.cap = "Rarefaction curves for each tree age modalities. Notes that if singletons were removed, these curves are biaised.">>=
+accu_plot(data.f3, "Age", nbSeq = FALSE)
+@
+  
+<<fig.height = 6.5, fig.cap = "Diversity in function of tree age. Color represent sites.">>=
+measures_index <- c("Observed", "Chao1", "Shannon", "Simpson")
+p <- plot_richness(data.f3, x = "Age", color = "Sites", measures = measures_index)
+p + geom_boxplot(data = p$data, aes(x = p$data$Age, y = value, color = NULL), 
+                 alpha = 0.5)
+@
+
+  \subsection{Diversity by elevation of the sample}
+
+<<fig.height = 4, fig.width=4, fig.cap = "Rarefaction curves for each elevation. Notes that if singletons were removed, these curves are biaised.">>=
+accu_plot(data.f3, "Elevation", nbSeq = FALSE)
+@
+
+<<fig.height = 5, fig.cap = "Diversity in function of elevation. Color represent sites.">>=
+measures_index <- c("Observed", "Chao1", "Shannon", "Simpson")
+p <- plot_richness(data.f3, x = "Elevation", color = "Sites", measures = measures_index)
+p + geom_boxplot(data = p$data, aes(x = p$data$Elevation, y = value, color = NULL), 
+                 alpha = 0.5)
+@
+
+  \subsection{Which factor affect diversity?}
+  
+<<Hill>>=
+## Uneven sequencing depth may have an impact
+readNumbers = apply(t(data.f3@otu_table), 1, sum)
+
+otuHill <- renyi(t(data.f3@otu_table), scale = c(0, 1, 2), hill = T)
+
+hill.1 = otuHill$"0"
+hill.2 = otuHill$"1"
+hill.3 = otuHill$"2"
+
+hill.1.m1 = lm(hill.1 ~ sqrt(readNumbers) + data.f3@sam_data$Sites + 
+                 data.f3@sam_data$Age + data.f3@sam_data$Elevation)
+hill.2.m1 = lm(hill.2 ~ sqrt(readNumbers) + data.f3@sam_data$Sites + 
+                 data.f3@sam_data$Age + data.f3@sam_data$Elevation)
+hill.3.m1 = lm(hill.3 ~ sqrt(readNumbers) + data.f3@sam_data$Sites + 
+                 data.f3@sam_data$Age + data.f3@sam_data$Elevation)
+
+@
+
+<<echo = F, results = "asis">>=
+print(xtable(summary(hill.1.m1)$coefficients, auto = T, 
+      caption = "Summary of the linear model of species richness 
+      (Hill number 1 (q = 0)"))
+@
+
+<<echo = F, results = "asis">>=
+print(xtable(summary(hill.2.m1)$coefficients, auto = T, 
+      caption = "Summary of the linear model of the exponential of 
+      Shannon’s entropy index (Hill number 2 (q = 1)"))
+@
+
+<<echo = F, results = "asis">>=
+print(xtable(summary(hill.3.m1)$coefficients, auto = T, 
+      caption = "Summary of the linear model of inverse of Simpson’s
+      concentration index (Hill number 3 (q = 2)"))
+@
+
+Post-hoc Tukey tests among the three experimental treatments with partial residuals, after accounting for differential sequencing success.
+<<>>=
+tuk1 <- TukeyHSD(aov(lm(hill.1 ~ sqrt(readNumbers))$residuals ~ data.f3@sam_data$Site))
+tuk2 <- TukeyHSD(aov(lm(hill.2 ~ sqrt(readNumbers))$residuals ~ data.f3@sam_data$Site))
+tuk3 <- TukeyHSD(aov(lm(hill.3 ~ sqrt(readNumbers))$residuals ~ data.f3@sam_data$Site))
+@
+
+<<echo=FALSE>>=
+df <- data.frame(cbind(c(tuk1$`data.f3@sam_data$Site`[,1], tuk2$`data.f3@sam_data$Site`[,1], tuk3$`data.f3@sam_data$Site`[,1]), c(tuk1$`data.f3@sam_data$Site`[,2], tuk2$`data.f3@sam_data$Site`[,2], tuk3$`data.f3@sam_data$Site`[,2]), c(tuk1$`data.f3@sam_data$Site`[,3], tuk2$`data.f3@sam_data$Site`[,3], tuk3$`data.f3@sam_data$Site`[,3])))
+names(df) <- c("x", "xInf", "xSup")
+df$y <- paste("Hill Number" , c(rep("0", 3), rep("1", 3), rep("2", 3)), c(rownames(tuk1$`data.f3@sam_data$Age`), rownames(tuk2$`data.f3@sam_data$Site`), rownames(tuk2$`data.f3@sam_data$Site`)))
+@
+
+<<fig.cap="Results of the Tuckey HSD testing for differences in mean Hill numbers among pairs of modalities", fig.height= 4>>=
+ggplot(data = df) + geom_linerange(aes(ymax = xSup, ymin = xInf, x = y), size = 2) + 
+  geom_point(aes(x=y, y=x), size=4, shape=21, fill="white") + 
+  coord_flip() + theme_gray() + geom_hline(yintercept = 0) +
+  ylab("Differences in mean levels") + xlab("")
+@
+
+
+\section{Effect of site, age and elevation on fungal endophytic beta-diversity}
+
+  \subsection{Venn diagramm}
+  
+<<fig.cap = "Venn diagramm ef the distribution of OTUs among Sites", fig.height = 3, fig.width = 5>>=
+venn_phyloseq(data.f3, "Sites", printValues = F)
+@
+
+<<fig.cap = "Venn diagramm ef the distribution of OTUs among host age", fig.height = 3, fig.width = 5>>=
+venn_phyloseq(data.f3, "Age", printValues = F)
+@
+
+<<fig.cap = "Venn diagramm ef the distribution of OTUs among elevation of samples", fig.height = 3, fig.width = 5>>=
+venn_phyloseq(data.f3, "Elevation", printValues = F)
+@
+
+
+  \subsection{Ordination}
+
+ Ordination of the OTUs table using NMDS (Non-metric MultiDimenstional Scaling).
+
+<<results = "hide">>=
+my.ord.nmds <- ordinate(data.f3, method = "NMDS")
+my.ord.nmds$stress
+@
+
+<<fig.cap = "Stress plot of the NMDS", fig.height = 3, fig.width=4>>=
+stressplot(my.ord.nmds)
+@
+
+
+<<fig.cap = "NMDS of OTU table. Colors represent sites and shape the age of tree.", fig.height = 5>>=
+p <- plot_ordination(data.f3, my.ord.nmds, color = "Sites", shape = "Age")
+p + geom_point(size = 0) + 
+  geom_text(aes(x = p$data$NMDS1, y = p$data$NMDS2, 
+                label = as.character(as.vector(data.f3@sam_data[, "CODE"]$CODE))))
+@
+
+
+<<message = FALSE>>=
+my.ord.nmds_gower <- ordinate(data.f3, distance = "gower",  method = "NMDS")
+my.ord.PCoA <- ordinate(data.f3, method = "PCoA")
+my.ord.PCoA_gower <- ordinate(data.f3, distance = "gower", method = "PCoA")
+my.ord.DCA <- ordinate(data.f3, method = "DCA")
+my.ord.DCA_gower <- ordinate(data.f3, distance = "gower", method = "DCA")
+
+p_NMDS_BRAY <- plot_ordination(data.f3, my.ord.nmds, color = "Sites", 
+                               shape = "Age", label = "CODE") + geom_point(size = 5) 
+p_NMDS_GOWER <- plot_ordination(data.f3, my.ord.nmds_gower, color = "Sites", 
+                                shape = "Age", label = "CODE") + geom_point(size = 5) 
+p_PCoA_BRAY <- plot_ordination(data.f3, my.ord.PCoA, color = "Sites",
+                               shape = "Age", label = "CODE") + geom_point(size = 5) 
+p_PCoA_GOWER <- plot_ordination(data.f3, my.ord.PCoA_gower, color = "Sites", 
+                                shape = "Age", label = "CODE") + geom_point(size = 5) 
+p_DCA_BRAY <- plot_ordination(data.f3, my.ord.DCA, color = "Sites", 
+                              shape = "Age", label = "CODE") + geom_point(size = 5) 
+p_DCA_GOWER <- plot_ordination(data.f3, my.ord.DCA_gower, color = "Sites",
+                               shape = "Age", label = "CODE") + geom_point(size = 5) 
+@
+
+\begin{landscape}
+<<fig.cap = "Comparison of different distances (bray (up) and gower (bottom)) and ordination methods (NMDS (left), PCoA (center) and DCA (right)).", fig.width = 15>>=
+multiplot(p_NMDS_BRAY, p_NMDS_GOWER, p_PCoA_BRAY, p_PCoA_GOWER, p_DCA_BRAY, p_DCA_GOWER, 
+          cols = 3)
+@
+\end{landscape}
+
+  \subsection{Permanova on sites, host ages and elevation}
+  
+<<>>=
+sam_data <- as.data.frame(unclass(data.f3@sam_data))
+sam_data$IndividualTree <- paste(sam_data$Sites, sam_data$Age, sam_data$Tree)
+res.ado <- adonis(t(data.f3@otu_table) ~  Sites * Age * Elevation, sam_data, 
+                  permutation = 9999)
+@
+
+If we only keep the \Sexpr{dim(t(data.f3@otu_table[rowSums(data.f3@otu_table > 0) >= 30,]))[2]} OTUs present in more than 30 sample, the Permanova results is the following:
+<<>>=
+res.ado_sampMin30 <- adonis(t(data.f3@otu_table[rowSums(data.f3@otu_table>0)>=30,]) ~
+                              Sites * Age * Elevation, sam_data, permutation = 9999)
+@
+
+<<results = "asis">>=
+xtable(res.ado$aov.tab, caption = "Result of the permanova on abundances 
+       (number of sequence).")
+@
+
+<<results = "asis">>=
+xtable(res.ado_sampMin30$aov.tab, caption = "Result of the permanova on abundances 
+       (number of sequence) using only OTUs present in more than 30 samples")
+@
+
+<<>>=
+res.ado_bin <- adonis(t(as.binaryOtuTable(data.f3)@otu_table) ~  Sites * Age * 
+                        Elevation, sam_data, permutation = 9999)
+@
+
+<<results = "asis">>=
+xtable(res.ado_bin$aov.tab, caption = "Result of the permanova on OTUs
+       (each OTU is representing by one sequence)).")
+@
+
+
+  \subsection{Permanova on sites, host ages and individual trees}
+  
+<<>>=
+res.ado_Tree <- adonis(t(data.f3@otu_table) ~   Sites*Age + Sites:Age:IndividualTree , 
+                       sam_data, permutation = 9999)
+res.ado_Tree_sampMin30 <- adonis(t(data.f3@otu_table[rowSums(data.f3@otu_table>0)>=30,]) ~ 
+                                   Sites*Age + Sites:Age:IndividualTree , sam_data, 
+                                 permutation = 9999)
+res.ado_Tree_bin <- adonis(t(as.binaryOtuTable(data.f3)@otu_table) ~   
+                             Sites*Age + Sites:Age:IndividualTree , sam_data, 
+                           permutation = 9999)
+@
+
+<<results = "asis">>=
+xtable(res.ado_Tree$aov.tab, caption = "Result of the permanova on abundances 
+       (number of sequence).")
+@
+
+<<results = "asis">>=
+xtable(res.ado_Tree_sampMin30$aov.tab, caption = "Result of the permanova on abundances 
+       (number of sequence) using only OTUs present in more than 30 samples")
+@
+
+<<results = "asis">>=
+xtable(res.ado_Tree_bin$aov.tab, caption = "Result of the permanova on OTUs
+       (each OTU is representing by one sequence)).")
+@
+
+   \subsection{Differences in abundances and OTUs number by Order.}
+
+\begin{landscape}
+<<fig.cap = "Taxonomic distribution of sequences in the different site * age combinaison.", fig.width = 15>>=
+data.f3_taxo_known <- prune_taxa(taxa_names(data.f3@tax_table)
+          [!(data.f3@tax_table[, 4] %in% c("unidentified", "Incertae sedis"))], data.f3)
+p <- plot_bar(data.f3_taxo_known, "Order", fill = "Class", facet_grid = Age ~ Sites)
+p + geom_bar(aes(color = Class, fill = Class), stat = "identity", position = "stack")
+@
+\end{landscape}
+
+\begin{landscape}
+<<fig.cap = "Taxonomic distribution of OTUs in the different site * age combinaison.", fig.width = 15>>=
+p <- plot_bar(as.binaryOtuTable(data.f3_taxo_known), "Order", fill = "Class",
+              facet_grid = Age ~ Sites)
+p + geom_bar(aes(color = Class, fill = Class), stat = "identity", position = "stack")
+@
+\end{landscape}
+
+
+  \subsection{Differences in abundances for each OTUs}
+    \subsubsection{Pairwise comparison of the OTUs composition by sites}
+
+<<message = FALSE>>=
+library("DESeq2")
+packageVersion("DESeq2")
+data.f3_deseq2 <- phyloseq_to_deseq2(data.f3, ~ Sites)
+data.f3_deseq2 <- DESeq(data.f3_deseq2, test = "Wald", fitType = "parametric")
+res.f3_deseq2 <- results(data.f3_deseq2)
+@
+
+<<fig.cap = "OTUs significantly different in terms of abundances between Verghello (positive values) and Asco (negative values)", fig.height=5, fig.width=9>>=
+res_VA <- plot_deseq2_phyloseq(data.f3_deseq2, tax_table = data.f3@tax_table, 
+                               contrast = c("Sites", "Verghello", "Asco"),
+                               taxa = "Species", color_tax = "Class")
+res_VA
+@
+
+<<fig.cap = "OTUs significantly different in terms of abundances between Verghello (positive values) and Bavella (negative values)", fig.height=5, fig.width=9>>=
+res_VB <- plot_deseq2_phyloseq(data.f3_deseq2, tax_table = data.f3@tax_table, 
+                               contrast = c("Sites", "Verghello", "Bavella"), 
+                               taxa = "Species", color_tax = "Class")
+res_VB
+@
+
+\begin{landscape}
+<<fig.cap = "OTUs significantly different in terms of abundances between Asco (positive values) and Bavella (negative values)", fig.width = 15>>=
+res_AB <- plot_deseq2_phyloseq(data.f3_deseq2, tax_table = data.f3@tax_table, 
+                               contrast = c("Sites", "Asco", "Bavella"), 
+                               taxa = "Species", color_tax = "Class")
+res_AB
+@
+\end{landscape}
+
+<<results = 'asis', echo = FALSE>>=
+if(res_VA[1] %in%"None taxa present significant distribution pattern through contrast."){
+  res_VA <- list()
+  res_VA$data <- list()
+  res_VA$data$log2FoldChange <- "None"
+  res_VA$data$Species <- "None"
+  res_VA$data$Class <- "None"
+  res_VA$data$Order <- "None"
+  res_VA$data$OTUs <- "None"
+} 
+if(res_VB[1] %in%"None taxa present significant distribution pattern through contrast."){
+  res_VB <- list()
+  res_VB$data <- list()
+  res_VB$data$log2FoldChange <- "None"
+  res_VB$data$Species <- "None"
+  res_VB$data$Class <- "None"
+  res_VB$data$Order <- "None"
+  res_VB$data$OTUs <- "None"
+} 
+if(res_AB[1] %in%"None taxa present significant distribution pattern through contrast."){
+  res_AB <- list()
+  res_AB$data <- list()
+  res_AB$data$log2FoldChange <- "None"
+  res_AB$data$Species <- "None"
+  res_AB$data$Class <- "None"
+  res_AB$data$Order <- "None"
+  res_AB$data$OTUs <- "None"
+} 
+
+df <- data.frame(rbind(
+  cbind(rep("Verghello vs Asco", length(res_VA$data$log2FoldChange)), as.character(res_VA$data$OTUs), 
+        as.character(res_VA$data$Species), as.character(res_VA$data$Class), res_VA$data$log2FoldChange), 
+  cbind(rep("Verghello vs Bavella", length(res_VB$data$log2FoldChange)), as.character(res_VB$data$OTUs),
+        as.character(res_VB$data$Species), as.character(res_VB$data$Class), res_VB$data$log2FoldChange), 
+  cbind(rep("Asco vs Bavella", length(res_AB$data$log2FoldChange)),  as.character(res_AB$data$OTUs),
+        as.character(res_AB$data$Species), as.character(res_AB$data$Class), res_AB$data$log2FoldChange)))
+  names(df) <- c("Comparison", "Species", "Class", "log2FoldChange \n (negative = more on second levels)")
+print(xtable(df, auto = T, 
+      caption = "OTUs showing differential abundances in the different sites."), 
+      size = "\\tiny")
+@
+
+    \subsubsection{Pairwise comparison of Order composition by sites}
+
+<<message = FALSE>>=
+res_VA_o <- plot_deseq2_phyloseq(data.f3, contrast = c("Sites", "Verghello", "Asco"),
+                               taxDepth = "Order", color_tax = "Class")
+res_VB_o <- plot_deseq2_phyloseq(data.f3, contrast = c("Sites", "Verghello", "Bavella"),
+                               taxDepth = "Order", color_tax = "Class")
+res_AB_o <- plot_deseq2_phyloseq(data.f3, contrast = c("Sites", "Asco", "Bavella"),
+                               taxDepth = "Order", color_tax = "Class")
+@
+
+<<results = 'asis', echo = FALSE>>=
+if(res_VA_o[1] %in%"None taxa present significant distribution pattern through contrast."){
+  res_VA_o <- list()
+  res_VA_o$data <- list()
+  res_VA_o$data$log2FoldChange <- "None"
+  res_VA_o$data$Species <- "None"
+  res_VA_o$data$Class <- "None"
+  res_VA_o$data$Order <- "None"
+} 
+if(res_VB_o[1] %in%"None taxa present significant distribution pattern through contrast."){
+  res_VB_o <- list()
+  res_VB_o$data <- list()
+  res_VB_o$data$log2FoldChange <- "None"
+  res_VB_o$data$Species <- "None"
+  res_VB_o$data$Class <- "None"
+  res_VB_o$data$Order <- "None"
+} 
+if(res_AB_o[1] %in%"None taxa present significant distribution pattern through contrast."){
+  res_AB_o <- list()
+  res_AB_o$data <- list()
+  res_AB_o$data$log2FoldChange <- "None"
+  res_AB_o$data$Species <- "None"
+  res_AB_o$data$Class <- "None"
+  res_AB_o$data$Order <- "None"
+} 
+df <- data.frame(rbind(
+    cbind(rep("Verghello vs Asco", length(res_VA_o$data$log2FoldChange)), as.character(res_VA_o$data$Order), 
+        as.character(res_VA_o$data$Class), res_VA_o$data$log2FoldChange), 
+    cbind(rep("Verghello vs Bavella", length(res_VB_o$data$log2FoldChange)), as.character(res_VB_o$data$Order), 
+        as.character(res_VB_o$data$Class), res_VB_o$data$log2FoldChange), 
+    cbind(rep("Asco vs Bavella", length(res_AB_o$data$log2FoldChange)), as.character(res_AB_o$data$Order), 
+        as.character(res_AB_o$data$Class), res_AB_o$data$log2FoldChange)))
+  names(df) <- c("Comparison", "Order", "Class", "log2FoldChange \n (negative = more on second levels)")
+print(xtable(df, auto = T, 
+      caption = "Order showing differential abundances in the different sites."), 
+      size = "\\tiny")
+@
+
+\cleardoublepage
+\listoffigures
+\listoftables
+
+\end {document}
+

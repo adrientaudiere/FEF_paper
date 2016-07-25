@@ -1,0 +1,663 @@
+OTU_ID	S1	S2	Taxonomy	Taxon	Taxon Level	Trophic Mode	Guild	Confidence Ranking	Growth Morphology	Trait	Notes	Citation/Source
+OTU_104_2309	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Agyriales;f__Trapeliaceae;g__Sarea;s__Sarea sp	Sarea	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_107_1553	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Talaromyces;s__Talaromyces variabilis	Talaromyces	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_108_1181	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Incertae sedis;g__Scoliciosporum;s__Scoliciosporum chlorococcum	Scoliciosporum	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_10_111473	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Lachnellula;s__Lachnellula calyciformis	Lachnellula	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_115_1205	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Lewia;s__Lewia infectoria	Lewia	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_119_399	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_120_756	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Diatrypaceae;g__Eutypa;s__Eutypa lata	Eutypa	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_121_802	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Pleospora;s__Pleospora herbarum	Pleospora	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_122_847	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Platismatia	Platismatia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_123_944	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Agyriales;f__Trapeliaceae;g__Sarea;s__Sarea resinae	Sarea	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_124_581	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Sporormiella;s__Sporormiella minimoides	Sporormiella	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_130_730	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_133_693	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma;s__Lophiostoma sp DMW2181	Lophiostoma	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_139_439	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Verrucariales;f__Verrucariaceae;g__Verrucaria;s__Verrucaria sp	Verrucaria	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_13_77102	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp	Phaeomoniella	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_142_247	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia;s__Capronia sp 97004c	Capronia	13	Pathotroph-Symbiotroph	Undefined Root Endophyte	Highly Probable	Dark Septate Endophyte-Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_143_308	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae;g__Botryosphaeria;s__Botryosphaeria dothidea	Botryosphaeria	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_145_237	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Preussia sp BLE35	Preussia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_146_232	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Gibberella;s__Gibberella zeae	Gibberella	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_149_1043	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp	Phaeomoniella	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_14_81974	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp	Phaeomoniella	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_151_2737	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_152_621	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Teloschistaceae;g__Caloplaca	Caloplaca	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	Commonly called firedot lichens	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_159_2165	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium conigenum	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_15_38762	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Pseudevernia;s__Pseudevernia furfuracea	Pseudevernia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_161_427	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium spinulosum	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_164_486	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Flavoparmelia;s__Flavoparmelia caperata	Flavoparmelia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_165_328	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae;g__Lecanora	Lecanora	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_167_250	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma	Lophiostoma	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_168_166	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis;g__Ascocoryne;s__Ascocoryne sp	Ascocoryne	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_16_14654	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__Aureobasidium;s__Aureobasidium pullulans	Aureobasidium	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_171_309	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia flanaganii	Preussia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_174_289	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__Teratosphaeria;s__Teratosphaeria sp CPC 13963	Teratosphaeria	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_181_166	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae;g__Physcia	Physcia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_183_673	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium pinastri	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_187_381	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma	Lophiostoma	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_191_257	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Erysiphales;f__Erysiphaceae;g__Podosphaera	Podosphaera	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_196_244	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeococcomyces;s__Phaeococcomyces sp	Phaeococcomyces	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_197_420	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia;s__Capronia sp 97002a	Capronia	13	Pathotroph-Symbiotroph	Undefined Root Endophyte	Highly Probable	Dark Septate Endophyte-Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_199_294	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia	Capronia	13	Pathotroph-Symbiotroph	Undefined Root Endophyte	Highly Probable	Dark Septate Endophyte-Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_202_138	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__Hormonema;s__Hormonema sp F_054,258	Hormonema	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_204_654	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Teloschistaceae;g__Blastenia;s__Blastenia hungarica	Blastenia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_205_309	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_213_202	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae;g__Diplodia	Diplodia	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_220_165	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Paecilomyces;s__Paecilomyces sp OK2L206HP	Paecilomyces	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_221_502	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus sp DY115_21_8_M4	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_223_274	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Verrucariales;f__Verrucariaceae;g__Verrucaria	Verrucaria	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_225_261	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis;g__Infundichalara;s__Infundichalara sp	Infundichalara	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_227_1956	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_228_286	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_230_158	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Fusarium	Fusarium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_233_94	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Rhizocarpales;f__Catillariaceae;g__Catillaria;s__Catillaria nigroclavata	Catillaria	13	Symbiotroph	Lichenized	Possible	Thallus	NULL	Lichenized and non-licenized taxa	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_240_155	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Exophiala;s__Exophiala eucalyptorum	Exophiala	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688, Nagy GL, et al. 2014. Nature Communications 5:4471
+OTU_241_73	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Hysteriales;f__Hysteriaceae;g__Hysterium;s__Hysterium pulicare	Hysterium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_242_73	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Myxotrichaceae;g__Oidiodendron;s__Oidiodendron rhodogenum	Oidiodendron	13	Pathotroph-Symbiotroph	Ericoid Mycorrhizal	Probable	Dark Septate Endophyte	NULL	NULL	Newsham 2011. New Phytologist 190:783-793 (as DSE)
+OTU_244_133	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma	Lophiostoma	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_272_113	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus fumigatus	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_275_129	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis;g__Ascochyta;s__Ascochyta sp	Ascochyta	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_279_103	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales;f__Pyronemataceae;g__Ascorhizoctonia;s__Ascorhizoctonia sp	Ascorhizoctonia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_27_19230	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Lachnellula	Lachnellula	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_281_67	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__Sydowia;s__Sydowia sp	Sydowia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_285_91	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Curvularia	Curvularia	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_289_151	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales;f__Stictidaceae;g__Stictis;s__Stictis sp 1_MW_2004	Stictis	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_28_23339	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium seditiosum	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_290_139	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae;g__Seiridium;s__Seiridium ceratosporum	Seiridium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_291_161	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp	Phaeomoniella	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_295_66	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium westlingii	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_297_78	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Diaporthaceae;g__Diaporthe	Diaporthe	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_299_192	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis;g__Ochrocladosporium;s__Ochrocladosporium sp	Ochrocladosporium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_29_13823	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Alternaria	Alternaria	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_304_204	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Montagnulaceae;g__Paraconiothyrium;s__Paraconiothyrium variabile	Paraconiothyrium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_305_268	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium brevicompactum	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_306_37	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Rhinocladiella	Rhinocladiella	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_307_116	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium sp BLE32	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_313_64	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis;g__Nigrospora;s__Nigrospora sp	Nigrospora	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_317_33	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia;s__Capronia sp 97004c	Capronia	13	Pathotroph-Symbiotroph	Undefined Root Endophyte	Highly Probable	Dark Septate Endophyte-Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_319_130	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium charlesii	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_320_64	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium corylophilum	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_322_106	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia tetramera	Preussia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_328_60	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Incertae sedis;f__Incertae sedis;g__Myrmecridium;s__Myrmecridium phragmitis	Myrmecridium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_331_45	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Flavoparmelia;s__Flavoparmelia soredians	Flavoparmelia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_335_53	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Ascosphaerales;f__Ascosphaeraceae;g__Ascosphaera	Ascosphaera	13	Pathotroph	Animal Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_33_4467	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__Aureobasidium;s__Aureobasidium pullulans	Aureobasidium	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_342_235	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__Ramichloridium;s__Ramichloridium pini	Ramichloridium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_347_25	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Sporormiella;s__Sporormiella australis	Sporormiella	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_355_22	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_360_41	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium swiecickii	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_363_41	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma;s__Lophiostoma sp olrim935	Lophiostoma	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_364_21	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__Biscogniauxia;s__Biscogniauxia mediterranea	Biscogniauxia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_365_23	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_366_26	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__Teratosphaeria;s__Teratosphaeria mexicana	Teratosphaeria	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_370_19	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Chalara;s__Chalara sp	Chalara	13	Pathotroph-Saprotroph	Endophyte-Plant Pathogen	Possible	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_371_47	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeococcomyces	Phaeococcomyces	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_375_21	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__Hypoxylon;s__Hypoxylon petriniae	Hypoxylon	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_378_18	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae sedis;g__Sarocladium;s__Sarocladium sp	Sarocladium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_382_42	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus flavus	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_386_15	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae;g__Chaetomium;s__Chaetomium grande	Chaetomium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_390_23	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Fusarium;s__Fusarium proliferatum	Fusarium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_393_31	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae;g__Chaetomium;s__Chaetomium sp HM1	Chaetomium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_398_14	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__Nodulisporium;s__Nodulisporium sp	Nodulisporium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_3_166830	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Capnobotryella;s__Capnobotryella sp MA 4642	Capnobotryella	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_404_16	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Hyponectriaceae;g__Pseudomassaria;s__Pseudomassaria sepincoliformis	Pseudomassaria	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_414_22	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Massarinaceae;g__Massarina;s__Massarina sp	Massarina	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_419_30	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma	Lophiostoma	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_41_2186	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Capnobotryella;s__Capnobotryella sp	Capnobotryella	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_422_22	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Myxotrichaceae;g__Oidiodendron;s__Oidiodendron tenuissimum	Oidiodendron	13	Pathotroph-Symbiotroph	Ericoid Mycorrhizal	Probable	Dark Septate Endophyte	NULL	NULL	Newsham 2011. New Phytologist 190:783-793 (as DSE)
+OTU_423_25	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeococcomyces;s__Phaeococcomyces mexicanus	Phaeococcomyces	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_430_21	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae;g__Lecanora	Lecanora	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_435_34	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella	Phaeomoniella	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_436_31	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Myxotrichaceae;g__Oidiodendron;s__Oidiodendron sp 07MA11	Oidiodendron	13	Pathotroph-Symbiotroph	Ericoid Mycorrhizal	Probable	Dark Septate Endophyte	NULL	NULL	Newsham 2011. New Phytologist 190:783-793 (as DSE)
+OTU_442_38	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Sclerotiniaceae;g__Botrytis;s__Botrytis caroliniana	Botrytis	13	Pathotroph-Saprotroph	NULL	Highly Probable	Facultative Yeast	NULL	NULL	Kurtzman CP, et al. (eds.) 2011. The Yeasts, a Taxonomic Study. Fifth Edition. Vols 1-3. Elsevier, San Diego
+OTU_445_15	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_448_9	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__Rosellinia;s__Rosellinia sp	Rosellinia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_459_8	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Clathrosphaerina;s__Clathrosphaerina zalewskii	Clathrosphaerina	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_464_425	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp	Phaeomoniella	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_465_16	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae;g__Hyperphyscia;s__Hyperphyscia adglutinata	Hyperphyscia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_467_204	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_470_17	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis;g__Phoma	Phoma	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_471_7	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__Devriesia;s__Devriesia fraseriae	Devriesia	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_472_7	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Punctelia;s__Punctelia subrudecta	Punctelia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_476_12	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Elaphomycetaceae;g__Elaphomyces	Elaphomyces	13	Symbiotroph	Ectomycorrhizal	Highly Probable	Gasteroid	Hypogeous	Common name - false truffle	Rinaldi AC, et al. 2008. Fungal Diversity 33:1-45; Tedersoo L, et al. 2010. Mycorrhiza 20:217-263; http://mycorrhizas.info/ecmf.html
+OTU_478_10	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Ophiocordycipitaceae;g__Purpureocillium;s__Purpureocillium lilacinum	Purpureocillium	13	Pathotroph	Mycoparasite	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_482_6	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium bialowiezense	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_48_1517	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae;g__Lecythophora;s__Lecythophora sp	Lecythophora	13	Pathotroph-Symbiotroph	Undefined Root Endophyte	Highly Probable	Dark Septate Endophyte	NULL	NULL	Taylor DL, et al. 2014. Ecological Monographs 84:3-20
+OTU_495_5	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Microascales;f__Ceratocystidaceae;g__Thielaviopsis;s__Thielaviopsis sp	Thielaviopsis	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_503_274	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_505_9	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium citreonigrum	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_507_49	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium seditiosum	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_509_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__Phaeothecoidea;s__Phaeothecoidea sp	Phaeothecoidea	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_514_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Myriangiaceae;g__unidentified;s__uncultured Myriangium	Myriangium	13	Pathotroph	Animal Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_518_7	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__unidentified;s__uncultured Exophiala	Exophiala	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688, Nagy GL, et al. 2014. Nature Communications 5:4471
+OTU_524_4	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae;g__Thielavia;s__Thielavia basicola	Thielavia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_527_15	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Incertae sedis;g__Endosporium;s__Endosporium populi_tremuloidis	Endosporium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_529_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Venturiales;f__Venturiaceae;g__Rhizosphaera	Rhizosphaera	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_52_3034	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_530_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia flanaganii	Preussia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_535_9	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis;g__Cadophora;s__Cadophora sp	Cadophora	13	Pathotroph-Symbiotroph	Undefined Root Endophyte	Highly Probable	Dark Septate Endophyte	NULL	NULL	Tedersoo L, et al. 2010. Mycorrhiza 20:217-263; Newsham 2011. New Phytologist 190:783-793 (as DSE)
+OTU_53_2116	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Agyriales;f__Trapeliaceae;g__Sarea;s__Sarea sp	Sarea	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_541_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis;g__Phoma;s__Phoma saxea	Phoma	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_542_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae;g__Phaeosphaeria;s__Phaeosphaeria triglochinicola	Phaeosphaeria	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_544_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Venturiales;f__Venturiaceae;g__Venturia	Venturia	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_545_5	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Exophiala;s__Exophiala sp CPC 12171	Exophiala	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688, Nagy GL, et al. 2014. Nature Communications 5:4471
+OTU_548_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Massarinaceae;g__Massarina;s__Massarina sp	Massarina	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_54_3144	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Sporormiella;s__Sporormiella sp	Sporormiella	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_550_3	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Melanohalea	Melanohalea	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_553_17	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Lachnellula;s__Lachnellula calyciformis	Lachnellula	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_554_10	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_557_8	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis;g__Infundichalara;s__Infundichalara sp	Infundichalara	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_563_7	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium pini_mugonis	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_565_29	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium conigenum	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_566_5	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae sedis;g__Sarocladium;s__Sarocladium kiliense	Sarocladium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_574_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_578_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Pleospora;s__Pleospora herbarum	Pleospora	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_581_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecideales;f__Lecideaceae;g__Lecidea	Lecidea	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_583_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae;g__Phaeosphaeria;s__Phaeosphaeria padellana	Phaeosphaeria	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_587_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_58_8409	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Lulworthiales;f__Lulworthiaceae;g__Zalerion;s__Zalerion arboricola	Zalerion	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_592_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Myriangiaceae;g__unidentified;s__uncultured Myriangium	Myriangium	13	Pathotroph	Animal Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_594_6	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_595_38	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_596_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma	Lophiostoma	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_598_4	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Sordariaceae;g__Sordaria	Sordaria	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_601_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Therrya;s__Therrya fuckelii	Therrya	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_603_2	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales;f__Ascobolaceae;g__Ascobolus	Ascobolus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_608_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Exophiala	Exophiala	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688, Nagy GL, et al. 2014. Nature Communications 5:4471
+OTU_612_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium brevicompactum	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_615_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__Phaeothecoidea;s__Phaeothecoidea sp	Phaeothecoidea	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_616_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_621_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Helotiaceae;g__Articulospora;s__Articulospora sp	Articulospora	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_626_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Cladophialophora	Cladophialophora	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	James TY, et al. 2006. Nature 443:818-822
+OTU_62_1699	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus sp DY115_21_8_M4	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_636_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae;g__Hyperphyscia;s__Hyperphyscia adglutinata	Hyperphyscia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_637_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium spinulosum	Penicillium	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_639_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Alternaria;s__Alternaria sp Utah 8	Alternaria	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_640_26	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_642_4	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae;g__Lecidella;s__Lecidella flavosorediata	Lecidella	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_644_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Helotiaceae;g__Crocicreas;s__Crocicreas cyathoideum var. cyathoideum	Crocicreas	13	Saprotroph	Undefined Saprotroph	Probable	Cup Fungus	NULL	NULL	Carpenter SE, 1983. Memoirs of The New York Botanical Garden 33:1-290
+OTU_646_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Rodwayella;s__Rodwayella citrinula	Rodwayella	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_651_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia	Capronia	13	Pathotroph-Symbiotroph	Undefined Root Endophyte	Highly Probable	Dark Septate Endophyte-Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_68_7126	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Exophiala	Exophiala	13	Saprotroph	Undefined Saprotroph	Probable	Facultative Yeast	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688, Nagy GL, et al. 2014. Nature Communications 5:4471
+OTU_75_1570	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia tetramera	Preussia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_78_3130	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus amstelodami	Aspergillus	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_79_4668	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae;g__Buellia;s__Buellia griseovirens	Buellia	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_7_90729	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__Phaeothecoidea;s__Phaeothecoidea sp	Phaeothecoidea	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_82_1344	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae;g__Botryosphaeria;s__Botryosphaeria sp BJ10200_X	Botryosphaeria	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_84_615	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Fusarium;s__Fusarium tricinctum	Fusarium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_88_1299	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Lachnum	Lachnum	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_91_2726	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae;g__Lecidella	Lecidella	13	Symbiotroph	Lichenized	Highly Probable	Thallus	NULL	NULL	Esslinger TL. 2014. North Dakota State University (http://www.ndsu.edu/pubweb/~esslinge/chcklst/chcklst7.htm)
+OTU_95_2262	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Collophora;s__Collophora sp	Collophora	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_98_1046	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Vibrisseaceae;g__Phialocephala	Phialocephala	13	Pathotroph-Symbiotroph	Undefined Root Endophyte	Highly Probable	Dark Septate Endophyte	NULL	NULL	Newsham 2011. New Phytologist 190:783-793 (as DSE)
+OTU_99_488	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia polymorpha	Preussia	13	Saprotroph	Undefined Saprotroph	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_9_229377	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium conigenum	Lophodermium	13	Pathotroph	Plant Pathogen	Probable	NULL	NULL	NULL	Tedersoo L, et al. 2014. Science 346:1256688
+OTU_579_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_434_140	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
+OTU_421_20	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecideales	-	-	-	-	-	-	-	Unassigned	-
+OTU_479_101	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_536_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_379_150	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_568_1223	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_65_4330	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_315_69	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_200_136	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_576_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_497_5	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_403_17	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__unidentified;s__uncultured Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_327_30	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_389_15	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_513_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_310_80	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_209_115	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_253_118	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_77_1145	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_600_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_632_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_380_233	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_85_653	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_67_9582	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
+OTU_561_68	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_46_9801	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_630_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_572_20	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_144_482	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_153_373	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_271_159	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_350_23	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_239_143	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
+OTU_175_299	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_177_775	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_628_10	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_64_3036	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_426_17	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Hypocreaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_457_34	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_597_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Montagnulaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_463_10	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_409_44	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_619_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_30_17919	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD488	-	-	-	-	-	-	-	Unassigned	-
+OTU_609_18	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_549_3	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_210_220	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_631_6	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_610_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Rutstroemiaceae;g__unidentified;s__Rutstroemiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_367_70	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_358_40	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_338_44	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_212_227	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_516_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_192_131	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Pezizomycotina	-	-	-	-	-	-	-	Unassigned	-
+OTU_658_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_515_164	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_438_14	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_339_79	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_117_755	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_71_2384	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_373_26	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_128_475	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_546_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_341_48	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
+OTU_136_288	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_292_83	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_127_1334	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_268_207	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_540_6	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales	-	-	-	-	-	-	-	Unassigned	-
+OTU_547_3	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_270_665	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_40_7084	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
+OTU_125_1210	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_399_225	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_238_94	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Xenomeris;s__Xenomeris juniperi	-	-	-	-	-	-	-	Unassigned	-
+OTU_405_105	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_359_21	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Venturiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_412_36	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_633_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_59_1955	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_135_792	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_284_112	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp PIMO_369	-	-	-	-	-	-	-	Unassigned	-
+OTU_368_32	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_611_4	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_590_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Toxicocladosporium	-	-	-	-	-	-	-	Unassigned	-
+OTU_50_2223	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_643_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_523_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium	-	-	-	-	-	-	-	Unassigned	-
+OTU_293_142	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_273_300	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium;s__Cladosporium halotolerans	-	-	-	-	-	-	-	Unassigned	-
+OTU_487_24	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_584_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_511_20	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_131_5541	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_1_2201354	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_298_110	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales;f__Stictidaceae;g__unidentified;s__Stictidaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_496_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_361_30	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_588_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_508_15	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_214_126	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_474_12	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Incertae sedis;g__Ophiognomonia;s__Ophiognomonia melanostyla	-	-	-	-	-	-	-	Unassigned	-
+OTU_525_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_539_27	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_569_3	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Microascales;f__Ceratocystidaceae;g__Huntiella	-	-	-	-	-	-	-	Unassigned	-
+OTU_76_9981	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
+OTU_256_109	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Acarosporales;f__Acarosporaceae;g__unidentified;s__Acarosporaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_400_16	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__unidentified;s__Teratosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_656_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_218_557	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__Mycosphaerellaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_383_21	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_80_709	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis;g__unidentified;s__Trichosphaeriales sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_376_78	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_287_127	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp acwVHT66_5	-	-	-	-	-	-	-	Unassigned	-
+OTU_257_80	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_266_154	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_179_179	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_105_1300	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_208_138	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_37_8860	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_198_2074	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_662_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_18_33192	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_17_51593	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Knufia	-	-	-	-	-	-	-	Unassigned	-
+OTU_560_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_659_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_648_64	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_22_61263	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_444_82	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_481_6	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_533_3	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_194_275	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_309_155	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__Mycosphaerellaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_211_121	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_346_222	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_160_275	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Knufia;s__Knufia sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_437_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_410_13	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_302_78	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_100_936	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_614_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_282_50	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_356_65	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_604_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_11_97592	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_477_61	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_647_4	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
+OTU_575_8	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_184_188	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales	-	-	-	-	-	-	-	Unassigned	-
+OTU_429_26	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_570_125	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_344_53	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_180_148	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_176_1188	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
+OTU_460_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_314_44	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_262_72	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_466_50	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513	-	-	-	-	-	-	-	Unassigned	-
+OTU_250_116	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_506_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_155_928	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_645_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_69_2287	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_267_2297	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_480_23	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_74_1602	1	1	k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Tremellales	-	-	-	-	-	-	-	Unassigned	-
+OTU_324_37	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales	-	-	-	-	-	-	-	Unassigned	-
+OTU_377_22	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_629_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_114_862	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_454_88	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_407_33	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_92_1439	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_593_326	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_620_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_418_149	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_473_25	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales	-	-	-	-	-	-	-	Unassigned	-
+OTU_274_113	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_222_309	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_277_150	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_641_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_573_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_489_20	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_396_15	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_316_11186	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_504_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Incertae sedis;g__Camarosporium;s__Camarosporium sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_462_35	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_36_15960	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_428_70	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_510_26	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
+OTU_156_412	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_415_27	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_613_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_562_11	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_70_1633	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_318_95	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_650_2	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal endophyte sp SS_1813	-	-	-	-	-	-	-	Unassigned	-
+OTU_512_7	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_384_26	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_103_4433	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_455_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_388_48	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_483_11	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_432_15	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_236_184	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_571_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_73_1034	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp CCFEE 5409	-	-	-	-	-	-	-	Unassigned	-
+OTU_627_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_491_8	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__unidentified;f__unidentified;g__unidentified;s__Sordariomycetes sp genotype 398	-	-	-	-	-	-	-	Unassigned	-
+OTU_605_8	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_340_59	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_661_2	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD488	-	-	-	-	-	-	-	Unassigned	-
+OTU_255_112	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_649_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_652_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_39_16638	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_624_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium;s__Cladosporium sphaerospermum	-	-	-	-	-	-	-	Unassigned	-
+OTU_201_339	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_190_362	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota sp Di58_1	-	-	-	-	-	-	-	Unassigned	-
+OTU_112_1190	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_493_5	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_599_6	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota sp Di58_1	-	-	-	-	-	-	-	Unassigned	-
+OTU_132_2288	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_66_1021	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_265_54	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_185_3897	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_43_10449	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_224_319	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_586_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_38_7721	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_453_15	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_260_1324	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_450_17	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_397_22	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_31_11636	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_283_49	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_23_15298	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_385_123	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__unidentified;g__unidentified;s__Botryosphaeriales sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_447_28	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_118_525	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_522_17	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_90_1343	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_308_63	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Sarcinomyces;s__Sarcinomyces crustaceus	-	-	-	-	-	-	-	Unassigned	-
+OTU_2_252639	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_618_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_172_614	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_351_31	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_458_34	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_141_405	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_475_102	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_394_332	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_330_64	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
+OTU_170_285	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_336_53	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_24_20068	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_243_211	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_280_63	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_134_485	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_116_1040	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_461_12	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_249_68	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_12_63896	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_602_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_552_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_237_237	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Teloschistaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_246_65	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales	-	-	-	-	-	-	-	Unassigned	-
+OTU_502_14	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513	-	-	-	-	-	-	-	Unassigned	-
+OTU_468_13	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae;g__unidentified;s__Phaeosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_166_303	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_49_8102	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrAR171	-	-	-	-	-	-	-	Unassigned	-
+OTU_301_41	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Calcarisporiella;s__Calcarisporiella sp YP_2010	-	-	-	-	-	-	-	Unassigned	-
+OTU_286_103	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_72_4654	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__unidentified;g__unidentified;s__Rhytismatales sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_490_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_44_8227	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales	-	-	-	-	-	-	-	Unassigned	-
+OTU_433_12	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_5_301734	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_157_227	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_441_29	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales	-	-	-	-	-	-	-	Unassigned	-
+OTU_278_53	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae;g__unidentified;s__Amphisphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_417_44	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_178_365	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_148_229	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_488_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
+OTU_372_38	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_352_47	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_169_454	1	1	k__Fungi;p__Basidiomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_577_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_261_149	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_381_32	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_195_328	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_163_348	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_109_473	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Elasticomyces;s__Elasticomyces elasticus	-	-	-	-	-	-	-	Unassigned	-
+OTU_93_4887	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__uncultured Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_660_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
+OTU_269_131	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_254_127	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_247_146	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_294_97	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_439_19	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium	-	-	-	-	-	-	-	Unassigned	-
+OTU_47_5708	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Phaeotheca	-	-	-	-	-	-	-	Unassigned	-
+OTU_303_39	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
+OTU_353_57	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_25_60948	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_526_6	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_329_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_51_1530	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_425_90	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_395_39	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_416_22	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_245_309	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_401_125	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_517_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_111_2247	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium	-	-	-	-	-	-	-	Unassigned	-
+OTU_45_7268	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_325_55	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
+OTU_585_14	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_391_20	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales	-	-	-	-	-	-	-	Unassigned	-
+OTU_559_7	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium	-	-	-	-	-	-	-	Unassigned	-
+OTU_158_375	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_162_363	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_521_22	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_607_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_57_2950	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_580_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Arthrocatena;s__Arthrocatena tenebrio	-	-	-	-	-	-	-	Unassigned	-
+OTU_486_13	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_186_2238	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium	-	-	-	-	-	-	-	Unassigned	-
+OTU_321_41	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_591_204	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_206_121	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_229_235	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_532_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_528_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_537_79	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_413_24	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_42_7156	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_551_14	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_555_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Friedmanniomyces;s__Friedmanniomyces sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_534_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_606_4	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__melanized limestone ascomycete CR_2004	-	-	-	-	-	-	-	Unassigned	-
+OTU_252_112	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_531_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_311_70	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_147_237	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_622_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_408_66	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_35_5758	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_392_24	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_501_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_558_9	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_276_51	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_263_14534	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_349_35	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_456_20	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_634_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_101_1099	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_32_17599	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca fissurella	-	-	-	-	-	-	-	Unassigned	-
+OTU_354_75	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_193_145	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_226_228	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_617_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_288_53	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_431_16	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales	-	-	-	-	-	-	-	Unassigned	-
+OTU_625_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_126_1054	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_564_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_411_13	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_362_2754	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
+OTU_203_256	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_56_3290	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Phaeotheca	-	-	-	-	-	-	-	Unassigned	-
+OTU_332_56	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_348_157	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_653_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_232_201	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_129_736	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_357_21	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_97_3308	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_8_69915	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_424_26	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_519_14	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_494_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_87_1706	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_106_1036	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
+OTU_94_2788	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_440_22	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_89_1687	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_63_5846	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_469_61	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_102_821	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_499_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_81_1102	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_150_326	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Lasiosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_140_553	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_543_278	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_248_128	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_452_24	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_207_381	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_485_11	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN441	-	-	-	-	-	-	-	Unassigned	-
+OTU_217_538	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_137_1739	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_638_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_86_1205	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_323_31	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_657_2	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Microascales;f__Halosphaeriaceae;g__unidentified;s__Halosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_312_71	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_182_139	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Diatrypaceae;g__unidentified;s__Diatrypaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_635_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_26_40323	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_520_7	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_296_50	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_110_1261	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_4_124210	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_500_12	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_567_5	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales	-	-	-	-	-	-	-	Unassigned	-
+OTU_138_441	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_20_46614	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_582_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_173_430	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD392	-	-	-	-	-	-	-	Unassigned	-
+OTU_451_45	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_235_305	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_337_90	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_83_1536	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_326_691	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_61_4439	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_113_895	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_374_34	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_258_132	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_345_40	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_55_2741	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
+OTU_655_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Elsinoaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_556_64	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_264_101	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_154_433	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_443_11	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_333_62	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_6_107905	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_420_22	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_188_175	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_60_3994	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_369_182	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513	-	-	-	-	-	-	-	Unassigned	-
+OTU_654_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_234_179	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_623_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_219_197	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Ophiocordycipitaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_34_9222	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_189_3613	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_538_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_589_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_215_199	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_387_40	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_19_17710	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_427_11	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_216_277	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
+OTU_231_85	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_259_60	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales;f__Pyronemataceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_492_12	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_343_167	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_21_66904	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_402_14	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_449_28	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_446_19	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_300_96	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_96_1061	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_484_140	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_498_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_251_72	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Montagnulaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_334_65	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_406_22	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-

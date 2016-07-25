@@ -1,0 +1,662 @@
+OTU_320_64	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium corylophilum
+OTU_579_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes
+OTU_434_140	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147
+OTU_436_31	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Myxotrichaceae;g__Oidiodendron;s__Oidiodendron sp 07MA11
+OTU_544_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Venturiales;f__Venturiaceae;g__Venturia
+OTU_421_20	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecideales
+OTU_54_3144	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Sporormiella;s__Sporormiella sp
+OTU_479_101	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp
+OTU_536_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_379_150	1	1	k__Fungi
+OTU_568_1223	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_65_4330	1	1	k__Fungi;p__Ascomycota
+OTU_41_2186	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Capnobotryella;s__Capnobotryella sp
+OTU_315_69	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_200_136	1	1	k__Fungi;p__Ascomycota
+OTU_495_5	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Microascales;f__Ceratocystidaceae;g__Thielaviopsis;s__Thielaviopsis sp
+OTU_576_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp
+OTU_78_3130	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus amstelodami
+OTU_366_26	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__Teratosphaeria;s__Teratosphaeria mexicana
+OTU_497_5	1	1	k__Fungi;p__Ascomycota
+OTU_403_17	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__unidentified;s__uncultured Herpotrichiellaceae
+OTU_327_30	1	1	k__Fungi;p__Ascomycota
+OTU_389_15	1	1	k__Fungi;p__Ascomycota
+OTU_275_129	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis;g__Ascochyta;s__Ascochyta sp
+OTU_513_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_310_80	1	1	k__Fungi;p__Ascomycota
+OTU_209_115	1	1	k__Fungi;p__Ascomycota
+OTU_253_118	1	1	k__Fungi
+OTU_77_1145	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_600_2	1	1	k__Fungi;p__Ascomycota
+OTU_632_2	1	1	k__Fungi;p__Ascomycota
+OTU_14_81974	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp
+OTU_115_1205	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Lewia;s__Lewia infectoria
+OTU_380_233	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213
+OTU_85_653	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287
+OTU_67_9582	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147
+OTU_561_68	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_46_9801	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_98_1046	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Vibrisseaceae;g__Phialocephala
+OTU_630_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp
+OTU_572_20	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_144_482	1	1	k__Fungi;p__Ascomycota
+OTU_122_847	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Platismatia
+OTU_139_439	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Verrucariales;f__Verrucariaceae;g__Verrucaria;s__Verrucaria sp
+OTU_153_373	1	1	k__Fungi
+OTU_271_159	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae
+OTU_566_5	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae sedis;g__Sarocladium;s__Sarocladium kiliense
+OTU_404_16	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Hyponectriaceae;g__Pseudomassaria;s__Pseudomassaria sepincoliformis
+OTU_574_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus
+OTU_240_155	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Exophiala;s__Exophiala eucalyptorum
+OTU_350_23	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis
+OTU_467_204	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_239_143	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales
+OTU_616_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_306_37	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Rhinocladiella
+OTU_175_299	1	1	k__Fungi
+OTU_177_775	1	1	k__Fungi;p__Ascomycota
+OTU_628_10	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_64_3036	1	1	k__Fungi;p__Ascomycota
+OTU_426_17	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Hypocreaceae
+OTU_457_34	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213
+OTU_597_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Montagnulaceae
+OTU_463_10	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae
+OTU_409_44	1	1	k__Fungi
+OTU_619_4	1	1	k__Fungi;p__Ascomycota
+OTU_435_34	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella
+OTU_30_17919	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD488
+OTU_592_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Myriangiaceae;g__unidentified;s__uncultured Myriangium
+OTU_152_621	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Teloschistaceae;g__Caloplaca
+OTU_609_18	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_549_3	1	1	k__Fungi
+OTU_210_220	1	1	k__Fungi;p__Ascomycota
+OTU_631_6	1	1	k__Fungi
+OTU_610_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Rutstroemiaceae;g__unidentified;s__Rutstroemiaceae sp
+OTU_367_70	1	1	k__Fungi;p__Ascomycota
+OTU_358_40	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_386_15	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae;g__Chaetomium;s__Chaetomium grande
+OTU_119_399	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium
+OTU_422_22	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Myxotrichaceae;g__Oidiodendron;s__Oidiodendron tenuissimum
+OTU_338_44	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis
+OTU_459_8	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Clathrosphaerina;s__Clathrosphaerina zalewskii
+OTU_640_26	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_212_227	1	1	k__Fungi
+OTU_516_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_213_202	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae;g__Diplodia
+OTU_192_131	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Pezizomycotina
+OTU_658_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_578_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Pleospora;s__Pleospora herbarum
+OTU_636_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae;g__Hyperphyscia;s__Hyperphyscia adglutinata
+OTU_515_164	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_438_14	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes
+OTU_339_79	1	1	k__Fungi;p__Ascomycota
+OTU_117_755	1	1	k__Fungi
+OTU_71_2384	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes
+OTU_373_26	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes
+OTU_128_475	1	1	k__Fungi;p__Ascomycota
+OTU_371_47	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeococcomyces
+OTU_546_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes
+OTU_341_48	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256
+OTU_136_288	1	1	k__Fungi
+OTU_292_83	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae
+OTU_398_14	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__Nodulisporium;s__Nodulisporium sp
+OTU_626_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Cladophialophora
+OTU_127_1334	1	1	k__Fungi;p__Ascomycota
+OTU_268_207	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_414_22	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Massarinaceae;g__Massarina;s__Massarina sp
+OTU_540_6	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales
+OTU_547_3	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae
+OTU_270_665	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_40_7084	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales
+OTU_171_309	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia flanaganii
+OTU_125_1210	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_399_225	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_238_94	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Xenomeris;s__Xenomeris juniperi
+OTU_405_105	1	1	k__Fungi;p__Ascomycota
+OTU_587_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_331_45	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Flavoparmelia;s__Flavoparmelia soredians
+OTU_99_488	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia polymorpha
+OTU_359_21	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Venturiales
+OTU_412_36	1	1	k__Fungi;p__Ascomycota
+OTU_633_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp
+OTU_565_29	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium conigenum
+OTU_59_1955	1	1	k__Fungi
+OTU_360_41	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium swiecickii
+OTU_135_792	1	1	k__Fungi;p__Ascomycota
+OTU_121_802	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Pleospora;s__Pleospora herbarum
+OTU_284_112	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp PIMO_369
+OTU_313_64	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis;g__Nigrospora;s__Nigrospora sp
+OTU_368_32	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes
+OTU_514_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Myriangiaceae;g__unidentified;s__uncultured Myriangium
+OTU_204_654	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Teloschistaceae;g__Blastenia;s__Blastenia hungarica
+OTU_611_4	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213
+OTU_590_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Toxicocladosporium
+OTU_50_2223	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes
+OTU_643_2	1	1	k__Fungi
+OTU_523_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium
+OTU_145_237	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Preussia sp BLE35
+OTU_293_142	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales
+OTU_273_300	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium;s__Cladosporium halotolerans
+OTU_487_24	1	1	k__Fungi;p__Ascomycota
+OTU_584_2	1	1	k__Fungi;p__Ascomycota
+OTU_511_20	1	1	k__Fungi
+OTU_131_5541	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_79_4668	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae;g__Buellia;s__Buellia griseovirens
+OTU_123_944	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Agyriales;f__Trapeliaceae;g__Sarea;s__Sarea resinae
+OTU_1_2201354	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_298_110	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales;f__Stictidaceae;g__unidentified;s__Stictidaceae sp
+OTU_496_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes
+OTU_530_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia flanaganii
+OTU_33_4467	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__Aureobasidium;s__Aureobasidium pullulans
+OTU_476_12	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Elaphomycetaceae;g__Elaphomyces
+OTU_361_30	1	1	k__Fungi;p__Ascomycota
+OTU_588_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_508_15	1	1	k__Fungi
+OTU_214_126	1	1	k__Fungi
+OTU_474_12	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Incertae sedis;g__Ophiognomonia;s__Ophiognomonia melanostyla
+OTU_525_6	1	1	k__Fungi;p__Ascomycota
+OTU_539_27	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_183_673	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium pinastri
+OTU_393_31	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae;g__Chaetomium;s__Chaetomium sp HM1
+OTU_569_3	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Microascales;f__Ceratocystidaceae;g__Huntiella
+OTU_165_328	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae;g__Lecanora
+OTU_76_9981	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales
+OTU_256_109	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Acarosporales;f__Acarosporaceae;g__unidentified;s__Acarosporaceae sp
+OTU_400_16	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__unidentified;s__Teratosphaeriaceae sp
+OTU_656_2	1	1	k__Fungi
+OTU_202_138	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__Hormonema;s__Hormonema sp F_054,258
+OTU_196_244	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeococcomyces;s__Phaeococcomyces sp
+OTU_518_7	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__unidentified;s__uncultured Exophiala
+OTU_218_557	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__Mycosphaerellaceae sp
+OTU_272_113	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus fumigatus
+OTU_347_25	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Sporormiella;s__Sporormiella australis
+OTU_383_21	1	1	k__Fungi;p__Ascomycota
+OTU_80_709	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis;g__unidentified;s__Trichosphaeriales sp
+OTU_376_78	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp
+OTU_287_127	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp acwVHT66_5
+OTU_58_8409	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Lulworthiales;f__Lulworthiaceae;g__Zalerion;s__Zalerion arboricola
+OTU_322_106	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia tetramera
+OTU_257_80	1	1	k__Fungi;p__Ascomycota
+OTU_266_154	1	1	k__Fungi;p__Ascomycota
+OTU_179_179	1	1	k__Fungi;p__Ascomycota
+OTU_105_1300	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_208_138	1	1	k__Fungi;p__Ascomycota
+OTU_37_8860	1	1	k__Fungi
+OTU_198_2074	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213
+OTU_662_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_233_94	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Rhizocarpales;f__Catillariaceae;g__Catillaria;s__Catillaria nigroclavata
+OTU_241_73	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Hysteriales;f__Hysteriaceae;g__Hysterium;s__Hysterium pulicare
+OTU_18_33192	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_17_51593	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Knufia
+OTU_228_286	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_205_309	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus
+OTU_560_6	1	1	k__Fungi;p__Ascomycota
+OTU_659_2	1	1	k__Fungi;p__Ascomycota
+OTU_648_64	1	1	k__Fungi
+OTU_22_61263	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_290_139	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae;g__Seiridium;s__Seiridium ceratosporum
+OTU_444_82	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes
+OTU_279_103	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales;f__Pyronemataceae;g__Ascorhizoctonia;s__Ascorhizoctonia sp
+OTU_481_6	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales
+OTU_615_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__Phaeothecoidea;s__Phaeothecoidea sp
+OTU_533_3	1	1	k__Fungi;p__Ascomycota
+OTU_194_275	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae
+OTU_309_155	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__Mycosphaerellaceae sp
+OTU_639_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Alternaria;s__Alternaria sp Utah 8
+OTU_211_121	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae
+OTU_346_222	1	1	k__Fungi;p__Ascomycota
+OTU_160_275	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Knufia;s__Knufia sp
+OTU_437_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp
+OTU_410_13	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales sp
+OTU_302_78	1	1	k__Fungi;p__Ascomycota
+OTU_100_936	1	1	k__Fungi;p__Ascomycota
+OTU_614_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_282_50	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes
+OTU_356_65	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae
+OTU_604_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_355_22	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium
+OTU_11_97592	1	1	k__Fungi
+OTU_477_61	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_464_425	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp
+OTU_647_4	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256
+OTU_575_8	1	1	k__Fungi
+OTU_503_274	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_184_188	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales
+OTU_429_26	1	1	k__Fungi;p__Ascomycota
+OTU_570_125	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_554_10	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium
+OTU_621_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Helotiaceae;g__Articulospora;s__Articulospora sp
+OTU_642_4	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae;g__Lecidella;s__Lecidella flavosorediata
+OTU_344_53	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_180_148	1	1	k__Fungi
+OTU_176_1188	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147
+OTU_460_16	1	1	k__Fungi;p__Ascomycota
+OTU_314_44	1	1	k__Fungi
+OTU_262_72	1	1	k__Fungi
+OTU_527_15	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Incertae sedis;g__Endosporium;s__Endosporium populi_tremuloidis
+OTU_466_50	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513
+OTU_250_116	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes
+OTU_506_5	1	1	k__Fungi
+OTU_155_928	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_645_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_69_2287	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae
+OTU_143_308	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae;g__Botryosphaeria;s__Botryosphaeria dothidea
+OTU_267_2297	1	1	k__Fungi;p__Ascomycota
+OTU_480_23	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_74_1602	1	1	k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Tremellales
+OTU_9_229377	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium conigenum
+OTU_612_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium brevicompactum
+OTU_482_6	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium bialowiezense
+OTU_324_37	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales
+OTU_377_22	1	1	k__Fungi;p__Ascomycota
+OTU_629_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes
+OTU_114_862	1	1	k__Fungi;p__Ascomycota
+OTU_454_88	1	1	k__Fungi
+OTU_407_33	1	1	k__Fungi
+OTU_92_1439	1	1	k__Fungi;p__Ascomycota
+OTU_593_326	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_88_1299	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Lachnum
+OTU_583_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae;g__Phaeosphaeria;s__Phaeosphaeria padellana
+OTU_620_4	1	1	k__Fungi
+OTU_418_149	1	1	k__Fungi;p__Ascomycota
+OTU_419_30	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma
+OTU_473_25	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales
+OTU_274_113	1	1	k__Fungi;p__Ascomycota
+OTU_222_309	1	1	k__Fungi
+OTU_277_150	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp
+OTU_641_2	1	1	k__Fungi
+OTU_603_2	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales;f__Ascobolaceae;g__Ascobolus
+OTU_573_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_489_20	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales
+OTU_396_15	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae
+OTU_316_11186	1	1	k__Fungi
+OTU_504_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Incertae sedis;g__Camarosporium;s__Camarosporium sp
+OTU_550_3	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Melanohalea
+OTU_462_35	1	1	k__Fungi
+OTU_36_15960	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_428_70	1	1	k__Fungi;p__Ascomycota
+OTU_510_26	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147
+OTU_156_412	1	1	k__Fungi;p__Ascomycota
+OTU_415_27	1	1	k__Fungi;p__Ascomycota
+OTU_613_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_562_11	1	1	k__Fungi;p__Ascomycota
+OTU_594_6	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus
+OTU_281_67	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__Sydowia;s__Sydowia sp
+OTU_29_13823	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Alternaria
+OTU_151_2737	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium
+OTU_70_1633	1	1	k__Fungi
+OTU_318_95	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes
+OTU_650_2	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal endophyte sp SS_1813
+OTU_187_381	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma
+OTU_15_38762	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Pseudevernia;s__Pseudevernia furfuracea
+OTU_3_166830	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Capnobotryella;s__Capnobotryella sp MA 4642
+OTU_512_7	1	1	k__Fungi;p__Ascomycota
+OTU_384_26	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_244_133	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma
+OTU_221_502	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus sp DY115_21_8_M4
+OTU_103_4433	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae
+OTU_455_8	1	1	k__Fungi;p__Ascomycota
+OTU_388_48	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae
+OTU_483_11	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae
+OTU_432_15	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes
+OTU_236_184	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae
+OTU_571_5	1	1	k__Fungi
+OTU_73_1034	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp CCFEE 5409
+OTU_319_130	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium charlesii
+OTU_627_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis
+OTU_491_8	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__unidentified;f__unidentified;g__unidentified;s__Sordariomycetes sp genotype 398
+OTU_605_8	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_340_59	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae
+OTU_661_2	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD488
+OTU_255_112	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae
+OTU_168_166	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis;g__Ascocoryne;s__Ascocoryne sp
+OTU_649_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis
+OTU_652_2	1	1	k__Fungi;p__Ascomycota
+OTU_39_16638	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3
+OTU_624_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium;s__Cladosporium sphaerospermum
+OTU_201_339	1	1	k__Fungi
+OTU_190_362	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota sp Di58_1
+OTU_112_1190	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_493_5	1	1	k__Fungi;p__Ascomycota
+OTU_599_6	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota sp Di58_1
+OTU_52_3034	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus
+OTU_132_2288	1	1	k__Fungi
+OTU_66_1021	1	1	k__Fungi
+OTU_265_54	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae
+OTU_471_7	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__Devriesia;s__Devriesia fraseriae
+OTU_185_3897	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_43_10449	1	1	k__Fungi
+OTU_224_319	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae
+OTU_586_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_38_7721	1	1	k__Fungi
+OTU_453_15	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae
+OTU_260_1324	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp
+OTU_450_17	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_285_91	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae;g__Curvularia
+OTU_295_66	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium westlingii
+OTU_397_22	1	1	k__Fungi;p__Ascomycota
+OTU_31_11636	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp
+OTU_283_49	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_23_15298	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287
+OTU_385_123	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__unidentified;g__unidentified;s__Botryosphaeriales sp
+OTU_447_28	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_118_525	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales
+OTU_522_17	1	1	k__Fungi
+OTU_90_1343	1	1	k__Fungi
+OTU_308_63	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Sarcinomyces;s__Sarcinomyces crustaceus
+OTU_84_615	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Fusarium;s__Fusarium tricinctum
+OTU_505_9	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium citreonigrum
+OTU_595_38	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_2_252639	1	1	k__Fungi
+OTU_618_2	1	1	k__Fungi
+OTU_172_614	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae
+OTU_351_31	1	1	k__Fungi
+OTU_458_34	1	1	k__Fungi;p__Ascomycota
+OTU_141_405	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes
+OTU_91_2726	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae;g__Lecidella
+OTU_608_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Exophiala
+OTU_475_102	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_394_332	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_330_64	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales
+OTU_557_8	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis;g__Infundichalara;s__Infundichalara sp
+OTU_535_9	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis;g__Cadophora;s__Cadophora sp
+OTU_170_285	1	1	k__Fungi;p__Ascomycota
+OTU_336_53	1	1	k__Fungi;p__Ascomycota
+OTU_24_20068	1	1	k__Fungi;p__Ascomycota
+OTU_363_41	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma;s__Lophiostoma sp olrim935
+OTU_243_211	1	1	k__Fungi;p__Ascomycota
+OTU_524_4	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae;g__Thielavia;s__Thielavia basicola
+OTU_596_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma
+OTU_280_63	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_134_485	1	1	k__Fungi
+OTU_116_1040	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales
+OTU_461_12	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae
+OTU_382_42	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus flavus
+OTU_191_257	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Erysiphales;f__Erysiphaceae;g__Podosphaera
+OTU_249_68	1	1	k__Fungi;p__Ascomycota
+OTU_12_63896	1	1	k__Fungi;p__Ascomycota
+OTU_602_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_220_165	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Paecilomyces;s__Paecilomyces sp OK2L206HP
+OTU_552_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_646_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Rodwayella;s__Rodwayella citrinula
+OTU_237_237	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Teloschistaceae
+OTU_246_65	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales
+OTU_502_14	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513
+OTU_468_13	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae;g__unidentified;s__Phaeosphaeriaceae sp
+OTU_509_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__Phaeothecoidea;s__Phaeothecoidea sp
+OTU_166_303	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes
+OTU_49_8102	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrAR171
+OTU_370_19	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Chalara;s__Chalara sp
+OTU_364_21	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__Biscogniauxia;s__Biscogniauxia mediterranea
+OTU_301_41	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Calcarisporiella;s__Calcarisporiella sp YP_2010
+OTU_286_103	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes
+OTU_72_4654	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__unidentified;g__unidentified;s__Rhytismatales sp
+OTU_335_53	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Ascosphaerales;f__Ascosphaeraceae;g__Ascosphaera
+OTU_490_9	1	1	k__Fungi;p__Ascomycota
+OTU_44_8227	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales
+OTU_225_261	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis;g__Infundichalara;s__Infundichalara sp
+OTU_433_12	1	1	k__Fungi;p__Ascomycota
+OTU_5_301734	1	1	k__Fungi
+OTU_157_227	1	1	k__Fungi;p__Ascomycota
+OTU_441_29	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales
+OTU_278_53	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae;g__unidentified;s__Amphisphaeriaceae sp
+OTU_16_14654	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__Aureobasidium;s__Aureobasidium pullulans
+OTU_417_44	1	1	k__Fungi
+OTU_178_365	1	1	k__Fungi
+OTU_164_486	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Flavoparmelia;s__Flavoparmelia caperata
+OTU_10_111473	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Lachnellula;s__Lachnellula calyciformis
+OTU_304_204	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Montagnulaceae;g__Paraconiothyrium;s__Paraconiothyrium variabile
+OTU_148_229	1	1	k__Fungi;p__Ascomycota
+OTU_488_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147
+OTU_372_38	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae
+OTU_352_47	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp
+OTU_169_454	1	1	k__Fungi;p__Basidiomycota
+OTU_577_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae
+OTU_261_149	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae
+OTU_381_32	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_195_328	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes
+OTU_163_348	1	1	k__Fungi;p__Ascomycota
+OTU_109_473	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Elasticomyces;s__Elasticomyces elasticus
+OTU_93_4887	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__uncultured Mycosphaerellaceae
+OTU_660_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147
+OTU_142_247	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia;s__Capronia sp 97004c
+OTU_269_131	1	1	k__Fungi;p__Ascomycota
+OTU_375_21	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__Hypoxylon;s__Hypoxylon petriniae
+OTU_254_127	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes
+OTU_442_38	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Sclerotiniaceae;g__Botrytis;s__Botrytis caroliniana
+OTU_423_25	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeococcomyces;s__Phaeococcomyces mexicanus
+OTU_247_146	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp
+OTU_294_97	1	1	k__Fungi;p__Ascomycota
+OTU_439_19	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium
+OTU_47_5708	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Phaeotheca
+OTU_303_39	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__unidentified
+OTU_353_57	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes
+OTU_25_60948	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp
+OTU_526_6	1	1	k__Fungi
+OTU_329_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae
+OTU_174_289	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__Teratosphaeria;s__Teratosphaeria sp CPC 13963
+OTU_51_1530	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287
+OTU_425_90	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213
+OTU_242_73	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Myxotrichaceae;g__Oidiodendron;s__Oidiodendron rhodogenum
+OTU_601_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Therrya;s__Therrya fuckelii
+OTU_507_49	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium seditiosum
+OTU_395_39	1	1	k__Fungi
+OTU_416_22	1	1	k__Fungi
+OTU_199_294	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia
+OTU_245_309	1	1	k__Fungi;p__Ascomycota
+OTU_401_125	1	1	k__Fungi
+OTU_297_78	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Diaporthaceae;g__Diaporthe
+OTU_517_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_111_2247	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium
+OTU_7_90729	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__Phaeothecoidea;s__Phaeothecoidea sp
+OTU_563_7	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium pini_mugonis
+OTU_45_7268	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_325_55	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales
+OTU_585_14	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_391_20	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales
+OTU_559_7	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium
+OTU_158_375	1	1	k__Fungi;p__Ascomycota
+OTU_162_363	1	1	k__Fungi;p__Ascomycota
+OTU_521_22	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_607_8	1	1	k__Fungi;p__Ascomycota
+OTU_57_2950	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_328_60	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Incertae sedis;f__Incertae sedis;g__Myrmecridium;s__Myrmecridium phragmitis
+OTU_448_9	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__Rosellinia;s__Rosellinia sp
+OTU_580_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Arthrocatena;s__Arthrocatena tenebrio
+OTU_486_13	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_186_2238	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium
+OTU_321_41	1	1	k__Fungi;p__Ascomycota
+OTU_591_204	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp
+OTU_206_121	1	1	k__Fungi;p__Ascomycota
+OTU_229_235	1	1	k__Fungi;p__Ascomycota
+OTU_289_151	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales;f__Stictidaceae;g__Stictis;s__Stictis sp 1_MW_2004
+OTU_532_5	1	1	k__Fungi
+OTU_307_116	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium sp BLE32
+OTU_644_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Helotiaceae;g__Crocicreas;s__Crocicreas cyathoideum var. cyathoideum
+OTU_149_1043	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp
+OTU_528_8	1	1	k__Fungi;p__Ascomycota
+OTU_541_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis;g__Phoma;s__Phoma saxea
+OTU_537_79	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_465_16	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae;g__Hyperphyscia;s__Hyperphyscia adglutinata
+OTU_413_24	1	1	k__Fungi
+OTU_42_7156	1	1	k__Fungi
+OTU_299_192	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis;g__Ochrocladosporium;s__Ochrocladosporium sp
+OTU_551_14	1	1	k__Fungi;p__Ascomycota
+OTU_555_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Friedmanniomyces;s__Friedmanniomyces sp
+OTU_534_6	1	1	k__Fungi;p__Ascomycota
+OTU_606_4	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__melanized limestone ascomycete CR_2004
+OTU_252_112	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_342_235	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__Ramichloridium;s__Ramichloridium pini
+OTU_531_4	1	1	k__Fungi
+OTU_108_1181	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Incertae sedis;g__Scoliciosporum;s__Scoliciosporum chlorococcum
+OTU_227_1956	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_311_70	1	1	k__Fungi;p__Ascomycota
+OTU_147_237	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes
+OTU_622_2	1	1	k__Fungi;p__Ascomycota
+OTU_62_1699	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus;s__Aspergillus sp DY115_21_8_M4
+OTU_408_66	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213
+OTU_637_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium spinulosum
+OTU_35_5758	1	1	k__Fungi
+OTU_392_24	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis
+OTU_501_16	1	1	k__Fungi;p__Ascomycota
+OTU_558_9	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp
+OTU_48_1517	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae;g__Lecythophora;s__Lecythophora sp
+OTU_276_51	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae
+OTU_263_14534	1	1	k__Fungi
+OTU_349_35	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales sp
+OTU_456_20	1	1	k__Fungi;p__Ascomycota
+OTU_634_6	1	1	k__Fungi;p__Ascomycota
+OTU_101_1099	1	1	k__Fungi;p__Ascomycota
+OTU_32_17599	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca fissurella
+OTU_82_1344	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae;g__Botryosphaeria;s__Botryosphaeria sp BJ10200_X
+OTU_354_75	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes
+OTU_107_1553	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Talaromyces;s__Talaromyces variabilis
+OTU_193_145	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes
+OTU_226_228	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_28_23339	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium seditiosum
+OTU_133_693	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma;s__Lophiostoma sp DMW2181
+OTU_617_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_288_53	1	1	k__Fungi;p__Ascomycota
+OTU_431_16	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales
+OTU_625_4	1	1	k__Fungi;p__Ascomycota
+OTU_126_1054	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_564_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp
+OTU_411_13	1	1	k__Fungi
+OTU_651_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia
+OTU_362_2754	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified
+OTU_203_256	1	1	k__Fungi;p__Ascomycota
+OTU_56_3290	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Phaeotheca
+OTU_332_56	1	1	k__Fungi;p__Ascomycota
+OTU_197_420	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia;s__Capronia sp 97002a
+OTU_545_5	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Exophiala;s__Exophiala sp CPC 12171
+OTU_348_157	1	1	k__Fungi;p__Ascomycota
+OTU_653_2	1	1	k__Fungi;p__Ascomycota
+OTU_430_21	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae;g__Lecanora
+OTU_232_201	1	1	k__Fungi
+OTU_129_736	1	1	k__Fungi;p__Ascomycota
+OTU_357_21	1	1	k__Fungi;p__Ascomycota
+OTU_124_581	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Sporormiella;s__Sporormiella minimoides
+OTU_104_2309	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Agyriales;f__Trapeliaceae;g__Sarea;s__Sarea sp
+OTU_97_3308	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_8_69915	1	1	k__Fungi;p__Ascomycota
+OTU_424_26	1	1	k__Fungi;p__Ascomycota
+OTU_529_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Venturiales;f__Venturiaceae;g__Rhizosphaera
+OTU_519_14	1	1	k__Fungi;p__Ascomycota
+OTU_291_161	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp
+OTU_494_16	1	1	k__Fungi;p__Ascomycota
+OTU_87_1706	1	1	k__Fungi
+OTU_106_1036	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified
+OTU_94_2788	1	1	k__Fungi
+OTU_440_22	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales
+OTU_89_1687	1	1	k__Fungi;p__Ascomycota
+OTU_445_15	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Aspergillus
+OTU_63_5846	1	1	k__Fungi
+OTU_469_61	1	1	k__Fungi
+OTU_102_821	1	1	k__Fungi;p__Ascomycota
+OTU_499_9	1	1	k__Fungi;p__Ascomycota
+OTU_68_7126	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Exophiala
+OTU_81_1102	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_150_326	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Lasiosphaeriaceae
+OTU_140_553	1	1	k__Fungi
+OTU_159_2165	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium;s__Lophodermium conigenum
+OTU_75_1570	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__Preussia;s__Preussia tetramera
+OTU_543_278	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_248_128	1	1	k__Fungi
+OTU_452_24	1	1	k__Fungi
+OTU_207_381	1	1	k__Fungi
+OTU_485_11	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN441
+OTU_217_538	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_137_1739	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes
+OTU_638_2	1	1	k__Fungi
+OTU_86_1205	1	1	k__Fungi;p__Ascomycota
+OTU_323_31	1	1	k__Fungi
+OTU_657_2	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Microascales;f__Halosphaeriaceae;g__unidentified;s__Halosphaeriaceae sp
+OTU_181_166	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae;g__Physcia
+OTU_312_71	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae
+OTU_182_139	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Diatrypaceae;g__unidentified;s__Diatrypaceae sp
+OTU_635_2	1	1	k__Fungi;p__Ascomycota
+OTU_26_40323	1	1	k__Fungi
+OTU_120_756	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Diatrypaceae;g__Eutypa;s__Eutypa lata
+OTU_223_274	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Verrucariales;f__Verrucariaceae;g__Verrucaria
+OTU_520_7	1	1	k__Fungi
+OTU_472_7	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Parmeliaceae;g__Punctelia;s__Punctelia subrudecta
+OTU_296_50	1	1	k__Fungi;p__Ascomycota
+OTU_110_1261	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_13_77102	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Phaeomoniella;s__Phaeomoniella sp
+OTU_4_124210	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_500_12	1	1	k__Fungi
+OTU_567_5	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales
+OTU_146_232	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Gibberella;s__Gibberella zeae
+OTU_553_17	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Lachnellula;s__Lachnellula calyciformis
+OTU_138_441	1	1	k__Fungi;p__Ascomycota
+OTU_20_46614	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae
+OTU_582_2	1	1	k__Fungi;p__Ascomycota
+OTU_173_430	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD392
+OTU_451_45	1	1	k__Fungi
+OTU_235_305	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes
+OTU_337_90	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes
+OTU_83_1536	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales
+OTU_326_691	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp
+OTU_53_2116	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Agyriales;f__Trapeliaceae;g__Sarea;s__Sarea sp
+OTU_61_4439	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes
+OTU_113_895	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Incertae sedis
+OTU_374_34	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_258_132	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae
+OTU_345_40	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae
+OTU_55_2741	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256
+OTU_655_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Elsinoaceae
+OTU_556_64	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_264_101	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae
+OTU_154_433	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes
+OTU_443_11	1	1	k__Fungi;p__Ascomycota
+OTU_333_62	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp
+OTU_365_23	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__Rhytismataceae;g__Lophodermium
+OTU_27_19230	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae;g__Lachnellula
+OTU_161_427	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium spinulosum
+OTU_6_107905	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp
+OTU_420_22	1	1	k__Fungi;p__Ascomycota
+OTU_188_175	1	1	k__Fungi;p__Ascomycota
+OTU_230_158	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Fusarium
+OTU_167_250	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Lophiostomataceae;g__Lophiostoma
+OTU_60_3994	1	1	k__Fungi;p__Ascomycota
+OTU_305_268	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium;s__Penicillium brevicompactum
+OTU_369_182	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513
+OTU_654_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_234_179	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae sedis
+OTU_623_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_317_33	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia;s__Capronia sp 97004c
+OTU_219_197	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Ophiocordycipitaceae
+OTU_95_2262	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Collophora;s__Collophora sp
+OTU_34_9222	1	1	k__Fungi
+OTU_581_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecideales;f__Lecideaceae;g__Lecidea
+OTU_189_3613	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp
+OTU_538_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_589_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes
+OTU_215_199	1	1	k__Fungi;p__Ascomycota
+OTU_390_23	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae;g__Fusarium;s__Fusarium proliferatum
+OTU_387_40	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes
+OTU_19_17710	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes
+OTU_427_11	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales
+OTU_216_277	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified
+OTU_231_85	1	1	k__Fungi;p__Ascomycota
+OTU_259_60	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales;f__Pyronemataceae
+OTU_548_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Massarinaceae;g__Massarina;s__Massarina sp
+OTU_470_17	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis;g__Phoma
+OTU_492_12	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp
+OTU_343_167	1	1	k__Fungi;p__Ascomycota
+OTU_21_66904	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp
+OTU_402_14	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus
+OTU_449_28	1	1	k__Fungi;p__Ascomycota
+OTU_478_10	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Ophiocordycipitaceae;g__Purpureocillium;s__Purpureocillium lilacinum
+OTU_598_4	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Sordariaceae;g__Sordaria
+OTU_446_19	1	1	k__Fungi;p__Ascomycota
+OTU_130_730	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae;g__Penicillium
+OTU_300_96	1	1	k__Fungi;p__Ascomycota
+OTU_96_1061	1	1	k__Fungi;p__Ascomycota
+OTU_542_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae;g__Phaeosphaeria;s__Phaeosphaeria triglochinicola
+OTU_484_140	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp
+OTU_498_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales
+OTU_251_72	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Montagnulaceae
+OTU_378_18	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae sedis;g__Sarocladium;s__Sarocladium sp
+OTU_334_65	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae
+OTU_406_22	1	1	k__Fungi

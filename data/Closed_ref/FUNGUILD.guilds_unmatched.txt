@@ -1,0 +1,121 @@
+OTU_ID	S1	S2	Taxonomy	Taxon	Taxon Level	Trophic Mode	Guild	Confidence Ranking	Growth Morphology	Trait	Notes	Citation/Source
+SH207017.07FU_HQ166445_reps	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH025754.07FU_AY761177_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Hypocreaceae	-	-	-	-	-	-	-	Unassigned	-
+SH127903.07FU_DQ780343_refs	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium;s__Cladosporium sphaerospermum	-	-	-	-	-	-	-	Unassigned	-
+SH199051.07FU_JQ070517_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+SH023317.07FU_FR682161_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales sp	-	-	-	-	-	-	-	Unassigned	-
+SH020703.07FU_GU174404_reps_singleton	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH027277.07FU_AF163057_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+SH192618.07FU_KF309979_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+SH030538.07FU_JN053143_reps_singleton	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD392	-	-	-	-	-	-	-	Unassigned	-
+SH214163.07FU_AY128701_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH198663.07FU_JX978239_reps	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH200709.07FU_EU343244_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH208968.07FU_KC951240_reps	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH018491.07FU_JN053173_reps_singleton	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD488	-	-	-	-	-	-	-	Unassigned	-
+SH214176.07FU_AM901715_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH184176.07FU_GU909656_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH184178.07FU_GU909953_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
+SH184177.07FU_FJ210521_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH219835.07FU_AY843135_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__unidentified;s__Teratosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH182917.07FU_KF251268_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae;g__unidentified;s__Phaeosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH200882.07FU_AY347316_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales	-	-	-	-	-	-	-	Unassigned	-
+SH199058.07FU_JX981477_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+SH006502.07FU_FN868467_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+SH213825.07FU_AY843147_reps	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH216494.07FU_KF013560_reps	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+SH020349.07FU_AJ244255_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca fissurella	-	-	-	-	-	-	-	Unassigned	-
+SH205426.07FU_AY843155_reps	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH127902.07FU_DQ780364_refs	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium;s__Cladosporium halotolerans	-	-	-	-	-	-	-	Unassigned	-
+SH196482.07FU_AY465448_reps	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH022461.07FU_AY559349_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__melanized limestone ascomycete CR_2004	-	-	-	-	-	-	-	Unassigned	-
+SH023168.07FU_AY843079_reps_singleton	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+SH482844.07FU_KF815636_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Pezizomycotina	-	-	-	-	-	-	-	Unassigned	-
+SH205614.07FU_DQ317353_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae	-	-	-	-	-	-	-	Unassigned	-
+SH195324.07FU_JN573175_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae	-	-	-	-	-	-	-	Unassigned	-
+SH023174.07FU_KF800302_reps_singleton	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH193974.07FU_AY843039_reps	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH008221.07FU_KF800162_reps_singleton	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH190079.07FU_JF449726_reps	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH199125.07FU_JN053156_reps	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+SH220702.07FU_JN983446_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	-	-	-	-	-	-	-	Unassigned	-
+SH006640.07FU_GU910926_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH013103.07FU_KF800449_reps_singleton	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH023865.07FU_JF449676_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__unidentified;s__uncultured Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
+SH201614.07FU_HQ535920_refs	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp PIMO_369	-	-	-	-	-	-	-	Unassigned	-
+SH193237.07FU_AM901739_reps	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
+SH186613.07FU_AY210347_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+SH187592.07FU_KC315933_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+SH015652.07FU_AF083206_reps_singleton	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH175275.07FU_GU055572_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	-	-	-	-	-	-	-	Unassigned	-
+SH194907.07FU_AY853246_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae;g__unidentified;s__Amphisphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH200057.07FU_AY843076_reps	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH198669.07FU_GU564979_reps	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH189181.07FU_AM901716_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+SH206392.07FU_AM921728_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH200725.07FU_FJ554069_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH199530.07FU_FJ839608_refs	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+SH014171.07FU_KF767326_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales	-	-	-	-	-	-	-	Unassigned	-
+SH004201.07FU_AM901923_reps_singleton	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH193082.07FU_DQ168665_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+SH030671.07FU_KC514874_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota sp Di58_1	-	-	-	-	-	-	-	Unassigned	-
+SH186930.07FU_HM216213_reps	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH017382.07FU_JQ655465_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Hypocreaceae	-	-	-	-	-	-	-	Unassigned	-
+SH200885.07FU_EU330636_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH202297.07FU_KF675366_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium	-	-	-	-	-	-	-	Unassigned	-
+SH188197.07FU_AY559377_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+SH468872.07FU_AM902038_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales sp	-	-	-	-	-	-	-	Unassigned	-
+SH473338.07FU_HQ701751_reps_singleton	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH127904.07FU_DQ780353_refs	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium	-	-	-	-	-	-	-	Unassigned	-
+SH191375.07FU_HQ701744_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae	-	-	-	-	-	-	-	Unassigned	-
+SH194192.07FU_FJ872071_reps	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	-	-	-	-	-	-	-	Unassigned	-
+SH209326.07FU_JN053133_reps	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+SH014722.07FU_AB481246_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae	-	-	-	-	-	-	-	Unassigned	-
+SH477510.07FU_UDB020908_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH200893.07FU_JX438639_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH196125.07FU_FR682206_reps	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
+SH207375.07FU_EU254911_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Incertae sedis;g__Ophiognomonia;s__Ophiognomonia melanostyla	-	-	-	-	-	-	-	Unassigned	-
+SH209327.07FU_JN053071_reps	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+SH017712.07FU_KJ406777_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH210215.07FU_GU055562_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+SH206807.07FU_AY152595_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+SH216784.07FU_KC584183_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+SH186990.07FU_GU054219_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Incertae sedis;g__Camarosporium;s__Camarosporium sp	-	-	-	-	-	-	-	Unassigned	-
+SH203405.07FU_AY354276_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae	-	-	-	-	-	-	-	Unassigned	-
+SH193960.07FU_FM200730_reps	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH207753.07FU_GU909990_reps	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales;f__Pyronemataceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
+SH174569.07FU_FR773252_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+SH199529.07FU_JX982394_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+SH204920.07FU_AY843115_reps	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH204963.07FU_KC867764_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+SH216250.07FU_EF679363_refs	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+SH183855.07FU_KF588374_reps	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Rutstroemiaceae;g__unidentified;s__Rutstroemiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH017854.07FU_HM123067_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH184428.07FU_JF424305_reps	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+SH201181.07FU_GQ922573_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Lasiosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+SH196149.07FU_JN040515_refs	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Sarcinomyces;s__Sarcinomyces crustaceus	-	-	-	-	-	-	-	Unassigned	-
+SH027073.07FU_FJ602947_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	-	-	-	-	-	-	-	Unassigned	-
+SH193959.07FU_GQ153206_reps	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrAR171	-	-	-	-	-	-	-	Unassigned	-
+SH216251.07FU_DQ780374_refs	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium	-	-	-	-	-	-	-	Unassigned	-
+SH211751.07FU_KJ406871_reps	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
+SH017608.07FU_AY843125_reps_singleton	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+SH206786.07FU_AM084429_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+SH014428.07FU_AY843105_reps_singleton	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
+SH194396.07FU_AY789345_reps	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+SH206409.07FU_JN886794_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+SH186783.07FU_HQ533816_refs	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+SH216785.07FU_AF229488_refs	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+SH028081.07FU_AY781244_reps_singleton	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+SH195463.07FU_AY615185_refs	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+SH184038.07FU_FN435818_reps	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+SH016527.07FU_AY354249_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+SH192960.07FU_KJ406757_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH020350.07FU_KJ406797_reps_singleton	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH024937.07FU_HQ445436_reps_singleton	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH027048.07FU_FN394691_reps_singleton	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+SH215125.07FU_KJ406972_reps	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__unidentified;g__unidentified;s__Rhytismatales sp	-	-	-	-	-	-	-	Unassigned	-
+SH200858.07FU_EF447390_reps	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae	-	-	-	-	-	-	-	Unassigned	-
+SH206411.07FU_AY843050_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothideaceae	-	-	-	-	-	-	-	Unassigned	-
+SH206394.07FU_JN053134_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
+SH214165.07FU_AY843074_reps	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+SH193571.07FU_AY527314_reps	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales;f__Stictidaceae	-	-	-	-	-	-	-	Unassigned	-

@@ -1,0 +1,266 @@
+"","Id","nbSeq","Domain","Phylum","Class","Order","Family","Genus","Species","Trophic_Mode","Guild","Confidence_Ranking","Growth_Morphology","Trait","nbSeq_log10"
+"OTU_71","71",87,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula lepida","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.93951925261862
+"OTU_74","74",542,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema",NA,"Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",2.73399928653839
+"OTU_76","76",1748,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Hydnum","Hydnum ovoideisporum","Symbiotroph","Ectomycorrhizal","Highly Probable","Hydnoid","NULL",3.24254142829838
+"OTU_100","100",4428,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Piloderma","Piloderma sp B328","Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",3.64620761220669
+"OTU_117","117",3334,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",3.52296559549199
+"OTU_118","118",892,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.95036485437612
+"OTU_122","122",8363,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",3.92236209678479
+"OTU_166","166",3667,"Fungi","Basidiomycota","Agaricomycetes","Boletales","Boletaceae","Porphyrellus","Porphyrellus porphyrosporus","Symbiotroph","Ectomycorrhizal","Highly Probable","Boletoid","NULL",3.5643109099606
+"OTU_177","177",6394,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Amphinema",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",3.80577263193567
+"OTU_184","184",2034,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",3.30835094858673
+"OTU_211","211",39,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema",NA,"Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",1.5910646070265
+"OTU_244","244",200,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula puellaris","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.30102999566398
+"OTU_272","272",508,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.70586371228392
+"OTU_278","278",659,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina mikolae","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",2.81888541459401
+"OTU_290","290",305,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Piloderma","Piloderma olivaceum","Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",2.48429983934679
+"OTU_293","293",10,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1
+"OTU_340","340",2359,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Amphinema",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",3.3727279408856
+"OTU_380","380",52,"Fungi","Ascomycota","Sordariomycetes","Chaetosphaeriales","Chaetosphaeriaceae","Chloridium",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.7160033436348
+"OTU_426","426",159,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Hydnum","Hydnum ellipsosporum","Symbiotroph","Ectomycorrhizal","Highly Probable","Hydnoid","NULL",2.20139712432045
+"OTU_468","468",9,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Albatrellaceae","Leucogaster",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Gasteroid","Hypogeous",0.954242509439325
+"OTU_473","473",2,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Hydnum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Hydnoid","NULL",0.301029995663981
+"OTU_510","510",460,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Byssocorticium","Byssocorticium atrovirens","Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",2.66275783168157
+"OTU_518","518",200,"Fungi","Basidiomycota","Agaricomycetes","Sebacinales","Sebacinaceae","Sebacina",NA,"Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",2.30102999566398
+"OTU_530","530",14,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula caerulea","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.14612803567824
+"OTU_539","539",393,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Trichophaea",NA,"Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",2.59439255037543
+"OTU_548","548",4,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Hygrophoraceae","Hygrophorus","Hygrophorus unicolor ","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.602059991327962
+"OTU_559","559",6,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Tuberaceae","Tuber","Tuber melanosporum","Symbiotroph","Ectomycorrhizal","Highly Probable","Gasteroid","Hypogeous",0.778151250383644
+"OTU_587","587",482,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.68304703823885
+"OTU_602","602",3,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Piloderma",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0.477121254719662
+"OTU_624","624",6,"Fungi","Basidiomycota","Agaricomycetes","Sebacinales","Sebacinaceae","Sebacina",NA,"Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",0.778151250383644
+"OTU_636","636",642,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",2.80753502806885
+"OTU_728","728",16,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema",NA,"Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",1.20411998265592
+"OTU_792","792",1,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Cantharellaceae","Craterellus","Craterellus lutescens","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0
+"OTU_902","902",21,"Fungi","Ascomycota","Leotiomycetes","Incertae sedis","Incertae sedis","Meliniomyces",NA,"Saprotroph-Symbiotroph","Ectomycorrhizal-Saprotroph","Probable","Dark Septate Endophyte","NULL",1.32221929473392
+"OTU_987","987",152,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pezizaceae","Terfezia",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Gasteroid","Hypogeous",2.18184358794477
+"OTU_1016","1016",1,"Fungi","Basidiomycota","Agaricomycetes","Sebacinales","Sebacinaceae","Sebacina",NA,"Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",0
+"OTU_1032","1032",24,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema","Sistotrema muscicola","Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",1.38021124171161
+"OTU_1090","1090",90,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cyanoxantha","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.95424250943932
+"OTU_1116","1116",2,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe petiginosa","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.301029995663981
+"OTU_1313","1313",10,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1
+"OTU_1468","1468",49,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita argentea","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.69019608002851
+"OTU_1469","1469",166,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Tylospora",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",2.22010808804005
+"OTU_1479","1479",1,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula veternosa","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0
+"OTU_1519","1519",68,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pezizaceae","Terfezia","Terfezia pseudoleptoderma","Symbiotroph","Ectomycorrhizal","Highly Probable","Gasteroid","Hypogeous",1.83250891270624
+"OTU_1570","1570",10,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum","uncultured Cenococcum","Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1
+"OTU_1898","1898",20,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.30102999566398
+"OTU_2026","2026",16,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula chloroides","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.20411998265592
+"OTU_2146","2146",22,"Fungi","Basidiomycota","Agaricomycetes","Sebacinales","Sebacinaceae","Sebacina",NA,"Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",1.34242268082221
+"OTU_2189","2189",38,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula integra","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.57978359661681
+"OTU_2232","2232",19,"Fungi","Basidiomycota","Agaricomycetes","Boletales","Boletaceae","Xerocomellus","Xerocomellus porosporus","Symbiotroph","Ectomycorrhizal","Highly Probable","Boletoid","NULL",1.27875360095283
+"OTU_2297","2297",26,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema","Sistotrema muscicola","Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",1.41497334797082
+"OTU_2367","2367",43,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.63346845557959
+"OTU_2456","2456",195,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Tylospora",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",2.29003461136252
+"OTU_2558","2558",20,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula integra","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.30102999566398
+"OTU_2601","2601",5,"Fungi","Basidiomycota","Agaricomycetes","Thelephorales","Thelephoraceae","Tomentella",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0.698970004336019
+"OTU_2664","2664",24,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula integra","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.38021124171161
+"OTU_2686","2686",79,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.89762709129044
+"OTU_2805","2805",7,"Fungi","Basidiomycota","Agaricomycetes","Sebacinales","Sebacinales Group B","Serendipita","Serendipita herbamans","Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",0.845098040014257
+"OTU_2894","2894",10,"Fungi","Basidiomycota","Agaricomycetes","Sebacinales","Sebacinaceae","Sebacina","Sebacina sp 148","Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",1
+"OTU_2981","2981",20,"Fungi","Basidiomycota","Agaricomycetes","Thelephorales","Thelephoraceae","Amaurodon",NA,"Symbiotroph","Ectomycorrhizal","Possible","Resupinate","NULL",1.30102999566398
+"OTU_3305","3305",17,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Byssocorticium",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",1.23044892137827
+"OTU_3356","3356",31,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema",NA,"Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",1.49136169383427
+"OTU_3489","3489",9,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Ceratobasidiaceae","Ceratobasidium",NA,"Symbiotroph","Ectomycorrhizal","Possible","Resupinate","NULL",0.954242509439325
+"OTU_3668","3668",1,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_3969","3969",357,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.55266821611219
+"OTU_4058","4058",152,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.18184358794477
+"OTU_4200","4200",6,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Amphinema","Amphinema sp MSE2","Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0.778151250383644
+"OTU_4341","4341",5,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Hygrophoraceae","Gliophorus","Gliophorus europerplexus","Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",0.698970004336019
+"OTU_4342","4342",9,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina mikolae","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.954242509439325
+"OTU_4544","4544",96,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.98227123303957
+"OTU_4653","4653",11,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema",NA,"Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",1.04139268515823
+"OTU_4677","4677",2537,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",3.40432046722173
+"OTU_4729","4729",192,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Tylospora",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",2.28330122870355
+"OTU_4734","4734",79,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.89762709129044
+"OTU_4739","4739",11,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Tulasnellaceae","Tulasnella","Tulasnella sp 213_1","Saprotroph-Symbiotroph","Ectomycorrhizal-Saprotroph","Possible","Resupinate","NULL",1.04139268515823
+"OTU_4756","4756",2,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula integra","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.301029995663981
+"OTU_4764","4764",251,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Tylospora",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",2.39967372148104
+"OTU_4766","4766",7,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema","Sistotrema coroniferum","Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",0.845098040014257
+"OTU_4788","4788",26,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina mikolae","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",1.41497334797082
+"OTU_4873","4873",377,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",2.57634135020579
+"OTU_5286","5286",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_5426","5426",4,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.602059991327962
+"OTU_5596","5596",5,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.698970004336019
+"OTU_5648","5648",8,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.903089986991944
+"OTU_5707","5707",7,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.845098040014257
+"OTU_5732","5732",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_5740","5740",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_6062","6062",38,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.57978359661681
+"OTU_6076","6076",7,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.845098040014257
+"OTU_6530","6530",5,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.698970004336019
+"OTU_6752","6752",2,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.301029995663981
+"OTU_6854","6854",164,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Amphinema",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",2.2148438480477
+"OTU_7695","7695",818,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.91275330367132
+"OTU_8204","8204",5,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina mikolae","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.698970004336019
+"OTU_8962","8962",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_9055","9055",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_9109","9109",14,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.14612803567824
+"OTU_9164","9164",1,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Tylospora",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0
+"OTU_9218","9218",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_11074","11074",5,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.698970004336019
+"OTU_12020","12020",4,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pezizaceae","Chromelosporium",NA,"Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",0.602059991327962
+"OTU_12345","12345",21,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.32221929473392
+"OTU_12354","12354",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_12677","12677",9,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.954242509439325
+"OTU_13057","13057",11,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula firmula","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.04139268515823
+"OTU_13093","13093",20,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.30102999566398
+"OTU_13362","13362",5,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_14056","14056",9,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Hydnocystis","Hydnocystis piligera","Symbiotroph","Ectomycorrhizal","Possible","NULL","NULL",0.954242509439325
+"OTU_15007","15007",2063,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Amphinema",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",3.31449922797315
+"OTU_15066","15066",3,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.477121254719662
+"OTU_15095","15095",7,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.845098040014257
+"OTU_15144","15144",8,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Amphinema",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0.903089986991944
+"OTU_15323","15323",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_15378","15378",4,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.602059991327962
+"OTU_15380","15380",3,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.477121254719662
+"OTU_15418","15418",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_15444","15444",6,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.778151250383644
+"OTU_15450","15450",2,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Tylospora",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0.301029995663981
+"OTU_15457","15457",104,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.01703333929878
+"OTU_16286","16286",11,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.04139268515823
+"OTU_18129","18129",160,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.20411998265592
+"OTU_19440","19440",15,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.17609125905568
+"OTU_19978","19978",8,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.903089986991944
+"OTU_20098","20098",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_21818","21818",5,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.698970004336019
+"OTU_21976","21976",4,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.602059991327962
+"OTU_22744","22744",60,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.77815125038364
+"OTU_22750","22750",15,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.17609125905568
+"OTU_22762","22762",82,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.91381385238372
+"OTU_22788","22788",41,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.61278385671974
+"OTU_22809","22809",11,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.04139268515823
+"OTU_23085","23085",13,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.11394335230684
+"OTU_23489","23489",4,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Tylospora",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0.602059991327962
+"OTU_23687","23687",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_23690","23690",28,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.44715803134222
+"OTU_23723","23723",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_23782","23782",23,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Amphinema",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",1.36172783601759
+"OTU_23790","23790",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_23814","23814",1,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0
+"OTU_23830","23830",3,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.477121254719662
+"OTU_23832","23832",16,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.20411998265592
+"OTU_23849","23849",10,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1
+"OTU_23937","23937",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_23940","23940",41,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.61278385671974
+"OTU_23947","23947",15,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Piloderma","Piloderma sp B328","Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",1.17609125905568
+"OTU_23980","23980",30,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.47712125471966
+"OTU_24013","24013",12,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.07918124604762
+"OTU_24041","24041",17,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.23044892137827
+"OTU_24063","24063",22,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.34242268082221
+"OTU_24120","24120",7,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.845098040014257
+"OTU_24221","24221",5,"Fungi","Basidiomycota","Agaricomycetes","Cantharellales","Hydnaceae","Sistotrema","Sistotrema oblongisporum","Saprotroph-Symbiotroph","Ectomycorrhizal-Wood Saprotroph","Possible","Resupinate","White Rot",0.698970004336019
+"OTU_24266","24266",11,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.04139268515823
+"OTU_24283","24283",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_24297","24297",3,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.477121254719662
+"OTU_24316","24316",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_24590","24590",11,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.04139268515823
+"OTU_24650","24650",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_24677","24677",1,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0
+"OTU_24939","24939",13,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",1.11394335230684
+"OTU_25168","25168",599,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",2.77742682238931
+"OTU_25183","25183",22,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.34242268082221
+"OTU_25226","25226",8,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.903089986991944
+"OTU_25285","25285",3,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.477121254719662
+"OTU_25354","25354",84,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.92427928606188
+"OTU_25363","25363",5,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_25371","25371",2,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.301029995663981
+"OTU_25462","25462",9,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Amphinema",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0.954242509439325
+"OTU_25504","25504",10,"Fungi","Basidiomycota","Agaricomycetes","Boletales","Sclerodermataceae","Scleroderma","Scleroderma bovista","Symbiotroph","Ectomycorrhizal","Highly Probable","Gasteroid","NULL",1
+"OTU_25658","25658",5,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula sanguinea","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_25976","25976",5,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula sanguinea","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_26108","26108",2,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.301029995663981
+"OTU_26127","26127",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_26155","26155",11,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.04139268515823
+"OTU_26162","26162",42,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.6232492903979
+"OTU_26176","26176",21,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.32221929473392
+"OTU_26194","26194",4,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.602059991327962
+"OTU_26197","26197",19,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula lepida","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.27875360095283
+"OTU_26290","26290",4,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.602059991327962
+"OTU_26300","26300",20,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.30102999566398
+"OTU_26320","26320",5,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.698970004336019
+"OTU_26335","26335",3,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.477121254719662
+"OTU_26362","26362",1,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_26383","26383",4,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.602059991327962
+"OTU_26681","26681",22,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula firmula","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.34242268082221
+"OTU_26700","26700",7,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula firmula","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.845098040014257
+"OTU_26905","26905",6,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.778151250383644
+"OTU_27018","27018",5,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_27181","27181",4,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.602059991327962
+"OTU_27182","27182",1022,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",3.00945089579869
+"OTU_27187","27187",7,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.845098040014257
+"OTU_27232","27232",3,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.477121254719662
+"OTU_27677","27677",9,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.954242509439325
+"OTU_27680","27680",46,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.66275783168157
+"OTU_27692","27692",31,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.49136169383427
+"OTU_27701","27701",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_27715","27715",3969,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",3.59868109890716
+"OTU_27759","27759",4,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.602059991327962
+"OTU_27768","27768",6,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.778151250383644
+"OTU_27795","27795",9,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.954242509439325
+"OTU_27796","27796",5,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.698970004336019
+"OTU_28074","28074",5,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_28484","28484",13,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.11394335230684
+"OTU_28566","28566",11,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.04139268515823
+"OTU_28601","28601",6,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula firmula","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.778151250383644
+"OTU_28722","28722",226,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.3541084391474
+"OTU_28728","28728",8,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.903089986991944
+"OTU_28739","28739",5,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_28747","28747",13,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.11394335230684
+"OTU_28752","28752",16,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.20411998265592
+"OTU_28772","28772",6,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.778151250383644
+"OTU_28809","28809",28,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",1.44715803134222
+"OTU_28981","28981",12,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.07918124604762
+"OTU_28987","28987",20,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.30102999566398
+"OTU_28995","28995",30,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.47712125471966
+"OTU_28997","28997",2,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.301029995663981
+"OTU_29006","29006",26,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.41497334797082
+"OTU_29048","29048",7,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.845098040014257
+"OTU_29059","29059",11,"Fungi","Ascomycota","Dothideomycetes","Hysteriales","Gloniaceae","Cenococcum",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.04139268515823
+"OTU_29089","29089",6,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.778151250383644
+"OTU_29112","29112",5,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_29120","29120",12,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.07918124604762
+"OTU_29171","29171",20,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.30102999566398
+"OTU_29194","29194",5,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_29206","29206",13,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cf brevipes RK5","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.11394335230684
+"OTU_29229","29229",6,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.778151250383644
+"OTU_29236","29236",6,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.778151250383644
+"OTU_29238","29238",17,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.23044892137827
+"OTU_29239","29239",5,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_29242","29242",26,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.41497334797082
+"OTU_29247","29247",9,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.954242509439325
+"OTU_29251","29251",34,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.53147891704226
+"OTU_29291","29291",334,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",2.52374646681156
+"OTU_29350","29350",16,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.20411998265592
+"OTU_29443","29443",5,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina rehmii","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",0.698970004336019
+"OTU_29501","29501",5,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_29761","29761",3,"Fungi","Basidiomycota","Agaricomycetes","Boletales","Boletaceae","Boletus","Boletus chrysenteron","Symbiotroph","Ectomycorrhizal","Highly Probable","Boletoid","NULL",0.477121254719662
+"OTU_29814","29814",1,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula cyanoxantha","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0
+"OTU_30119","30119",2,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula sardonia","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.301029995663981
+"OTU_31168","31168",5,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0.698970004336019
+"OTU_32343","32343",3,"Fungi","Ascomycota","Leotiomycetes","Incertae sedis","Incertae sedis","Meliniomyces","Meliniomyces bicolor","Saprotroph-Symbiotroph","Ectomycorrhizal-Saprotroph","Probable","Dark Septate Endophyte","NULL",0.477121254719662
+"OTU_32718","32718",6,"Fungi","Basidiomycota","Agaricomycetes","Atheliales","Atheliaceae","Tylospora",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","Resupinate","NULL",0.778151250383644
+"OTU_33298","33298",5,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula sanguinea","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_33603","33603",32,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",1.50514997831991
+"OTU_33766","33766",112,"Fungi","Ascomycota","Pezizomycetes","Pezizales","Pyronemataceae","Wilcoxina","Wilcoxina mikolae","Symbiotroph","Ectomycorrhizal","Highly Probable","Cup Fungus","NULL",2.04921802267018
+"OTU_34059","34059",25,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Inocybaceae","Inocybe","Inocybe proximella","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.39794000867204
+"OTU_34374","34374",5,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"OTU_34375","34375",95,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.97772360528885
+"OTU_34535","34535",66,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Amanitaceae","Amanita","Amanita battarrae","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",1.81954393554187
+"OTU_35585","35585",1,"Fungi","Basidiomycota","Agaricomycetes","Agaricales","Cortinariaceae","Cortinarius",NA,"Symbiotroph","Ectomycorrhizal","Highly Probable","NULL","NULL",0
+"OTU_36306","36306",5,"Fungi","Basidiomycota","Agaricomycetes","Russulales","Russulaceae","Russula","Russula sanguinea","Symbiotroph","Ectomycorrhizal","Highly Probable","Agaricoid","NULL",0.698970004336019
+"CA Ghisoni","CA Ghisoni",9487,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.97712890058068
+"CB Rospa_sorba","CB Rospa_sorba",1019,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.00817418400643
+"DA Ghisoni","DA Ghisoni",17582,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4.2450682757184
+"DB Ghisoni","DB Ghisoni",1096,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.03981055414835
+"SB Restonica","SB Restonica",4191,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.62231766083384
+"CB Ghisoni","CB Ghisoni",833,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.92064500140679
+"DB Restonica","DB Restonica",481,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.68214507637383
+"SA Ghisoni","SA Ghisoni",7883,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.89669152656288
+"SB Ghisoni","SB Ghisoni",1405,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.1476763242411
+"DB Rospa_sorba","DB Rospa_sorba",965,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.98452731334379
+"SA Restonica","SA Restonica",2006,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.3023309286844
+"CA Rospa_sorba","CA Rospa_sorba",1846,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.26623169668989
+"DA Rospa_sorba","DA Rospa_sorba",200,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.30102999566398
+"SA Rospa_sorba","SA Rospa_sorba",5565,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.74546516867073
+"DA Restonica","DA Restonica",238,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.37657695705651
