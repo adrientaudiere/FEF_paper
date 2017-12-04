@@ -1,0 +1,47 @@
+\select@language {english}
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}R requirements}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}System and session informations}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Some usefull functions}{6}{subsection.1.3}
+\contentsline {section}{\numberline {2}Data}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Choice of filter parameters}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Load and convert loading}{6}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Otu table}{6}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Taxonomy}{6}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Add FUNguild information to taxonomy Table}{7}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Representative sequences}{7}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Samples information}{8}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.6}Create the phyloseq object}{8}{subsubsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.7}Caracteristics of the phyloseq data}{8}{subsubsection.2.2.7}
+\contentsline {subsection}{\numberline {2.3}Filter sample by number of sequences}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Filter OTUs by number of samples}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Filter OTUs by number of sequences}{10}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Summary of filtration workflow}{11}{subsection.2.6}
+\contentsline {section}{\numberline {3}Simple description of the dataset}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Number of sequences and OTUs by samples}{11}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Number of sequences and samples for each OTUs}{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Distribution of sequences in the taxonomy}{14}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Focus on the 30 more abundant OTUs (number of sequences)}{14}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Focus on the 30 more frequent OTUs (number of samples)}{16}{subsection.3.5}
+\contentsline {section}{\numberline {4}Number of sequences and OTUs in function of putative ecology (using FUNGuild software; Nguyen et al, 2015)}{18}{section.4}
+\contentsline {section}{\numberline {5}Distribution of fungal endophytic alpha-biodiversity}{19}{section.5}
+\contentsline {subsection}{\numberline {5.1}Local diversity = Diversity by sites}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Diversity by age of tree}{19}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Diversity by elevation of the sample}{20}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Which factor affect diversity?}{20}{subsection.5.4}
+\contentsline {section}{\numberline {6}Effect of site, age and elevation on fungal endophytic beta-diversity}{28}{section.6}
+\contentsline {subsection}{\numberline {6.1}Venn diagramm}{28}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Venn diagramm for OTUs present in at least 3 samples}{28}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Ordination}{28}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Permanova on sites, host ages and elevation}{35}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Permanova on sites, host ages and individual trees}{35}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Differences in abundances and OTUs number by Order.}{36}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Differences in abundances for each OTUs}{40}{subsection.6.7}
+\contentsline {subsubsection}{\numberline {6.7.1}Pairwise comparison of the OTUs composition by sites}{40}{subsubsection.6.7.1}
+\contentsline {subsubsection}{\numberline {6.7.2}Pairwise comparison of Order composition by sites}{43}{subsubsection.6.7.2}
+\contentsline {subsection}{\numberline {6.8}Distribution of OTUs abundance in the fungal phylogeny}{43}{subsection.6.8}
+\contentsline {section}{\numberline {7}Summary}{46}{section.7}
+\contentsline {subsection}{\numberline {7.1}Filtering summary}{46}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Alpha diversity}{46}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Beta diversity}{47}{subsection.7.3}

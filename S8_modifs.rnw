@@ -1,0 +1,93 @@
+<-----------------------------------
+\title{Appendix S9: results after Qiime Closed reference clustering}
+----------------------------------->
+
+<-----------------------------------
+\section{Introduction}
+
+This supplementary material presents the ecological analysis of endophytic fungal communities in \textit{Pinus nigra} subsp. \textit{laricio}, an endemic species of Corsica. The dataset analysed here was computed using Qiime Closed reference clustering (see main article for more details).
+
+----------------------------------->
+
+
+<-----------------------------------
+<<>>=
+#Choose the dataset folder
+data_folder <- "Closed_ref"
+
+#Choose the minimum number of sequences by sample.
+N_sam_min <- 20000
+
+#Choose the minimum number of samples by OTU.
+N_otu_sam_min <- 1
+
+#Choose the minimum number of sequences by OTU.
+N_seq_otu_min <- 5
+@
+----------------------------------->
+
+
+
+<-----------------------------------
+<<>>=
+# Format taxonomy for phyloseq
+taxRDP <- taxRDP_brut[match(taxa_names(dataBiom), taxRDP_brut[, 1]),
+                       c(1, 3, 5, 7, 9, 11, 13, 15)]
+taxRDP <- tax_table(as.matrix(taxRDP))
+taxa_names(taxRDP) <- taxa_names(dataBiom)
+colnames(taxRDP) <- c("Species Hypothesis", "Domain", "Phylum", "Class", "Order", "Family",
+                      "Genus", "Species")
+@
+----------------------------------->
+
+
+<-----------------------------------
+<<>>=
+taxRDP2 <- as.data.frame(taxRDP)
+funguild <- read.delim(paste("data/", data_folder, "/FUNGUILD.guilds.txt", sep = ""))
+
+match_interm <- match(rownames(taxRDP2), funguild$OTU_ID)
+
+taxRDP2$Trophic_Mode <- NA
+taxRDP2$Trophic_Mode <- as.character(funguild$Trophic.Mode)[match_interm]
+taxRDP2$Guild <- NA
+taxRDP2$Guild <- as.character(funguild$Guild)[match_interm]
+taxRDP2$Confidence_Ranking <- NA
+taxRDP2$Confidence_Ranking <- as.character(funguild$Confidence.Ranking)[match_interm]
+taxRDP2$Growth_Morphology <- NA
+taxRDP2$Growth_Morphology <- as.character(funguild$Growth.Morphology)[match_interm]
+taxRDP2$Trait <- NA
+taxRDP2$Trait <- as.character(funguild$Trait)[match_interm]
+
+
+taxRDP2 <- tax_table(as.matrix(taxRDP2))
+taxa_names(taxRDP2) <- taxa_names(dataBiom)
+colnames(taxRDP2) <- c("Species Hypothesis", "Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species",
+                       "Trophic_Mode", "Guild", "Confidence_Ranking", "Growth_Morphology",
+                       "Trait")
+@
+----------------------------------->
+
+
+
+
+
+<-----------------------------------
+ \subsubsection{Samples information}
+<<message = FALSE>>=
+repset <- import_qiime(refseqfilename = paste("data/", data_folder, "/seq.fasta", 
+                                              sep = ""))
+taxa_names(repset) <- unlist(strsplit(taxa_names(repset), 
+                                      split = " "))[seq(1, 2*length(repset), by = 2)]
+@
+
+ \subsubsection{Create the phyloseq object}
+
+<<>>=
+data_all <- merge_phyloseq(dataBiom, repset, taxRDP2)
+
+sample_data(data_all) <- map_endo
+
+data_all@tax_table[data_all@tax_table == ""] <- NA
+@
+----------------------------------->

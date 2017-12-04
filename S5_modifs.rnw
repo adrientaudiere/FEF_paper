@@ -1,0 +1,34 @@
+<-----------------------------------
+\title{Appendix S9: results after UPARSE clustering allowing unique sequences}
+----------------------------------->
+
+<-----------------------------------
+\section{Introduction}
+
+This supplementary material presents the ecological analysis of endophytic fungal communities in \textit{Pinus nigra} subsp. \textit{laricio}, an endemic species of Corsica. The dataset analysed here was computed using UPARSE clustering allowing unique sequences (see main article for more details).
+
+----------------------------------->
+
+
+<-----------------------------------
+<<>>=
+#Choose the dataset folder
+data_folder <- "Uparse_min1"
+
+#Choose the minimum number of sequences by sample.
+N_sam_min <- 20000
+
+#Choose the minimum number of samples by OTU.
+N_otu_sam_min <- 1
+
+#Choose the minimum number of sequences by OTU.
+N_seq_otu_min <- 5
+@
+----------------------------------->
+
+<-----------------------------------
+  \subsection{Alpha diversity}
+
+  \subsection{Beta diversity}
+----------------------------------->
+

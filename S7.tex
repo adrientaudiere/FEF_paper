@@ -1,0 +1,2559 @@
+\documentclass[12pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color, colortbl}
+\usepackage[colorlinks = true, linkcolor = blue, citecolor = blue, urlcolor = blue]{hyperref}
+\usepackage{array}
+\usepackage[english]{babel}
+\usepackage{amsfonts}
+\usepackage{url}
+\usepackage{fullpage}
+\usepackage{pdflscape}
+\usepackage{bm}
+\usepackage[margin = 1.5cm]{geometry}
+\usepackage[affil-it]{authblk}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage[labelfont = bf]{caption}
+\usepackage{amsmath}
+
+\setlength{\doublerulesep}{0pt}
+
+%Numbering figures
+\numberwithin{figure}{section}
+
+\title{Appendix S7: results after Qiime Open reference clustering. Supplementary Materials of "Finding fungi in a needle stack: high alpha and low beta-diversity of foliar endophytic Ascomycetes revealed by metabarcoding in Corsican pine forests".}
+
+\author{Adrien Taudiere\thanks{\texttt{adrien.taudiere@zaclys.net}}}
+
+\affil{{\footnotesize CEFE - Centre d'Ecologie Fonctionnelle et Evolutive, Montpellier: France}}
+
+\date{\today}
+
+\sloppy
+\hyphenpenalty 10000
+
+
+
+%%%%%%% Allow a subsubsub section  %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\makeatletter
+\newcounter {subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@arabic\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+          {-3.25ex\@plus -1ex \@minus -.2ex}%
+          {1.5ex \@plus .2ex}%
+          {\normalfont\normalsize\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{5}{\z@}%
+         {3.25ex \@plus1ex \@minus.2ex}%
+         {-1em}%
+         {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{6}{\parindent}%
+          {3.25ex \@plus1ex \@minus .2ex}%
+          {-1em}%
+          {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{4}{10.0em}{4.1em}}
+\renewcommand*\l@paragraph{\@dottedtocline{5}{10em}{5em}}
+\renewcommand*\l@subparagraph{\@dottedtocline{6}{12em}{6em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+\usepackage{hyperref}
+
+\makeatletter
+\def\toclevel@subsubsubsection{4}
+\def\toclevel@paragraph{5}
+\def\toclevel@subparagraph{6}
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+\selectlanguage{english}
+
+
+
+
+
+
+\maketitle
+
+\begin{abstract}
+
+Plant leaves host highly diverse communities of foliar endophytic fungi (FEF). Compared to the other compartments of the plant microbiome, FEF diversity is poorly known. We here document the communities of FEF associated with the endemic Corsican black pine \textit{Pinus nigra} subsp. \textit{laricio} at three sites across its natural range and examine the effect of tree age and light exposure on FEF composition. Metabarcoding using next-generation sequencing provided 8243608 Ascomycota ITS2 sequences clustered into 642 FEF operational taxonomic units (OTUs). Site is the main determinant to explain the diversity and composition of FEF communities. Tree age somewhat affects FEF community composition, whereas needle location (shade vs canopy) has no effect. Results are robust against the various options of the bioinformatic pipeline specifically developed. This study provides the first picture of FEF diversity in a Mediterranean island and underlines the complementarity of forest massifs for fungal conservation.
+
+\end{abstract}
+
+
+\textbf{Key words:} foliar endophyte; fungi; community ecology; metabarcoding; Cyclaneusma minus, Pinus nigra subsp. laricio, Mediterranean, endemism, environmental sequencing
+
+
+\vfill
+\begin{center}
+\textbf{To set the filter parameter, see directly section 'Choice of filter parameters'~\ref{section:filter}.}
+
+\textbf{To read a summary of this appendix, see directly section 'Summary'~\ref{sect:summary}.}
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{Introduction}
+
+This supplementary material presents the ecological analysis of endophytic fungal communities in \textit{Pinus nigra} subsp. \textit{laricio}, an endemic species of CorsicaThe dataset analysed here was computed using Qiime Open reference clustering (see main article and Sup. Mat. 1 for more details).
+
+\subsection{R requirements}
+
+First, set the working directory. In this directory, there is data folder and a R script "functions\_for\_phyloseq.R".
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{setwd}\hlstd{(}\hlstr{"~/Nextcloud/GitHub/FEF_paper/"}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+Then, we may need to install packages.
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{#  install.packages(c('ape', 'biom', 'optparse', 'RColorBrewer', 'randomForest',  'vegan',}
+\hlcom{#                    'VennDiagram', 'venneuler', 'xtable', 'schoRsch', 'ape',}
+\hlcom{#                   'ips', 'adegenet', 'mvabund', 'rCharts', 'networkD3', 'data.tree'))}
+\hlcom{# }
+\hlcom{# # Upgrade Bioconductor to the latest version available for this version of R}
+\hlcom{# source("http://bioconductor.org/biocLite.R")}
+\hlcom{# biocLite(c("multtest", "DECIPHER", "edgeR", "phyloseq", 'DESeq2', 'metagenomeSeq'))}
+\hlcom{# }
+\hlcom{# require(devtools)}
+\hlcom{# install_github('ramnathv/rCharts')}
+\hlcom{# install_github("timelyportfolio/d3treeR")}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{## May be needed under windows}
+\hlkwd{Sys.setenv}\hlstd{(}\hlkwc{JAVA_HOME} \hlstd{=} \hlstr{"C:\textbackslash{}\textbackslash{}Program Files\textbackslash{}\textbackslash{}Java\textbackslash{}\textbackslash{}jdk1.8.0_73"}\hlstd{)}
+
+\hlcom{#Load the packages.}
+\hlkwd{lapply}\hlstd{(}\hlkwd{list}\hlstd{(}\hlstr{"ggplot2"}\hlstd{,} \hlstr{"phyloseq"}\hlstd{,} \hlstr{"cluster"}\hlstd{,} \hlstr{"plyr"}\hlstd{,} \hlstr{"VennDiagram"}\hlstd{,}
+            \hlstr{"circlize"}\hlstd{,} \hlstr{"xtable"}\hlstd{,} \hlstr{"schoRsch"}\hlstd{,} \hlstr{"DESeq2"}\hlstd{,} \hlstr{"mvabund"}\hlstd{,}
+            \hlstr{"edgeR"}\hlstd{,} \hlstr{"phangorn"}\hlstd{,} \hlstr{"DECIPHER"}\hlstd{,} \hlstr{"ips"}\hlstd{,} \hlstr{"adegenet"}\hlstd{,} \hlstr{"multtest"}\hlstd{,}
+            \hlstr{"networkD3"}\hlstd{,} \hlstr{"treemap"}\hlstd{,} \hlstr{"data.tree"}\hlstd{,} \hlstr{"d3treeR"}\hlstd{,} \hlstr{"venneuler"}\hlstd{,}
+            \hlstr{"gridExtra"}\hlstd{), library,}
+       \hlkwc{character.only} \hlstd{=} \hlnum{TRUE}\hlstd{)}
+\hlkwd{library}\hlstd{(vegan)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+
+
+
+  \subsection{System and session informations}
+  This document was created with R version 3.4.2 (2017-09-28) on Linux the 2017-11-09 15:16:39. See below for more information.
+\begin{knitrout}\tiny
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{sessionInfo}\hlstd{()}
+\end{alltt}
+\begin{verbatim}
+## R version 3.4.2 (2017-09-28)
+## Platform: x86_64-pc-linux-gnu (64-bit)
+## Running under: Ubuntu 16.04.3 LTS
+## 
+## Matrix products: default
+## BLAS: /usr/lib/libblas/libblas.so.3.6.0
+## LAPACK: /usr/lib/lapack/liblapack.so.3.6.0
+## 
+## locale:
+##  [1] LC_CTYPE=fr_FR.UTF-8          LC_NUMERIC=C                 
+##  [3] LC_TIME=fr_FR.UTF-8           LC_COLLATE=fr_FR.UTF-8       
+##  [5] LC_MONETARY=fr_FR.UTF-8       LC_MESSAGES=fr_FR.UTF-8      
+##  [7] LC_PAPER=fr_FR.UTF-8          LC_NAME=fr_FR.UTF-8          
+##  [9] LC_ADDRESS=fr_FR.UTF-8        LC_TELEPHONE=fr_FR.UTF-8     
+## [11] LC_MEASUREMENT=fr_FR.UTF-8    LC_IDENTIFICATION=fr_FR.UTF-8
+## 
+## attached base packages:
+##  [1] parallel  stats4    grid      stats     graphics  grDevices utils    
+##  [8] datasets  methods   base     
+## 
+## other attached packages:
+##  [1] vegan_2.4-4                lattice_0.20-35           
+##  [3] permute_0.9-4              gridExtra_2.2.1           
+##  [5] venneuler_1.1-0            rJava_0.9-8               
+##  [7] d3treeR_0.1                data.tree_0.7.0           
+##  [9] treemap_2.4-2              networkD3_0.4             
+## [11] multtest_2.32.0            adegenet_2.1.0            
+## [13] ade4_1.7-8                 ips_0.0-7                 
+## [15] XML_3.98-1.9               colorspace_1.3-2          
+## [17] DECIPHER_2.4.0             RSQLite_2.0               
+## [19] Biostrings_2.44.2          XVector_0.16.0            
+## [21] phangorn_2.2.0             ape_4.1                   
+## [23] edgeR_3.18.1               limma_3.32.5              
+## [25] mvabund_3.12.3             DESeq2_1.16.1             
+## [27] SummarizedExperiment_1.6.3 DelayedArray_0.2.7        
+## [29] matrixStats_0.52.2         Biobase_2.36.2            
+## [31] GenomicRanges_1.28.4       GenomeInfoDb_1.12.2       
+## [33] IRanges_2.10.3             S4Vectors_0.14.3          
+## [35] BiocGenerics_0.22.0        schoRsch_1.4              
+## [37] xtable_1.8-2               circlize_0.4.1            
+## [39] VennDiagram_1.6.17         futile.logger_1.4.3       
+## [41] plyr_1.8.4                 cluster_2.0.6             
+## [43] phyloseq_1.20.0            ggplot2_2.2.1             
+## [45] knitr_1.17                
+## 
+## loaded via a namespace (and not attached):
+##   [1] backports_1.1.0         Hmisc_4.0-3            
+##   [3] fastmatch_1.1-0         igraph_1.1.2           
+##   [5] lazyeval_0.2.0          sp_1.2-5               
+##   [7] splines_3.4.2           BiocParallel_1.10.1    
+##   [9] gridBase_0.4-7          digest_0.6.12          
+##  [11] foreach_1.4.3           htmltools_0.3.6        
+##  [13] viridis_0.4.0           gdata_2.18.0           
+##  [15] magrittr_1.5            checkmate_1.8.3        
+##  [17] memoise_1.1.0           readr_1.1.1            
+##  [19] annotate_1.54.0         gmodels_2.16.2         
+##  [21] blob_1.1.0              dplyr_0.7.2            
+##  [23] RCurl_1.95-4.8          jsonlite_1.5           
+##  [25] genefilter_1.58.1       bindr_0.1              
+##  [27] brew_1.0-6              survival_2.41-3        
+##  [29] iterators_1.0.8         glue_1.1.1             
+##  [31] gtable_0.2.0            zlibbioc_1.22.0        
+##  [33] seqinr_3.4-5            Rook_1.1-1             
+##  [35] shape_1.4.3             scales_0.5.0           
+##  [37] futile.options_1.0.0    DBI_0.7                
+##  [39] Rcpp_0.12.12            viridisLite_0.2.0      
+##  [41] htmlTable_1.9           foreign_0.8-69         
+##  [43] bit_1.1-12              spdep_0.6-15           
+##  [45] Formula_1.2-2           tweedie_2.2.5          
+##  [47] htmlwidgets_0.9         DiagrammeR_0.9.1       
+##  [49] RColorBrewer_1.1-2      acepack_1.4.1          
+##  [51] pkgconfig_2.0.1         nnet_7.3-12            
+##  [53] deldir_0.1-14           locfit_1.5-9.1         
+##  [55] rlang_0.1.2             reshape2_1.4.2         
+##  [57] AnnotationDbi_1.38.2    visNetwork_2.0.1       
+##  [59] munsell_0.4.3           tools_3.4.2            
+##  [61] downloader_0.4          evaluate_0.10.1        
+##  [63] biomformat_1.4.0        stringr_1.2.0          
+##  [65] bit64_0.9-7             purrr_0.2.3            
+##  [67] bindrcpp_0.2            nlme_3.1-131           
+##  [69] mime_0.5                rstudioapi_0.6         
+##  [71] compiler_3.4.2          rgexf_0.15.3           
+##  [73] tibble_1.3.4            statmod_1.4.30         
+##  [75] geneplotter_1.54.0      stringi_1.1.5          
+##  [77] highr_0.6               Matrix_1.2-11          
+##  [79] LearnBayes_2.15         GlobalOptions_0.0.12   
+##  [81] data.table_1.10.4       bitops_1.0-6           
+##  [83] httpuv_1.3.5            R6_2.2.2               
+##  [85] latticeExtra_0.6-28     gridSVG_1.5-1          
+##  [87] codetools_0.2-15        lambda.r_1.1.9         
+##  [89] boot_1.3-20             MASS_7.3-47            
+##  [91] gtools_3.5.0            assertthat_0.2.0       
+##  [93] rhdf5_2.20.0            GenomeInfoDbData_0.99.0
+##  [95] mgcv_1.8-22             expm_0.999-2           
+##  [97] hms_0.3                 influenceR_0.1.0       
+##  [99] quadprog_1.5-5          rpart_4.1-11           
+## [101] tidyr_0.7.1             coda_0.19-1            
+## [103] shiny_1.0.5             base64enc_0.1-3
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+  \subsection{Some usefull functions}
+
+The function \texttt{as.binaryOtuTable} converts a phyloseq object into a phyloseq object with binary (\textit{i.e.} 0/1) OTU table. It allows to suppress effect due to the number of sequences wich may be the result of a lot of molecular artefact (Lindhal et al., 2013).
+
+\texttt{funky.color} and \texttt{transpa} allow to create nice color palette.
+
+\texttt{accu\_plot} allows to plot accumulation curves in fonction of a factor in samples data (\texttt{@sam\_data} of phyloseq object).
+
+\texttt{otu\_circle} uses the package \texttt{circlize} to plot circle of OTUs/sequences distributions in samples. \texttt{sankey\_phyloseq} is an alternative using Sankey plot.
+
+\texttt{phyloseq\_to\_edgeR}, wrote by Paul J. McMurdie, converts phyloseq OTU count data into DGEList for edgeR package.
+
+\texttt{plot\_deseq2\_phyloseq} and \texttt{plot\_edgeR\_phyloseq} plot the result of differential analysis of count data (using either the package DESeq2 or edgeR).
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{source}\hlstd{(}\hlkwc{file} \hlstd{=} \hlstr{"functions_for_phyloseq.R"}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+\section{Data}
+
+  \subsection{Choice of filter parameters}
+  \label{section:filter}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{#Choose the dataset folder}
+\hlstd{data_folder} \hlkwb{<-} \hlstr{"Open_ref"}
+
+\hlcom{#Choose the minimum number of sequences by sample.}
+\hlstd{N_sam_min} \hlkwb{<-} \hlnum{20000}
+
+\hlcom{#Choose the minimum number of samples by OTU.}
+\hlstd{N_otu_sam_min} \hlkwb{<-} \hlnum{1}
+
+\hlcom{#Choose the minimum number of sequences by OTU.}
+\hlstd{N_seq_otu_min} \hlkwb{<-} \hlnum{5}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+  \subsection{Load and convert loading}
+  \subsubsection{Otu table}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{#Import biom data}
+\hlstd{dataBiom}   \hlkwb{<-} \hlkwd{import_biom}\hlstd{(}\hlkwd{paste}\hlstd{(}\hlstr{"data/"}\hlstd{, data_folder,} \hlstr{"/otu_table.biom"}\hlstd{,} \hlkwc{sep}\hlstd{=}\hlstr{""}\hlstd{))}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+  \subsubsection{Taxonomy}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{#Import taxonomy data}
+\hlstd{taxRDP_brut} \hlkwb{<-} \hlkwd{readLines}\hlstd{(}\hlkwd{paste}\hlstd{(}\hlstr{"data/"}\hlstd{, data_folder,} \hlstr{"/tax_assignments.txt"}\hlstd{,} \hlkwc{sep}\hlstd{=}\hlstr{""}\hlstd{))}
+\hlstd{taxRDP_brut} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{";"}\hlstd{,} \hlstr{"\textbackslash{}t"}\hlstd{, taxRDP_brut)}
+\hlstd{taxRDP_brut} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{")"}\hlstd{,} \hlstr{""}\hlstd{, taxRDP_brut)}
+\hlstd{taxRDP_brut} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{"\textbackslash{}\textbackslash{}("}\hlstd{,} \hlstr{"\textbackslash{}t"}\hlstd{, taxRDP_brut)}
+\hlstd{taxRDP_brut} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{"*__"}\hlstd{,} \hlstr{"\textbackslash{}t"}\hlstd{, taxRDP_brut)}
+\hlstd{taxRDP_brut} \hlkwb{<-} \hlkwd{read.table}\hlstd{(}\hlkwd{textConnection}\hlstd{(taxRDP_brut),} \hlkwc{sep} \hlstd{=} \hlstr{"\textbackslash{}t"}\hlstd{,} \hlkwc{fill} \hlstd{=} \hlnum{TRUE}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{# Format taxonomy for phyloseq}
+\hlstd{taxRDP} \hlkwb{<-} \hlstd{taxRDP_brut[}\hlkwd{match}\hlstd{(}\hlkwd{taxa_names}\hlstd{(dataBiom), taxRDP_brut[,} \hlnum{1}\hlstd{]),}
+                       \hlkwd{c}\hlstd{(}\hlnum{1}\hlstd{,} \hlnum{3}\hlstd{,} \hlnum{5}\hlstd{,} \hlnum{7}\hlstd{,} \hlnum{9}\hlstd{,} \hlnum{11}\hlstd{,} \hlnum{13}\hlstd{,} \hlnum{15}\hlstd{)]}
+\hlstd{taxRDP} \hlkwb{<-} \hlkwd{tax_table}\hlstd{(}\hlkwd{as.matrix}\hlstd{(taxRDP))}
+\hlkwd{taxa_names}\hlstd{(taxRDP)} \hlkwb{<-} \hlkwd{taxa_names}\hlstd{(dataBiom)}
+\hlkwd{colnames}\hlstd{(taxRDP)} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlstr{"Species Hypothesis"}\hlstd{,} \hlstr{"Domain"}\hlstd{,} \hlstr{"Phylum"}\hlstd{,} \hlstr{"Class"}\hlstd{,} \hlstr{"Order"}\hlstd{,} \hlstr{"Family"}\hlstd{,}
+                      \hlstr{"Genus"}\hlstd{,} \hlstr{"Species"}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+\subsubsection{Add FUNguild information to taxonomy Table}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{taxRDP2} \hlkwb{<-} \hlkwd{as.data.frame}\hlstd{(taxRDP)}
+\hlstd{funguild} \hlkwb{<-} \hlkwd{read.delim}\hlstd{(}\hlkwd{paste}\hlstd{(}\hlstr{"data/"}\hlstd{, data_folder,} \hlstr{"/FUNGUILD.guilds.txt"}\hlstd{,} \hlkwc{sep} \hlstd{=} \hlstr{""}\hlstd{))}
+
+\hlstd{match_interm} \hlkwb{<-} \hlkwd{match}\hlstd{(}\hlkwd{rownames}\hlstd{(taxRDP2), funguild}\hlopt{$}\hlstd{OTU_ID)}
+
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Trophic_Mode} \hlkwb{<-} \hlnum{NA}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Trophic_Mode} \hlkwb{<-} \hlkwd{as.character}\hlstd{(funguild}\hlopt{$}\hlstd{Trophic.Mode)[match_interm]}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Guild} \hlkwb{<-} \hlnum{NA}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Guild} \hlkwb{<-} \hlkwd{as.character}\hlstd{(funguild}\hlopt{$}\hlstd{Guild)[match_interm]}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Confidence_Ranking} \hlkwb{<-} \hlnum{NA}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Confidence_Ranking} \hlkwb{<-} \hlkwd{as.character}\hlstd{(funguild}\hlopt{$}\hlstd{Confidence.Ranking)[match_interm]}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Growth_Morphology} \hlkwb{<-} \hlnum{NA}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Growth_Morphology} \hlkwb{<-} \hlkwd{as.character}\hlstd{(funguild}\hlopt{$}\hlstd{Growth.Morphology)[match_interm]}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Trait} \hlkwb{<-} \hlnum{NA}
+\hlstd{taxRDP2}\hlopt{$}\hlstd{Trait} \hlkwb{<-} \hlkwd{as.character}\hlstd{(funguild}\hlopt{$}\hlstd{Trait)[match_interm]}
+
+
+\hlstd{taxRDP2} \hlkwb{<-} \hlkwd{tax_table}\hlstd{(}\hlkwd{as.matrix}\hlstd{(taxRDP2))}
+\hlkwd{taxa_names}\hlstd{(taxRDP2)} \hlkwb{<-} \hlkwd{taxa_names}\hlstd{(dataBiom)}
+\hlkwd{colnames}\hlstd{(taxRDP2)} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlstr{"Species Hypothesis"}\hlstd{,} \hlstr{"Domain"}\hlstd{,} \hlstr{"Phylum"}\hlstd{,} \hlstr{"Class"}\hlstd{,} \hlstr{"Order"}\hlstd{,} \hlstr{"Family"}\hlstd{,} \hlstr{"Genus"}\hlstd{,} \hlstr{"Species"}\hlstd{,}
+                       \hlstr{"Trophic_Mode"}\hlstd{,} \hlstr{"Guild"}\hlstd{,} \hlstr{"Confidence_Ranking"}\hlstd{,} \hlstr{"Growth_Morphology"}\hlstd{,}
+                       \hlstr{"Trait"}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+ \subsubsection{Representative sequences}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{map_endo} \hlkwb{<-}
+  \hlkwd{import_qiime}\hlstd{(}\hlkwc{map} \hlstd{=} \hlstr{"data/map_qiimedata.txt"}\hlstd{)}
+\end{alltt}
+\begin{verbatim}
+## Processing map file...
+\end{verbatim}
+\begin{alltt}
+\hlstd{map_endo} \hlkwb{<-} \hlstd{map_endo[}\hlkwd{order}\hlstd{(}\hlkwd{rownames}\hlstd{(map_endo)),]}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+ \subsubsection{Samples information}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{repset} \hlkwb{<-} \hlkwd{import_qiime}\hlstd{(}\hlkwc{refseqfilename} \hlstd{=} \hlkwd{paste}\hlstd{(}\hlstr{"data/"}\hlstd{, data_folder,} \hlstr{"/seq.fasta"}\hlstd{,}
+                                              \hlkwc{sep} \hlstd{=} \hlstr{""}\hlstd{))}
+\end{alltt}
+\begin{verbatim}
+## Processing Reference Sequences...
+\end{verbatim}
+\begin{alltt}
+\hlkwd{taxa_names}\hlstd{(repset)} \hlkwb{<-} \hlkwd{unlist}\hlstd{(}\hlkwd{strsplit}\hlstd{(}\hlkwd{taxa_names}\hlstd{(repset),}
+                                      \hlkwc{split} \hlstd{=} \hlstr{" "}\hlstd{))[}\hlkwd{seq}\hlstd{(}\hlnum{1}\hlstd{,} \hlnum{2}\hlopt{*}\hlkwd{length}\hlstd{(repset),} \hlkwc{by} \hlstd{=} \hlnum{2}\hlstd{)]}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+ \subsubsection{Create the phyloseq object}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{data_all} \hlkwb{<-} \hlkwd{merge_phyloseq}\hlstd{(dataBiom, repset, taxRDP2)}
+
+\hlkwd{sample_data}\hlstd{(data_all)} \hlkwb{<-} \hlstd{map_endo}
+
+\hlstd{data_all}\hlopt{@}\hlkwc{tax_table}\hlstd{[data_all}\hlopt{@}\hlkwc{tax_table} \hlopt{==} \hlstr{""}\hlstd{]} \hlkwb{<-} \hlnum{NA}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\subsubsection{Caracteristics of the phyloseq data}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{data_all}
+\end{alltt}
+\begin{verbatim}
+## phyloseq-class experiment-level object
+## otu_table()   OTU Table:         [ 4373 taxa and 80 samples ]
+## sample_data() Sample Data:       [ 80 samples by 6 sample variables ]
+## tax_table()   Taxonomy Table:    [ 4373 taxa by 13 taxonomic ranks ]
+## refseq()      DNAStringSet:      [ 4373 reference sequences ]
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+The data are made of \ensuremath{8.398038\times 10^{6}} sequences representing 4373 OTUs allocate to 80 samples.
+
+  \subsection{Filter sample by number of sequences}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{N_sam_min}
+\end{alltt}
+\begin{verbatim}
+## [1] 20000
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+If we discard samples with less than \ensuremath{2\times 10^{4}} sequences, we keep 72 on the 80 samples (90\%).
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{barplot}\hlstd{(}\hlkwd{sort}\hlstd{(}\hlkwd{sample_sums}\hlstd{(data_all)))}
+\hlkwd{abline}\hlstd{(}\hlkwc{h} \hlstd{= N_sam_min)}
+\hlstd{data.f1} \hlkwb{<-} \hlkwd{prune_samples}\hlstd{(}\hlkwd{sample_sums}\hlstd{(data_all)} \hlopt{>} \hlstd{N_sam_min, data_all)}
+\hlstd{data.f1} \hlkwb{<-} \hlkwd{prune_taxa}\hlstd{(}\hlkwd{taxa_sums}\hlstd{(data.f1)} \hlopt{>=}  \hlnum{1}\hlstd{, data.f1)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-13-1} 
+
+}
+
+\caption[Number of sequences by sample]{Number of sequences by sample. Horizontal line indicates the filtering parameter.}\label{fig:unnamed-chunk-13}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Filter OTUs by number of samples}
+
+First, we can visualize the number of OTUs in a given number of samples (Figure \ref{fig:nbOtu_sample}).
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{df_nbOtu_sample} \hlkwb{<-} \hlkwd{data.frame}\hlstd{(}\hlstr{"Nb of OTUs"} \hlstd{=} \hlkwd{table}\hlstd{(}\hlkwd{rowSums}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(}
+  \hlstd{data.f1)}\hlopt{@}\hlkwc{otu_table}\hlstd{))[}\hlkwd{table}\hlstd{(}\hlkwd{rowSums}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f1)}\hlopt{@}\hlkwc{otu_table}\hlstd{))} \hlopt{>} \hlnum{1}\hlstd{],}
+  \hlstr{"Nb samples"} \hlstd{=} \hlkwd{as.numeric}\hlstd{(}\hlkwd{names}\hlstd{(}\hlkwd{table}\hlstd{(}\hlkwd{rowSums}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f1)}\hlopt{@}\hlkwc{otu_table}\hlstd{))}
+                            \hlstd{[}\hlkwd{table}\hlstd{(}\hlkwd{rowSums}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f1)}\hlopt{@}\hlkwc{otu_table}\hlstd{))} \hlopt{>} \hlnum{1}\hlstd{])))}
+
+\hlstd{g} \hlkwb{<-} \hlkwd{ggplot}\hlstd{(df_nbOtu_sample,} \hlkwd{aes}\hlstd{(}\hlkwc{y} \hlstd{= Nb.of.OTUs.Freq,} \hlkwc{x} \hlstd{= Nb.samples))}
+\hlstd{g} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{4}\hlstd{,} \hlkwc{col} \hlstd{=} \hlkwd{rgb}\hlstd{(}\hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.5}\hlstd{))} \hlopt{+}
+  \hlkwd{scale_y_continuous}\hlstd{(}\hlkwc{trans} \hlstd{=} \hlstr{'log10'}\hlstd{)} \hlopt{+}
+  \hlkwd{geom_smooth}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{2}\hlstd{,} \hlkwc{col} \hlstd{=} \hlkwd{rgb}\hlstd{(}\hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.5}\hlstd{))} \hlopt{+}
+  \hlkwd{geom_vline}\hlstd{(}\hlkwc{xintercept}\hlstd{= N_otu_sam_min)}
+\end{alltt}
+
+
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# `geom\_smooth()` using method = 'loess'}}\begin{alltt}
+\hlkwd{summary}\hlstd{(df_nbOtu_sample}\hlopt{$}\hlstd{Nb.samples)}
+\end{alltt}
+\begin{verbatim}
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##    1.00   18.75   36.50   36.50   54.25   72.00
+\end{verbatim}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/nbOtu_sample-1} 
+
+}
+
+\caption[Number of OTU present in a given number of samples]{Number of OTU present in a given number of samples. Vertical bar illustrates the filtering parameter.}\label{fig:nbOtu_sample}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{N_otu_sam_min}
+\end{alltt}
+\begin{verbatim}
+## [1] 1
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{data.f2} \hlkwb{<-} \hlkwd{prune_taxa}\hlstd{(}\hlkwd{rowSums}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f1)}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{>=}
+                        \hlstd{N_otu_sam_min, data.f1)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+If we discard OTUs present in less than 1 sample, we keep 4359 on the 4359 OTUs (100\%).
+
+ \subsection{Filter OTUs by number of sequences}
+
+ We can visualize the number of sequences by OTU (Figure \ref{fig:nbseq_Otu}).
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{df_nbseq_Otu} \hlkwb{<-} \hlkwd{data.frame}\hlstd{(}\hlstr{"Nb of sequences by OTUs"} \hlstd{=} \hlkwd{rowSums}\hlstd{(data.f2}\hlopt{@}\hlkwc{otu_table}\hlstd{))}
+\hlstd{g} \hlkwb{<-} \hlkwd{ggplot}\hlstd{(df_nbseq_Otu,} \hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{= Nb.of.sequences.by.OTUs))}
+\hlstd{g} \hlopt{+} \hlkwd{geom_histogram}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{2}\hlstd{,} \hlkwc{col} \hlstd{=} \hlkwd{rgb}\hlstd{(}\hlnum{0.8}\hlstd{,} \hlnum{0.8}\hlstd{,} \hlnum{0.8}\hlstd{,} \hlnum{0.3}\hlstd{))} \hlopt{+}
+  \hlkwd{scale_x_continuous}\hlstd{(}\hlkwc{trans} \hlstd{=} \hlstr{'log10'}\hlstd{)} \hlopt{+}
+  \hlkwd{geom_vline}\hlstd{(}\hlkwc{xintercept}\hlstd{= N_seq_otu_min)}
+\end{alltt}
+
+
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# `stat\_bin()` using `bins = 30`. Pick better value with `binwidth`.}}\begin{alltt}
+\hlkwd{summary}\hlstd{(df_nbseq_Otu[,} \hlnum{1}\hlstd{])}
+\end{alltt}
+\begin{verbatim}
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##       1       5      22    1922     124  773785
+\end{verbatim}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/nbseq_Otu-1} 
+
+}
+
+\caption[Number of sequences by OTU (log10 transformed)]{Number of sequences by OTU (log10 transformed). Horizontal bar illustrates the filtering parameter.}\label{fig:nbseq_Otu}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{N_seq_otu_min}
+\end{alltt}
+\begin{verbatim}
+## [1] 5
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+If we discard OTUs with less than 1 sequences, we keep 3382 on the 4373 OTUs (77.34\%).
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{data.f3} \hlkwb{<-} \hlkwd{prune_taxa}\hlstd{(}\hlkwd{rowSums}\hlstd{(data.f2}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{>=} \hlstd{N_seq_otu_min, data.f2)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\subsection{Summary of filtration workflow}
+
+The filtered data are made of \ensuremath{8.373567\times 10^{6}} sequences representing 3382 OTUs allocate to 72 samples.
+
+
+
+
+% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:16:45 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrr}
+  \hline
+ & Nb.of.OTUs & Nb.of.samples & Nb.of.sequences \\ 
+  \hline
+No filter & 4373 &  80 & 8398038.00 \\ 
+  Nb of sequences by sample $>$=  20000 & 4359 &  72 & 8375892.00 \\ 
+  Nb of sample by OTUs $>$=  1 & 4359 &  72 & 8375892.00 \\ 
+  Nb of sequences by OTUs $>$=  5 & 3382 &  72 & 8373567.00 \\ 
+   \hline
+\end{tabular}
+\caption{Number of OTUs, samples and sequences after filtering} 
+\end{table}
+
+
+
+\section{Simple description of the dataset}
+
+  \subsection{Number of sequences and OTUs by samples}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{df_nbseq_nbotu} \hlkwb{<-} \hlkwd{data.frame}\hlstd{(}\hlstr{"Nb of sequences by samples"} \hlstd{=} \hlkwd{colSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{),}
+                             \hlstr{"Nb of OTUs by samples"} \hlstd{=}
+                               \hlkwd{colSums}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f3)}\hlopt{@}\hlkwc{otu_table}\hlstd{))}
+
+\hlstd{g} \hlkwb{<-} \hlkwd{ggplot}\hlstd{(df_nbseq_nbotu,} \hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{= Nb.of.OTUs.by.samples,}
+                                \hlkwc{y} \hlstd{= Nb.of.sequences.by.samples))}
+\hlstd{g} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{3}\hlstd{,} \hlkwc{col} \hlstd{=} \hlkwd{rgb}\hlstd{(}\hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.5}\hlstd{))} \hlopt{+}
+  \hlkwd{scale_y_continuous}\hlstd{(}\hlkwc{trans} \hlstd{=} \hlstr{'log10'}\hlstd{)} \hlopt{+}
+  \hlkwd{geom_smooth}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{2}\hlstd{,} \hlkwc{col} \hlstd{=} \hlkwd{rgb}\hlstd{(}\hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.5}\hlstd{))}
+\end{alltt}
+
+
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# `geom\_smooth()` using method = 'loess'}}\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-20-1} 
+
+}
+
+\caption[Number of OTUs by sample in fonction of the number of sequences by sample (log10 axe)]{Number of OTUs by sample in fonction of the number of sequences by sample (log10 axe). The tendency is represented by the line obtained from loess (Local Polynomial Regression Fitting).}\label{fig:unnamed-chunk-20}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{ggplot}\hlstd{(}\hlkwd{as.data.frame}\hlstd{(data.f3}\hlopt{@}\hlkwc{refseq}\hlopt{@}\hlkwc{ranges}\hlstd{),} \hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{= width))} \hlopt{+} \hlkwd{geom_density}\hlstd{()} \hlopt{+}
+  \hlkwd{ylab}\hlstd{(}\hlstr{"Reference sequences length"}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-21-1} 
+
+}
+
+\caption[Distribution of reference sequences length]{Distribution of reference sequences length.}\label{fig:unnamed-chunk-21}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Number of sequences and samples for each OTUs}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{df_nbseq_nbsam} \hlkwb{<-} \hlkwd{data.frame}\hlstd{(}\hlstr{"Nb of sequences by OTUs"} \hlstd{=} \hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{)}
+                             \hlstd{[}\hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{>} \hlnum{0}\hlstd{],}
+                             \hlstr{"Nb of samples by OTUs"} \hlstd{=}
+                               \hlkwd{rowSums}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f3)}\hlopt{@}\hlkwc{otu_table}\hlstd{)}
+                             \hlstd{[}\hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{>} \hlnum{0}\hlstd{])}
+
+\hlstd{g} \hlkwb{<-} \hlkwd{ggplot}\hlstd{(df_nbseq_nbsam,} \hlkwd{aes}\hlstd{(}\hlkwc{y} \hlstd{= Nb.of.samples.by.OTUs,}
+                                \hlkwc{x} \hlstd{= Nb.of.sequences.by.OTUs))}
+\hlstd{g} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{3}\hlstd{,} \hlkwc{col} \hlstd{=} \hlkwd{rgb}\hlstd{(}\hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.5}\hlstd{))} \hlopt{+}
+  \hlkwd{scale_x_continuous}\hlstd{(}\hlkwc{trans} \hlstd{=} \hlstr{'log10'}\hlstd{)} \hlopt{+}
+  \hlkwd{geom_smooth}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{2}\hlstd{,} \hlkwc{col} \hlstd{=} \hlkwd{rgb}\hlstd{(}\hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.1}\hlstd{,} \hlnum{0.5}\hlstd{),} \hlkwc{method} \hlstd{=} \hlstr{"gam"}\hlstd{,}
+              \hlkwc{formula}  \hlstd{= y} \hlopt{~} \hlkwd{s}\hlstd{(x,} \hlkwc{bs} \hlstd{=} \hlstr{"cs"}\hlstd{))}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-22-1} 
+
+}
+
+\caption[Number of sequences by OTUs (log10 axe) in fonction of the number of samples where OTUs were found]{Number of sequences by OTUs (log10 axe) in fonction of the number of samples where OTUs were found. The tendency is represented by the line obtain from gam (Generalized additive models with integrated smoothness estimation).}\label{fig:unnamed-chunk-22}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Distribution of sequences in the taxonomy}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{df3} \hlkwb{<-} \hlkwd{data.frame}\hlstd{(}\hlkwd{as.data.frame}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{),} \hlkwc{nb.seq} \hlstd{=} \hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{))}
+\hlstd{tm} \hlkwb{<-} \hlkwd{treemap}\hlstd{(df3,} \hlkwc{index} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"Order"}\hlstd{,} \hlstr{"Species"}\hlstd{),} \hlkwc{vSize} \hlstd{=} \hlstr{"nb.seq"}\hlstd{,} \hlkwc{vColor} \hlstd{=} \hlstr{"Class"}\hlstd{,}
+        \hlkwc{type} \hlstd{=} \hlstr{"categorical"}\hlstd{,} \hlkwc{palette} \hlstd{=} \hlstr{"Paired"}\hlstd{)}
+\hlcom{# For an interactive version in html}
+\hlcom{# d3tree(tm)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-23-1} 
+
+}
+
+\caption[Distribution of the number of sequences in the Ascomycota taxonomy]{Distribution of the number of sequences in the Ascomycota taxonomy. Colors represent Class, bold lines delimit Order and thick line delimit species.}\label{fig:unnamed-chunk-23}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Focus on the 30 more abundant OTUs (number of sequences)}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{the30mostfrequents} \hlkwb{<-} \hlkwd{sort}\hlstd{(}\hlkwc{decreasing} \hlstd{= T,} \hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{))[}\hlnum{1}\hlopt{:}\hlnum{30}\hlstd{]}
+\hlkwd{barplot}\hlstd{(the30mostfrequents,} \hlkwc{horiz} \hlstd{= T,} \hlkwc{cex.names} \hlstd{=} \hlnum{0.4}\hlstd{,} \hlkwc{las} \hlstd{=} \hlnum{2}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+
+\begin{landscape}
+\begin{kframe}
+\begin{alltt}
+\hlkwd{print}\hlstd{(}\hlkwd{xtable}\hlstd{(df_the30mostfrequents[,} \hlkwd{c}\hlstd{(}\hlnum{1}\hlopt{:}\hlnum{8}\hlstd{,} \hlnum{12}\hlstd{)],} \hlkwc{auto} \hlstd{= T,}
+             \hlkwc{caption} \hlstd{=} \hlstr{"Taxonomie of the 30 more
+             abundant OTUs (number of sequences)"}\hlstd{),}
+      \hlkwc{size} \hlstd{=} \hlstr{"\textbackslash{}\textbackslash{}tiny"}\hlstd{,} \hlkwc{include.rownames} \hlstd{=} \hlnum{FALSE}\hlstd{)}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:16:48 2017
+\begin{table}[ht]
+\centering
+\begingroup\tiny
+\begin{tabular}{lllllllll}
+  \hline
+Domain & Phylum & Class & Order & Family & Genus & Species & Trophic\_Mode & Trait \\ 
+  \hline
+Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Dothideomycetes & Pleosporales &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Dothideomycetes & Dothideales & Dothioraceae & unidentified & Dothioraceae sp & - & - \\ 
+  Fungi & Ascomycota & Dothideomycetes & Capnodiales & Incertae sedis & Capnobotryella & Capnobotryella sp MA 4642 & Saprotroph & NULL \\ 
+  Fungi & Ascomycota & Dothideomycetes & Pleosporales &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Dothideomycetes & Capnodiales &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Dothideomycetes & Pleosporales &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & unidentified & unidentified & unidentified & Leotiomycetes sp BLD3 & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & unidentified & unidentified & unidentified & Leotiomycetes sp BLD3 & - & - \\ 
+  Fungi & Ascomycota & Dothideomycetes & Pleosporales &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Dothideomycetes & Capnodiales & Mycosphaerellaceae & Phaeothecoidea & Phaeothecoidea sp & Saprotroph & NULL \\ 
+  Fungi &  &  &  &  &  &  & - & - \\ 
+  Fungi &  &  &  &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Rhytismatales & Rhytismataceae & Lophodermium & Lophodermium conigenum & Pathotroph & NULL \\ 
+  Fungi &  &  &  &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Eurotiomycetes & Chaetothyriales & Herpotrichiellaceae & Phaeomoniella & Phaeomoniella sp & Saprotroph & NULL \\ 
+  Fungi & Ascomycota & Dothideomycetes & Capnodiales &  &  &  & - & - \\ 
+  Fungi &  &  &  &  &  &  & - & - \\ 
+  Fungi &  &  &  &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & unidentified & unidentified & unidentified & Leotiomycetes sp BLD3 & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & unidentified & unidentified & unidentified & unidentified & unidentified & fungal sp TRN287 & - & - \\ 
+  Fungi & Ascomycota & Eurotiomycetes & Chaetothyriales & Herpotrichiellaceae & Phaeomoniella & Phaeomoniella sp & Saprotroph & NULL \\ 
+  Fungi & Ascomycota & Dothideomycetes & Capnodiales &  &  &  & - & - \\ 
+  Fungi &  &  &  &  &  &  & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Rhytismatales & Rhytismataceae & Lophodermium &  & Pathotroph & NULL \\ 
+   \hline
+\end{tabular}
+\endgroup
+\caption{Taxonomie of the 30 more
+             abundant OTUs (number of sequences)} 
+\end{table}
+
+\end{landscape}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{treemap}\hlstd{(df_the30mostfrequents,} \hlkwc{index} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"Class"}\hlstd{,} \hlstr{"Species"}\hlstd{),} \hlkwc{vSize} \hlstd{=} \hlstr{"Nb.sequences"}\hlstd{,}
+        \hlkwc{vColor} \hlstd{=} \hlstr{"Order"}\hlstd{,} \hlkwc{type} \hlstd{=} \hlstr{"categorical"}\hlstd{,} \hlkwc{palette} \hlstd{=} \hlstr{"Paired"}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-27-1} 
+
+}
+
+\caption[Number of sequences of the 30 most abundant OTUs (number of sequences)]{Number of sequences of the 30 most abundant OTUs (number of sequences). Colors indicate Order, bold lines delimit Class and thick lines delimit species.}\label{fig:unnamed-chunk-27}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Focus on the 30 more frequent OTUs (number of samples)}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{the30mostfrequents_samp} \hlkwb{<-} \hlkwd{sort}\hlstd{(}\hlkwc{decreasing} \hlstd{= T,}
+                                \hlkwd{rowSums}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f3)}\hlopt{@}\hlkwc{otu_table}\hlstd{))[}\hlnum{1}\hlopt{:}\hlnum{30}\hlstd{]}
+\hlkwd{barplot}\hlstd{(the30mostfrequents_samp,} \hlkwc{horiz} \hlstd{= T,} \hlkwc{cex.names} \hlstd{=} \hlnum{0.4}\hlstd{,} \hlkwc{las} \hlstd{=} \hlnum{2}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+
+
+\begin{landscape}
+\begin{kframe}
+\begin{alltt}
+\hlkwd{print}\hlstd{(}\hlkwd{xtable}\hlstd{(df_the30mostfrequents_samp[,} \hlkwd{c}\hlstd{(}\hlnum{1}\hlopt{:}\hlnum{8}\hlstd{,} \hlnum{12}\hlstd{)],} \hlkwc{auto} \hlstd{= T,}
+      \hlkwc{caption} \hlstd{=} \hlstr{"Taxonomie of the 30 more frequent OTUs (number of samples)"}\hlstd{),}
+      \hlkwc{size} \hlstd{=} \hlstr{"\textbackslash{}\textbackslash{}tiny"}\hlstd{,} \hlkwc{include.rownames} \hlstd{=} \hlnum{FALSE}\hlstd{)}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:16:49 2017
+\begin{table}[ht]
+\centering
+\begingroup\tiny
+\begin{tabular}{lllllllll}
+  \hline
+Domain & Phylum & Class & Order & Family & Genus & Species & Trophic\_Mode & Trait \\ 
+  \hline
+Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+  Fungi & Ascomycota & Leotiomycetes & Incertae sedis & Incertae sedis & Cyclaneusma & Cyclaneusma minus & - & - \\ 
+   \hline
+\end{tabular}
+\endgroup
+\caption{Taxonomie of the 30 more frequent OTUs (number of samples)} 
+\end{table}
+
+\end{landscape}
+
+
+\section{Number of sequences and OTUs in function of putative ecology (using FUNGuild software; Nguyen et al, 2015)}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{tabPutativeEcology} \hlkwb{<-} \hlkwd{apply}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{,} \hlnum{2}\hlstd{,} \hlkwa{function}\hlstd{(}\hlkwc{x}\hlstd{)} \hlkwd{table}\hlstd{(x))}
+\hlstd{tabPutativeEcology_percent} \hlkwb{<-} \hlkwd{apply}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{,} \hlnum{2}\hlstd{,} \hlkwa{function}\hlstd{(}\hlkwc{x}\hlstd{)}
+  \hlkwd{round}\hlstd{(}\hlkwd{table}\hlstd{(x)}\hlopt{/}\hlkwd{dim}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{)[}\hlnum{1}\hlstd{]}\hlopt{*}\hlnum{100}\hlstd{,} \hlnum{3}\hlstd{))}
+\hlkwd{sum}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{[data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Trophic_Mode"}\hlstd{]} \hlopt{==} \hlstr{"-"}\hlstd{])} \hlopt{/}
+  \hlkwd{sum}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{)}\hlopt{*}\hlnum{100}
+\end{alltt}
+\begin{verbatim}
+## [1] 81.36235
+\end{verbatim}
+\begin{alltt}
+\hlstd{tmdata} \hlkwb{<-} \hlkwd{as.data.frame}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Trophic_Mode"}\hlstd{]} \hlopt{!=} \hlstr{"-"}\hlstd{])}
+\hlstd{tmdata}\hlopt{$}\hlstd{Nb.sequences} \hlkwb{<-} \hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{[data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Trophic_Mode"}\hlstd{]} \hlopt{!=} \hlstr{"-"}\hlstd{])}
+\hlstd{tmdata}\hlopt{$}\hlstd{Nb.OTU} \hlkwb{<-} \hlkwd{rep}\hlstd{(}\hlnum{1}\hlstd{,} \hlkwd{length}\hlstd{(tmdata}\hlopt{$}\hlstd{Nb.sequences))}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{ggplot}\hlstd{(tmdata)} \hlopt{+} \hlkwd{geom_bar}\hlstd{(}\hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{= Trophic_Mode,} \hlkwc{fill}\hlstd{=Guild),} \hlkwc{position} \hlstd{=} \hlstr{"dodge"}\hlstd{)} \hlopt{+}
+  \hlkwd{scale_fill_discrete}\hlstd{(}\hlstr{"Paired"}\hlstd{)} \hlopt{+} \hlkwd{theme_grey}\hlstd{()}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-32-1} 
+
+}
+
+\caption[Distribution of OTUs into functional Guild]{Distribution of OTUs into functional Guild.}\label{fig:unnamed-chunk-32}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{ggplot}\hlstd{(tmdata,} \hlkwc{stat} \hlstd{=} \hlstr{"identity"}\hlstd{)} \hlopt{+}
+  \hlkwd{geom_bar}\hlstd{(}\hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{= Trophic_Mode,} \hlkwc{weight} \hlstd{= Nb.sequences,}  \hlkwc{fill} \hlstd{= Guild),} \hlkwc{position} \hlstd{=} \hlstr{"dodge"}\hlstd{)} \hlopt{+}
+  \hlkwd{scale_fill_discrete}\hlstd{(}\hlstr{"Paired"}\hlstd{)} \hlopt{+} \hlkwd{scale_y_log10}\hlstd{()} \hlopt{+} \hlkwd{theme_grey}\hlstd{()}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-33-1} 
+
+}
+
+\caption[Distribution of sequences (log10 transformed) into functional Guild]{Distribution of sequences (log10 transformed) into functional Guild.}\label{fig:unnamed-chunk-33}
+\end{figure}
+
+
+\end{knitrout}
+
+\section{Distribution of fungal endophytic alpha-biodiversity}
+  \subsection{Local diversity = Diversity by sites}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{accu_plot}\hlstd{(data.f3,} \hlstr{"Sites"}\hlstd{,} \hlkwc{nbSeq} \hlstd{=} \hlnum{FALSE}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-34-1} 
+
+}
+
+\caption[Rarefaction curves for each site]{Rarefaction curves for each site. Note that if singletons were removed, these curves are biaised.}\label{fig:unnamed-chunk-34}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{accu_plot}\hlstd{(data.f3,} \hlstr{"Sites"}\hlstd{,} \hlkwc{step} \hlstd{=} \hlnum{5000}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-35-1} 
+
+}
+
+\caption[Rarefaction curves for each sample using sequences number on x-axes]{Rarefaction curves for each sample using sequences number on x-axes. Note that if singletons were removed, these curves are biaised.}\label{fig:unnamed-chunk-35}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{measures_index} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlstr{"Observed"}\hlstd{,} \hlstr{"Chao1"}\hlstd{,} \hlstr{"Shannon"}\hlstd{,} \hlstr{"Simpson"}\hlstd{)}
+\hlstd{p} \hlkwb{<-} \hlkwd{plot_richness}\hlstd{(data.f3,} \hlkwc{x} \hlstd{=} \hlstr{"Sites"}\hlstd{,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,} \hlkwc{measures} \hlstd{= measures_index)}
+\hlstd{p} \hlopt{+} \hlkwd{geom_boxplot}\hlstd{(}\hlkwc{data} \hlstd{= p}\hlopt{$}\hlstd{data,} \hlkwc{alpha} \hlstd{=} \hlnum{0.5}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-36-1} 
+
+}
+
+\caption[Diversity of each sites]{Diversity of each sites}\label{fig:unnamed-chunk-36}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Diversity by age of tree}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{accu_plot}\hlstd{(data.f3,} \hlstr{"Age"}\hlstd{,} \hlkwc{nbSeq} \hlstd{=} \hlnum{FALSE}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-37-1} 
+
+}
+
+\caption[Rarefaction curves for each host age]{Rarefaction curves for each host age. Note that if singletons were removed, these curves are biaised.}\label{fig:unnamed-chunk-37}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{measures_index} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlstr{"Observed"}\hlstd{,} \hlstr{"Chao1"}\hlstd{,} \hlstr{"Shannon"}\hlstd{,} \hlstr{"Simpson"}\hlstd{)}
+\hlstd{p} \hlkwb{<-} \hlkwd{plot_richness}\hlstd{(data.f3,} \hlkwc{x} \hlstd{=} \hlstr{"Age"}\hlstd{,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,} \hlkwc{measures} \hlstd{= measures_index)}
+\hlstd{p} \hlopt{+} \hlkwd{geom_boxplot}\hlstd{(}\hlkwc{data} \hlstd{= p}\hlopt{$}\hlstd{data,} \hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{= p}\hlopt{$}\hlstd{data}\hlopt{$}\hlstd{Age,} \hlkwc{y} \hlstd{= value,} \hlkwc{color} \hlstd{=} \hlkwa{NULL}\hlstd{),}
+                 \hlkwc{alpha} \hlstd{=} \hlnum{0.5}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-38-1} 
+
+}
+
+\caption[Diversity in function of tree age]{Diversity in function of tree age. Color represent sites.}\label{fig:unnamed-chunk-38}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Diversity by elevation of the sample}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{accu_plot}\hlstd{(data.f3,} \hlstr{"Elevation"}\hlstd{,} \hlkwc{nbSeq} \hlstd{=} \hlnum{FALSE}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-39-1} 
+
+}
+
+\caption[Rarefaction curves for each elevation]{Rarefaction curves for each elevation. Notes that if singletons were removed, these curves are biaised.}\label{fig:unnamed-chunk-39}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{measures_index} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlstr{"Observed"}\hlstd{,} \hlstr{"Chao1"}\hlstd{,} \hlstr{"Shannon"}\hlstd{,} \hlstr{"Simpson"}\hlstd{)}
+\hlstd{p} \hlkwb{<-} \hlkwd{plot_richness}\hlstd{(data.f3,} \hlkwc{x} \hlstd{=} \hlstr{"Elevation"}\hlstd{,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,} \hlkwc{measures} \hlstd{= measures_index)}
+\hlstd{p} \hlopt{+} \hlkwd{geom_boxplot}\hlstd{(}\hlkwc{data} \hlstd{= p}\hlopt{$}\hlstd{data,} \hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{= p}\hlopt{$}\hlstd{data}\hlopt{$}\hlstd{Elevation,} \hlkwc{y} \hlstd{= value,} \hlkwc{color} \hlstd{=} \hlkwa{NULL}\hlstd{),}
+                 \hlkwc{alpha} \hlstd{=} \hlnum{0.5}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-40-1} 
+
+}
+
+\caption[Diversity in function of elevation]{Diversity in function of elevation. Color represent sites.}\label{fig:unnamed-chunk-40}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Which factor affect diversity?}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{## Uneven sequencing depth may have an impact}
+\hlstd{readNumbers} \hlkwb{=} \hlkwd{apply}\hlstd{(}\hlkwd{t}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{),} \hlnum{1}\hlstd{, sum)}
+
+\hlstd{otuHill} \hlkwb{<-} \hlkwd{renyi}\hlstd{(}\hlkwd{t}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{),} \hlkwc{scale} \hlstd{=} \hlkwd{c}\hlstd{(}\hlnum{0}\hlstd{,} \hlnum{1}\hlstd{,} \hlnum{2}\hlstd{),} \hlkwc{hill} \hlstd{= T)}
+
+\hlstd{hill.1} \hlkwb{=} \hlstd{otuHill}\hlopt{$}\hlstr{"0"}
+\hlstd{hill.2} \hlkwb{=} \hlstd{otuHill}\hlopt{$}\hlstr{"1"}
+\hlstd{hill.3} \hlkwb{=} \hlstd{otuHill}\hlopt{$}\hlstr{"2"}
+
+\hlstd{hill.1.m1} \hlkwb{=} \hlkwd{lm}\hlstd{(hill.1} \hlopt{~} \hlkwd{sqrt}\hlstd{(readNumbers)} \hlopt{+} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Sites} \hlopt{+}
+                 \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Age} \hlopt{+} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Elevation)}
+\hlstd{hill.2.m1} \hlkwb{=} \hlkwd{lm}\hlstd{(hill.2} \hlopt{~} \hlkwd{sqrt}\hlstd{(readNumbers)} \hlopt{+} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Sites} \hlopt{+}
+                 \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Age} \hlopt{+} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Elevation)}
+\hlstd{hill.3.m1} \hlkwb{=} \hlkwd{lm}\hlstd{(hill.3} \hlopt{~} \hlkwd{sqrt}\hlstd{(readNumbers)} \hlopt{+} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Sites} \hlopt{+}
+                 \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Age} \hlopt{+} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Elevation)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:22:32 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 29.4189474 & 133.5044144 & 0.2203594 & 0.8262927 \\ 
+  sqrt(readNumbers) & 2.2375997 & 0.3396355 & 6.5882379 & 0.0000000 \\ 
+  data.f3@sam\_data\$SitesBavella & -10.1118810 & 59.3953793 & -0.1702469 & 0.8653530 \\ 
+  data.f3@sam\_data\$SitesVerghello & -84.7689405 & 59.4710379 & -1.4253819 & 0.1589059 \\ 
+  data.f3@sam\_data\$AgeOld & -25.8215383 & 59.1438094 & -0.4365890 & 0.6638788 \\ 
+  data.f3@sam\_data\$AgeYoung & -89.9361492 & 60.5620816 & -1.4850241 & 0.1424466 \\ 
+  data.f3@sam\_data\$ElevationMiddle & 54.0275700 & 59.8951283 & 0.9020361 & 0.3704200 \\ 
+  data.f3@sam\_data\$ElevationTop & -3.7752802 & 59.0829784 & -0.0638979 & 0.9492507 \\ 
+   \hline
+\end{tabular}
+\caption{Summary of the linear model of species richness
+      (Hill number with q = 0)} 
+\end{table}
+
+
+% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:22:32 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 13.8331728 & 8.1620095 & 1.6948244 & 0.0949697 \\ 
+  sqrt(readNumbers) & 0.0784018 & 0.0207642 & 3.7758197 & 0.0003517 \\ 
+  data.f3@sam\_data\$SitesBavella & -13.4455488 & 3.6312331 & -3.7027501 & 0.0004463 \\ 
+  data.f3@sam\_data\$SitesVerghello & -4.3814745 & 3.6358586 & -1.2050729 & 0.2326122 \\ 
+  data.f3@sam\_data\$AgeOld & -0.6822508 & 3.6158530 & -0.1886832 & 0.8509381 \\ 
+  data.f3@sam\_data\$AgeYoung & -1.1411514 & 3.7025613 & -0.3082059 & 0.7589265 \\ 
+  data.f3@sam\_data\$ElevationMiddle & 2.4734946 & 3.6617861 & 0.6754886 & 0.5017988 \\ 
+  data.f3@sam\_data\$ElevationTop & -2.1846248 & 3.6121340 & -0.6048017 & 0.5474492 \\ 
+   \hline
+\end{tabular}
+\caption{Summary of the linear model of the exponential of
+      Shannon’s entropy index (Hill number with q = 1)} 
+\end{table}
+
+
+% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:22:32 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 6.7623603 & 3.4389473 & 1.9664042 & 0.0535919 \\ 
+  sqrt(readNumbers) & 0.0321194 & 0.0087487 & 3.6713377 & 0.0004940 \\ 
+  data.f3@sam\_data\$SitesBavella & -7.5793958 & 1.5299687 & -4.9539547 & 0.0000056 \\ 
+  data.f3@sam\_data\$SitesVerghello & -2.3673181 & 1.5319176 & -1.5453299 & 0.1271973 \\ 
+  data.f3@sam\_data\$AgeOld & -0.0838357 & 1.5234885 & -0.0550288 & 0.9562870 \\ 
+  data.f3@sam\_data\$AgeYoung & 0.5107140 & 1.5600219 & 0.3273762 & 0.7444518 \\ 
+  data.f3@sam\_data\$ElevationMiddle & 0.5160196 & 1.5428418 & 0.3344605 & 0.7391257 \\ 
+  data.f3@sam\_data\$ElevationTop & -1.7834158 & 1.5219216 & -1.1718185 & 0.2456139 \\ 
+   \hline
+\end{tabular}
+\caption{Summary of the linear model of inverse of Simpson’s
+      concentration index (Hill number with q = 2)} 
+\end{table}
+
+
+Post-hoc Tukey tests among the three experimental treatments with partial residuals, after accounting for differential sequencing success.
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{tuk1} \hlkwb{<-} \hlkwd{TukeyHSD}\hlstd{(}\hlkwd{aov}\hlstd{(}\hlkwd{lm}\hlstd{(hill.1} \hlopt{~} \hlkwd{sqrt}\hlstd{(readNumbers))}\hlopt{$}\hlstd{residuals} \hlopt{~} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Site))}
+\hlstd{tuk2} \hlkwb{<-} \hlkwd{TukeyHSD}\hlstd{(}\hlkwd{aov}\hlstd{(}\hlkwd{lm}\hlstd{(hill.2} \hlopt{~} \hlkwd{sqrt}\hlstd{(readNumbers))}\hlopt{$}\hlstd{residuals} \hlopt{~} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Site))}
+\hlstd{tuk3} \hlkwb{<-} \hlkwd{TukeyHSD}\hlstd{(}\hlkwd{aov}\hlstd{(}\hlkwd{lm}\hlstd{(hill.3} \hlopt{~} \hlkwd{sqrt}\hlstd{(readNumbers))}\hlopt{$}\hlstd{residuals} \hlopt{~} \hlstd{data.f3}\hlopt{@}\hlkwc{sam_data}\hlopt{$}\hlstd{Site))}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{ggplot}\hlstd{(}\hlkwc{data} \hlstd{= df)} \hlopt{+} \hlkwd{geom_linerange}\hlstd{(}\hlkwd{aes}\hlstd{(}\hlkwc{ymax} \hlstd{= xSup,} \hlkwc{ymin} \hlstd{= xInf,} \hlkwc{x} \hlstd{= y),} \hlkwc{size} \hlstd{=} \hlnum{2}\hlstd{)} \hlopt{+}
+  \hlkwd{geom_point}\hlstd{(}\hlkwd{aes}\hlstd{(}\hlkwc{x}\hlstd{=y,} \hlkwc{y}\hlstd{=x),} \hlkwc{size}\hlstd{=}\hlnum{4}\hlstd{,} \hlkwc{shape}\hlstd{=}\hlnum{21}\hlstd{,} \hlkwc{fill}\hlstd{=}\hlstr{"white"}\hlstd{)} \hlopt{+}
+  \hlkwd{coord_flip}\hlstd{()} \hlopt{+} \hlkwd{theme_gray}\hlstd{()} \hlopt{+} \hlkwd{geom_hline}\hlstd{(}\hlkwc{yintercept} \hlstd{=} \hlnum{0}\hlstd{)} \hlopt{+}
+  \hlkwd{ylab}\hlstd{(}\hlstr{"Differences in mean levels"}\hlstd{)} \hlopt{+} \hlkwd{xlab}\hlstd{(}\hlstr{""}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-46-1} 
+
+}
+
+\caption[Results of the Tuckey HSD testing for differences in mean Hill numbers among pairs of modalities]{Results of the Tuckey HSD testing for differences in mean Hill numbers among pairs of modalities}\label{fig:unnamed-chunk-46}
+\end{figure}
+
+
+\end{knitrout}
+
+\clearpage
+\section{Effect of site, age and elevation on fungal endophytic beta-diversity}
+
+  \subsection{Venn diagramm}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{venn_phyloseq}\hlstd{(data.f3,} \hlstr{"Sites"}\hlstd{,} \hlkwc{printValues} \hlstd{= F)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-47-1} 
+
+}
+
+\caption[Venn diagramm of the distribution of OTUs among Sites]{Venn diagramm of the distribution of OTUs among Sites}\label{fig:unnamed-chunk-47}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{venn_phyloseq}\hlstd{(data.f3,} \hlstr{"Age"}\hlstd{,} \hlkwc{printValues} \hlstd{= F)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-48-1} 
+
+}
+
+\caption[Venn diagramm of the distribution of OTUs among host age]{Venn diagramm of the distribution of OTUs among host age}\label{fig:unnamed-chunk-48}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{venn_phyloseq}\hlstd{(data.f3,} \hlstr{"Elevation"}\hlstd{,} \hlkwc{printValues} \hlstd{= F)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-49-1} 
+
+}
+
+\caption[Venn diagramm of the distribution of OTUs among elevation of samples]{Venn diagramm of the distribution of OTUs among elevation of samples}\label{fig:unnamed-chunk-49}
+\end{figure}
+
+
+\end{knitrout}
+
+  \subsection{Venn diagramm for OTUs present in at least 3 samples}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{data.f3_3samp} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3,} \hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlopt{>}\hlnum{0}\hlstd{)}\hlopt{>}\hlnum{2}\hlstd{)}
+\hlkwd{venn_phyloseq}\hlstd{(data.f3_3samp,} \hlstr{"Sites"}\hlstd{,} \hlkwc{printValues} \hlstd{= F)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-50-1} 
+
+}
+
+\caption[Venn diagramm of the distribution of OTUs among Sites]{Venn diagramm of the distribution of OTUs among Sites}\label{fig:unnamed-chunk-50}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{venn_phyloseq}\hlstd{(data.f3_3samp,} \hlstr{"Age"}\hlstd{,} \hlkwc{printValues} \hlstd{= F)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-51-1} 
+
+}
+
+\caption[Venn diagramm of the distribution of OTUs among host age]{Venn diagramm of the distribution of OTUs among host age}\label{fig:unnamed-chunk-51}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{venn_phyloseq}\hlstd{(data.f3_3samp,} \hlstr{"Elevation"}\hlstd{,} \hlkwc{printValues} \hlstd{= F)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-52-1} 
+
+}
+
+\caption[Venn diagramm of the distribution of OTUs among elevation of samples whitin the tree]{Venn diagramm of the distribution of OTUs among elevation of samples whitin the tree}\label{fig:unnamed-chunk-52}
+\end{figure}
+
+
+\end{knitrout}
+
+
+  \subsection{Ordination}
+
+ Ordination of the OTUs table using NMDS (Non-metric MultiDimenstional Scaling).
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{my.ord.nmds} \hlkwb{<-} \hlkwd{ordinate}\hlstd{(data.f3,} \hlkwc{method} \hlstd{=} \hlstr{"NMDS"}\hlstd{)}
+\hlstd{my.ord.nmds}\hlopt{$}\hlstd{stress}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{stressplot}\hlstd{(my.ord.nmds)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-54-1} 
+
+}
+
+\caption[Stress plot of the NMDS]{Stress plot of the NMDS}\label{fig:unnamed-chunk-54}
+\end{figure}
+
+
+\end{knitrout}
+
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{p} \hlkwb{<-} \hlkwd{plot_ordination}\hlstd{(data.f3, my.ord.nmds,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,} \hlkwc{shape} \hlstd{=} \hlstr{"Age"}\hlstd{)}
+\hlstd{p} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{0}\hlstd{)} \hlopt{+}
+  \hlkwd{geom_text}\hlstd{(}\hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{= p}\hlopt{$}\hlstd{data}\hlopt{$}\hlstd{NMDS1,} \hlkwc{y} \hlstd{= p}\hlopt{$}\hlstd{data}\hlopt{$}\hlstd{NMDS2,}
+                \hlkwc{label} \hlstd{=} \hlkwd{as.character}\hlstd{(}\hlkwd{as.vector}\hlstd{(data.f3}\hlopt{@}\hlkwc{sam_data}\hlstd{[,} \hlstr{"CODE"}\hlstd{]}\hlopt{$}\hlstd{CODE))))}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-55-1} 
+
+}
+
+\caption[NMDS of OTU table]{NMDS of OTU table. Colors represent sites and shape the age of tree.}\label{fig:unnamed-chunk-55}
+\end{figure}
+
+
+\end{knitrout}
+
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{my.ord.nmds_gower} \hlkwb{<-} \hlkwd{ordinate}\hlstd{(data.f3,} \hlkwc{distance} \hlstd{=} \hlstr{"gower"}\hlstd{,}  \hlkwc{method} \hlstd{=} \hlstr{"NMDS"}\hlstd{)}
+\end{alltt}
+\begin{verbatim}
+## Square root transformation
+## Wisconsin double standardization
+## Run 0 stress 0.2076191 
+## Run 1 stress 0.231293 
+## Run 2 stress 0.2076587 
+## ... Procrustes: rmse 0.02394137  max resid 0.1392384 
+## Run 3 stress 0.2068915 
+## ... New best solution
+## ... Procrustes: rmse 0.02281764  max resid 0.132568 
+## Run 4 stress 0.2155622 
+## Run 5 stress 0.2085022 
+## Run 6 stress 0.211227 
+## Run 7 stress 0.2095934 
+## Run 8 stress 0.2090743 
+## Run 9 stress 0.206886 
+## ... New best solution
+## ... Procrustes: rmse 0.001462729  max resid 0.008040082 
+## ... Similar to previous best
+## Run 10 stress 0.216301 
+## Run 11 stress 0.2119772 
+## Run 12 stress 0.2071656 
+## ... Procrustes: rmse 0.007344136  max resid 0.04991657 
+## Run 13 stress 0.2121752 
+## Run 14 stress 0.2086672 
+## Run 15 stress 0.2164855 
+## Run 16 stress 0.2132907 
+## Run 17 stress 0.2128912 
+## Run 18 stress 0.2119254 
+## Run 19 stress 0.2084085 
+## Run 20 stress 0.2121553 
+## *** Solution reached
+\end{verbatim}
+\begin{alltt}
+\hlstd{my.ord.PCoA} \hlkwb{<-} \hlkwd{ordinate}\hlstd{(data.f3,} \hlkwc{method} \hlstd{=} \hlstr{"PCoA"}\hlstd{)}
+\hlstd{my.ord.PCoA_gower} \hlkwb{<-} \hlkwd{ordinate}\hlstd{(data.f3,} \hlkwc{distance} \hlstd{=} \hlstr{"gower"}\hlstd{,} \hlkwc{method} \hlstd{=} \hlstr{"PCoA"}\hlstd{)}
+\hlstd{my.ord.DCA} \hlkwb{<-} \hlkwd{ordinate}\hlstd{(data.f3,} \hlkwc{method} \hlstd{=} \hlstr{"DCA"}\hlstd{)}
+\hlstd{my.ord.DCA_gower} \hlkwb{<-} \hlkwd{ordinate}\hlstd{(data.f3,} \hlkwc{distance} \hlstd{=} \hlstr{"gower"}\hlstd{,} \hlkwc{method} \hlstd{=} \hlstr{"DCA"}\hlstd{)}
+
+\hlstd{p_NMDS_BRAY} \hlkwb{<-} \hlkwd{plot_ordination}\hlstd{(data.f3, my.ord.nmds,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,}
+                               \hlkwc{shape} \hlstd{=} \hlstr{"Age"}\hlstd{,} \hlkwc{label} \hlstd{=} \hlstr{"CODE"}\hlstd{)} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{5}\hlstd{)}
+\hlstd{p_NMDS_GOWER} \hlkwb{<-} \hlkwd{plot_ordination}\hlstd{(data.f3, my.ord.nmds_gower,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,}
+                                \hlkwc{shape} \hlstd{=} \hlstr{"Age"}\hlstd{,} \hlkwc{label} \hlstd{=} \hlstr{"CODE"}\hlstd{)} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{5}\hlstd{)}
+\hlstd{p_PCoA_BRAY} \hlkwb{<-} \hlkwd{plot_ordination}\hlstd{(data.f3, my.ord.PCoA,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,}
+                               \hlkwc{shape} \hlstd{=} \hlstr{"Age"}\hlstd{,} \hlkwc{label} \hlstd{=} \hlstr{"CODE"}\hlstd{)} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{5}\hlstd{)}
+\hlstd{p_PCoA_GOWER} \hlkwb{<-} \hlkwd{plot_ordination}\hlstd{(data.f3, my.ord.PCoA_gower,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,}
+                                \hlkwc{shape} \hlstd{=} \hlstr{"Age"}\hlstd{,} \hlkwc{label} \hlstd{=} \hlstr{"CODE"}\hlstd{)} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{5}\hlstd{)}
+\hlstd{p_DCA_BRAY} \hlkwb{<-} \hlkwd{plot_ordination}\hlstd{(data.f3, my.ord.DCA,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,}
+                              \hlkwc{shape} \hlstd{=} \hlstr{"Age"}\hlstd{,} \hlkwc{label} \hlstd{=} \hlstr{"CODE"}\hlstd{)} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{5}\hlstd{)}
+\hlstd{p_DCA_GOWER} \hlkwb{<-} \hlkwd{plot_ordination}\hlstd{(data.f3, my.ord.DCA_gower,} \hlkwc{color} \hlstd{=} \hlstr{"Sites"}\hlstd{,}
+                               \hlkwc{shape} \hlstd{=} \hlstr{"Age"}\hlstd{,} \hlkwc{label} \hlstd{=} \hlstr{"CODE"}\hlstd{)} \hlopt{+} \hlkwd{geom_point}\hlstd{(}\hlkwc{size} \hlstd{=} \hlnum{5}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{landscape}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{multiplot}\hlstd{(p_NMDS_BRAY, p_NMDS_GOWER, p_PCoA_BRAY, p_PCoA_GOWER, p_DCA_BRAY, p_DCA_GOWER,}
+          \hlkwc{cols} \hlstd{=} \hlnum{3}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-57-1} 
+
+}
+
+\caption[Comparison of different distances (bray (up) and gower (bottom)) and ordination methods (NMDS (left), PCoA (center) and DCA (right))]{Comparison of different distances (bray (up) and gower (bottom)) and ordination methods (NMDS (left), PCoA (center) and DCA (right)).}\label{fig:unnamed-chunk-57}
+\end{figure}
+
+
+\end{knitrout}
+\end{landscape}
+
+  \subsection{Permanova on sites, host ages and elevation}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{sam_data} \hlkwb{<-} \hlkwd{as.data.frame}\hlstd{(}\hlkwd{unclass}\hlstd{(data.f3}\hlopt{@}\hlkwc{sam_data}\hlstd{))}
+\hlstd{sam_data}\hlopt{$}\hlstd{IndividualTree} \hlkwb{<-} \hlkwd{paste}\hlstd{(sam_data}\hlopt{$}\hlstd{Sites, sam_data}\hlopt{$}\hlstd{Age, sam_data}\hlopt{$}\hlstd{Tree)}
+\hlstd{res.ado} \hlkwb{<-} \hlkwd{adonis}\hlstd{(}\hlkwd{t}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{~}  \hlstd{Sites} \hlopt{*} \hlstd{Age} \hlopt{*} \hlstd{Elevation, sam_data,}
+                  \hlkwc{permutation} \hlstd{=} \hlnum{9999}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+If we only keep the 593 OTUs present in more than 30 sample, the Permanova results is the following:
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{res.ado_sampMin30} \hlkwb{<-} \hlkwd{adonis}\hlstd{(}\hlkwd{t}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{[}\hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlopt{>}\hlnum{0}\hlstd{)}\hlopt{>=}\hlnum{30}\hlstd{,])} \hlopt{~}
+                              \hlstd{Sites} \hlopt{*} \hlstd{Age} \hlopt{*} \hlstd{Elevation, sam_data,} \hlkwc{permutation} \hlstd{=} \hlnum{9999}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{data.f3_without_C_minus} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3,} \hlkwd{taxa_names}\hlstd{(data.f3)}\hlopt{!=}\hlstr{"OTU_1"}\hlstd{)}
+\hlstd{res.ado_without_C_minus} \hlkwb{<-} \hlkwd{adonis}\hlstd{(}\hlkwd{t}\hlstd{(data.f3_without_C_minus}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{~}
+                              \hlstd{Sites} \hlopt{*} \hlstd{Age} \hlopt{*} \hlstd{Elevation, sam_data,} \hlkwc{permutation} \hlstd{=} \hlnum{9999}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+\begin{kframe}
+\begin{alltt}
+\hlkwd{xtable}\hlstd{(res.ado}\hlopt{$}\hlstd{aov.tab,} \hlkwc{caption} \hlstd{=} \hlstr{"Result of the permanova on abundances
+       (number of sequence)."}\hlstd{)}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:23:02 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrr}
+  \hline
+ & Df & SumsOfSqs & MeanSqs & F.Model & R2 & Pr($>$F) \\ 
+  \hline
+Sites & 2 & 2.05 & 1.02 & 4.52 & 0.11 & 0.0001 \\ 
+  Age & 2 & 0.71 & 0.35 & 1.56 & 0.04 & 0.0334 \\ 
+  Elevation & 2 & 0.60 & 0.30 & 1.33 & 0.03 & 0.1078 \\ 
+  Sites:Age & 4 & 1.67 & 0.42 & 1.84 & 0.09 & 0.0009 \\ 
+  Sites:Elevation & 4 & 0.90 & 0.22 & 0.99 & 0.05 & 0.4675 \\ 
+  Age:Elevation & 4 & 1.15 & 0.29 & 1.27 & 0.06 & 0.0902 \\ 
+  Sites:Age:Elevation & 8 & 1.96 & 0.25 & 1.09 & 0.10 & 0.2559 \\ 
+  Residuals & 45 & 10.18 & 0.23 &  & 0.53 &  \\ 
+  Total & 71 & 19.21 &  &  & 1.00 &  \\ 
+   \hline
+\end{tabular}
+\caption{Result of the permanova on abundances
+       (number of sequence).} 
+\end{table}
+
+
+\begin{kframe}
+\begin{alltt}
+\hlkwd{xtable}\hlstd{(res.ado_sampMin30}\hlopt{$}\hlstd{aov.tab,} \hlkwc{caption} \hlstd{=} \hlstr{"Result of the permanova on abundances
+       (number of sequence) using only OTUs present in more than 30 samples"}\hlstd{)}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:23:02 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrr}
+  \hline
+ & Df & SumsOfSqs & MeanSqs & F.Model & R2 & Pr($>$F) \\ 
+  \hline
+Sites & 2 & 2.01 & 1.00 & 4.69 & 0.11 & 0.0001 \\ 
+  Age & 2 & 0.68 & 0.34 & 1.59 & 0.04 & 0.0383 \\ 
+  Elevation & 2 & 0.59 & 0.29 & 1.37 & 0.03 & 0.1100 \\ 
+  Sites:Age & 4 & 1.63 & 0.41 & 1.90 & 0.09 & 0.0010 \\ 
+  Sites:Elevation & 4 & 0.86 & 0.21 & 1.00 & 0.05 & 0.4627 \\ 
+  Age:Elevation & 4 & 1.12 & 0.28 & 1.30 & 0.06 & 0.0884 \\ 
+  Sites:Age:Elevation & 8 & 1.87 & 0.23 & 1.09 & 0.10 & 0.2615 \\ 
+  Residuals & 45 & 9.63 & 0.21 &  & 0.52 &  \\ 
+  Total & 71 & 18.38 &  &  & 1.00 &  \\ 
+   \hline
+\end{tabular}
+\caption{Result of the permanova on abundances
+       (number of sequence) using only OTUs present in more than 30 samples} 
+\end{table}
+
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{res.ado_bin} \hlkwb{<-} \hlkwd{adonis}\hlstd{(}\hlkwd{t}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f3)}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{~}  \hlstd{Sites} \hlopt{*} \hlstd{Age} \hlopt{*}
+                        \hlstd{Elevation, sam_data,} \hlkwc{permutation} \hlstd{=} \hlnum{9999}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{kframe}
+\begin{alltt}
+\hlkwd{xtable}\hlstd{(res.ado_bin}\hlopt{$}\hlstd{aov.tab,} \hlkwc{caption} \hlstd{=} \hlstr{"Result of the permanova on OTUs
+       (each OTU is representing by one sequence))."}\hlstd{)}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:23:06 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrr}
+  \hline
+ & Df & SumsOfSqs & MeanSqs & F.Model & R2 & Pr($>$F) \\ 
+  \hline
+Sites & 2 & 1.05 & 0.52 & 3.72 & 0.09 & 0.0001 \\ 
+  Age & 2 & 0.45 & 0.22 & 1.58 & 0.04 & 0.0082 \\ 
+  Elevation & 2 & 0.29 & 0.15 & 1.04 & 0.03 & 0.3633 \\ 
+  Sites:Age & 4 & 0.84 & 0.21 & 1.49 & 0.08 & 0.0025 \\ 
+  Sites:Elevation & 4 & 0.48 & 0.12 & 0.84 & 0.04 & 0.8859 \\ 
+  Age:Elevation & 4 & 0.58 & 0.14 & 1.02 & 0.05 & 0.4056 \\ 
+  Sites:Age:Elevation & 8 & 1.06 & 0.13 & 0.94 & 0.10 & 0.7053 \\ 
+  Residuals & 45 & 6.35 & 0.14 &  & 0.57 &  \\ 
+  Total & 71 & 11.09 &  &  & 1.00 &  \\ 
+   \hline
+\end{tabular}
+\caption{Result of the permanova on OTUs
+       (each OTU is representing by one sequence)).} 
+\end{table}
+
+
+
+  \subsection{Permanova on sites, host ages and individual trees}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{res.ado_Tree} \hlkwb{<-} \hlkwd{adonis}\hlstd{(}\hlkwd{t}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{~}   \hlstd{Sites}\hlopt{*}\hlstd{Age} \hlopt{+} \hlstd{Sites}\hlopt{:}\hlstd{Age}\hlopt{:}\hlstd{IndividualTree ,}
+                       \hlstd{sam_data,} \hlkwc{permutation} \hlstd{=} \hlnum{9999}\hlstd{)}
+\hlstd{res.ado_Tree_sampMin30} \hlkwb{<-} \hlkwd{adonis}\hlstd{(}\hlkwd{t}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{[}\hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlopt{>}\hlnum{0}\hlstd{)}\hlopt{>=}\hlnum{30}\hlstd{,])} \hlopt{~}
+                                   \hlstd{Sites}\hlopt{*}\hlstd{Age} \hlopt{+} \hlstd{Sites}\hlopt{:}\hlstd{Age}\hlopt{:}\hlstd{IndividualTree , sam_data,}
+                                 \hlkwc{permutation} \hlstd{=} \hlnum{9999}\hlstd{)}
+\hlstd{res.ado_Tree_bin} \hlkwb{<-} \hlkwd{adonis}\hlstd{(}\hlkwd{t}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f3)}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{~}
+                             \hlstd{Sites}\hlopt{*}\hlstd{Age} \hlopt{+} \hlstd{Sites}\hlopt{:}\hlstd{Age}\hlopt{:}\hlstd{IndividualTree , sam_data,}
+                           \hlkwc{permutation} \hlstd{=} \hlnum{9999}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{kframe}
+\begin{alltt}
+\hlkwd{xtable}\hlstd{(res.ado_Tree}\hlopt{$}\hlstd{aov.tab,} \hlkwc{caption} \hlstd{=} \hlstr{"Result of the permanova on abundances
+       (number of sequence)."}\hlstd{)}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:23:13 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrr}
+  \hline
+ & Df & SumsOfSqs & MeanSqs & F.Model & R2 & Pr($>$F) \\ 
+  \hline
+Sites & 2 & 2.05 & 1.02 & 4.91 & 0.11 & 0.0001 \\ 
+  Age & 2 & 0.71 & 0.35 & 1.69 & 0.04 & 0.0204 \\ 
+  Sites:Age & 4 & 1.68 & 0.42 & 2.02 & 0.09 & 0.0003 \\ 
+  Sites:Age:IndividualTree & 18 & 5.40 & 0.30 & 1.44 & 0.28 & 0.0001 \\ 
+  Residuals & 45 & 9.38 & 0.21 &  & 0.49 &  \\ 
+  Total & 71 & 19.21 &  &  & 1.00 &  \\ 
+   \hline
+\end{tabular}
+\caption{Result of the permanova on abundances
+       (number of sequence).} 
+\end{table}
+
+
+\begin{kframe}
+\begin{alltt}
+\hlkwd{xtable}\hlstd{(res.ado_Tree_sampMin30}\hlopt{$}\hlstd{aov.tab,} \hlkwc{caption} \hlstd{=} \hlstr{"Result of the permanova on abundances
+       (number of sequence) using only OTUs present in more than 30 samples"}\hlstd{)}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:23:13 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrr}
+  \hline
+ & Df & SumsOfSqs & MeanSqs & F.Model & R2 & Pr($>$F) \\ 
+  \hline
+Sites & 2 & 2.01 & 1.00 & 5.10 & 0.11 & 0.0001 \\ 
+  Age & 2 & 0.68 & 0.34 & 1.73 & 0.04 & 0.0225 \\ 
+  Sites:Age & 4 & 1.64 & 0.41 & 2.09 & 0.09 & 0.0004 \\ 
+  Sites:Age:IndividualTree & 18 & 5.20 & 0.29 & 1.47 & 0.28 & 0.0002 \\ 
+  Residuals & 45 & 8.85 & 0.20 &  & 0.48 &  \\ 
+  Total & 71 & 18.38 &  &  & 1.00 &  \\ 
+   \hline
+\end{tabular}
+\caption{Result of the permanova on abundances
+       (number of sequence) using only OTUs present in more than 30 samples} 
+\end{table}
+
+
+\begin{kframe}
+\begin{alltt}
+\hlkwd{xtable}\hlstd{(res.ado_Tree_bin}\hlopt{$}\hlstd{aov.tab,} \hlkwc{caption} \hlstd{=} \hlstr{"Result of the permanova on OTUs
+       (each OTU is representing by one sequence))."}\hlstd{)}
+\end{alltt}
+\end{kframe}% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:23:13 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrrr}
+  \hline
+ & Df & SumsOfSqs & MeanSqs & F.Model & R2 & Pr($>$F) \\ 
+  \hline
+Sites & 2 & 1.05 & 0.52 & 4.18 & 0.09 & 0.0001 \\ 
+  Age & 2 & 0.45 & 0.22 & 1.78 & 0.04 & 0.0026 \\ 
+  Sites:Age & 4 & 0.85 & 0.21 & 1.70 & 0.08 & 0.0001 \\ 
+  Sites:Age:IndividualTree & 18 & 3.10 & 0.17 & 1.37 & 0.28 & 0.0001 \\ 
+  Residuals & 45 & 5.65 & 0.13 &  & 0.51 &  \\ 
+  Total & 71 & 11.09 &  &  & 1.00 &  \\ 
+   \hline
+\end{tabular}
+\caption{Result of the permanova on OTUs
+       (each OTU is representing by one sequence)).} 
+\end{table}
+
+
+   \subsection{Differences in abundances and OTUs number by Order.}
+
+\begin{landscape}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{data.f3_taxo_known} \hlkwb{<-} \hlkwd{prune_taxa}\hlstd{(}\hlkwd{taxa_names}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{)}
+          \hlstd{[}\hlopt{!}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[,} \hlnum{4}\hlstd{]} \hlopt{%in%} \hlkwd{c}\hlstd{(}\hlstr{"unidentified"}\hlstd{,} \hlstr{"Incertae sedis"}\hlstd{))], data.f3)}
+\hlstd{p} \hlkwb{<-} \hlkwd{plot_bar}\hlstd{(data.f3_taxo_known,} \hlstr{"Order"}\hlstd{,} \hlkwc{fill} \hlstd{=} \hlstr{"Class"}\hlstd{,} \hlkwc{facet_grid} \hlstd{= Age} \hlopt{~} \hlstd{Sites)}
+\hlstd{p} \hlopt{+} \hlkwd{geom_bar}\hlstd{(}\hlkwd{aes}\hlstd{(}\hlkwc{color} \hlstd{= Class,} \hlkwc{fill} \hlstd{= Class),} \hlkwc{stat} \hlstd{=} \hlstr{"identity"}\hlstd{,} \hlkwc{position} \hlstd{=} \hlstr{"stack"}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-69-1} 
+
+}
+
+\caption[Taxonomic distribution of sequences in the different site * age combinaison]{Taxonomic distribution of sequences in the different site * age combinaison.}\label{fig:unnamed-chunk-69}
+\end{figure}
+
+
+\end{knitrout}
+\end{landscape}
+
+\begin{landscape}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{p} \hlkwb{<-} \hlkwd{plot_bar}\hlstd{(}\hlkwd{as.binaryOtuTable}\hlstd{(data.f3_taxo_known),} \hlstr{"Order"}\hlstd{,} \hlkwc{fill} \hlstd{=} \hlstr{"Class"}\hlstd{,}
+              \hlkwc{facet_grid} \hlstd{= Age} \hlopt{~} \hlstd{Sites)}
+\hlstd{p} \hlopt{+} \hlkwd{geom_bar}\hlstd{(}\hlkwd{aes}\hlstd{(}\hlkwc{color} \hlstd{= Class,} \hlkwc{fill} \hlstd{= Class),} \hlkwc{stat} \hlstd{=} \hlstr{"identity"}\hlstd{,} \hlkwc{position} \hlstd{=} \hlstr{"stack"}\hlstd{)}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-70-1} 
+
+}
+
+\caption[Taxonomic distribution of OTUs in the different site * age combinaison]{Taxonomic distribution of OTUs in the different site * age combinaison.}\label{fig:unnamed-chunk-70}
+\end{figure}
+
+
+\end{knitrout}
+\end{landscape}
+
+
+  \subsection{Differences in abundances for each OTUs}
+    \subsubsection{Pairwise comparison of the OTUs composition by sites}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{library}\hlstd{(}\hlstr{"DESeq2"}\hlstd{)}
+\hlkwd{packageVersion}\hlstd{(}\hlstr{"DESeq2"}\hlstd{)}
+\end{alltt}
+\begin{verbatim}
+## [1] '1.16.1'
+\end{verbatim}
+\begin{alltt}
+\hlstd{data.f3_deseq2} \hlkwb{<-} \hlkwd{phyloseq_to_deseq2}\hlstd{(data.f3,} \hlopt{~} \hlstd{Sites)}
+\hlstd{data.f3_deseq2} \hlkwb{<-} \hlkwd{DESeq}\hlstd{(data.f3_deseq2,} \hlkwc{test} \hlstd{=} \hlstr{"Wald"}\hlstd{,} \hlkwc{fitType} \hlstd{=} \hlstr{"parametric"}\hlstd{)}
+\hlstd{res.f3_deseq2} \hlkwb{<-} \hlkwd{results}\hlstd{(data.f3_deseq2)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{res_VA} \hlkwb{<-} \hlkwd{plot_deseq2_phyloseq}\hlstd{(data.f3_deseq2,} \hlkwc{tax_table} \hlstd{= data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{,}
+                               \hlkwc{contrast} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"Sites"}\hlstd{,} \hlstr{"Verghello"}\hlstd{,} \hlstr{"Asco"}\hlstd{),}
+                               \hlkwc{taxa} \hlstd{=} \hlstr{"Species"}\hlstd{,} \hlkwc{color_tax} \hlstd{=} \hlstr{"Class"}\hlstd{)}
+\hlstd{res_VA}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-72-1} 
+
+}
+
+\caption[OTUs significantly different in terms of abundances between Verghello (positive values) and Asco (negative values)]{OTUs significantly different in terms of abundances between Verghello (positive values) and Asco (negative values)}\label{fig:unnamed-chunk-72}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{res_VB} \hlkwb{<-} \hlkwd{plot_deseq2_phyloseq}\hlstd{(data.f3_deseq2,} \hlkwc{tax_table} \hlstd{= data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{,}
+                               \hlkwc{contrast} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"Sites"}\hlstd{,} \hlstr{"Verghello"}\hlstd{,} \hlstr{"Bavella"}\hlstd{),}
+                               \hlkwc{taxa} \hlstd{=} \hlstr{"Species"}\hlstd{,} \hlkwc{color_tax} \hlstd{=} \hlstr{"Class"}\hlstd{)}
+\hlstd{res_VB}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-73-1} 
+
+}
+
+\caption[OTUs significantly different in terms of abundances between Verghello (positive values) and Bavella (negative values)]{OTUs significantly different in terms of abundances between Verghello (positive values) and Bavella (negative values)}\label{fig:unnamed-chunk-73}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{landscape}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{res_AB} \hlkwb{<-} \hlkwd{plot_deseq2_phyloseq}\hlstd{(data.f3_deseq2,} \hlkwc{tax_table} \hlstd{= data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{,}
+                               \hlkwc{contrast} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"Sites"}\hlstd{,} \hlstr{"Asco"}\hlstd{,} \hlstr{"Bavella"}\hlstd{),}
+                               \hlkwc{taxa} \hlstd{=} \hlstr{"Species"}\hlstd{,} \hlkwc{color_tax} \hlstd{=} \hlstr{"Class"}\hlstd{)}
+\hlstd{res_AB}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-74-1} 
+
+}
+
+\caption[OTUs significantly different in terms of abundances between Asco (positive values) and Bavella (negative values)]{OTUs significantly different in terms of abundances between Asco (positive values) and Bavella (negative values)}\label{fig:unnamed-chunk-74}
+\end{figure}
+
+
+\end{knitrout}
+\end{landscape}
+
+% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:23:59 2017
+\begin{table}[ht]
+\centering
+\begingroup\tiny
+\begin{tabular}{llllll}
+  \hline
+ & Comparison & OTU\_names & Species & Class & log2FoldChange 
+ (negative = more on second levels) \\ 
+  \hline
+1 & Verghello vs Asco & SH200057.07FU\_AY843076\_reps &  &  & -4.0407542541417 \\ 
+  2 & Verghello vs Asco & New.CleanUp.ReferenceOTU1770 &  &  & -24.6790763314907 \\ 
+  3 & Verghello vs Asco & SH127907.07FU\_DQ780388\_refs & Davidiella tassiana & Dothideomycetes & -2.38306389114883 \\ 
+  4 & Verghello vs Asco & New.CleanUp.ReferenceOTU5157 &  & Dothideomycetes & -3.73720412281358 \\ 
+  5 & Verghello vs Asco & New.CleanUp.ReferenceOTU2469 &  & Dothideomycetes & -3.94502965159243 \\ 
+  6 & Verghello vs Asco & New.CleanUp.ReferenceOTU3996 & Capnobotryella sp MA 4642 & Dothideomycetes & -2.3439677843879 \\ 
+  7 & Verghello vs Asco & New.CleanUp.ReferenceOTU5258 &  &  & -3.49945135093844 \\ 
+  8 & Verghello vs Asco & New.CleanUp.ReferenceOTU2018 &  &  & -2.49803884657837 \\ 
+  9 & Verghello vs Asco & New.CleanUp.ReferenceOTU1461 &  & Dothideomycetes & -3.06836744519646 \\ 
+  10 & Verghello vs Asco & New.ReferenceOTU14 &  &  & -2.16563566468442 \\ 
+  11 & Verghello vs Asco & New.CleanUp.ReferenceOTU1023 &  &  & -2.24952094123825 \\ 
+  12 & Verghello vs Asco & New.ReferenceOTU69 &  &  & 3.44297543431105 \\ 
+  13 & Verghello vs Asco & New.CleanUp.ReferenceOTU2768 & Dothideomycetes sp 11147 & Dothideomycetes & -3.56819089741535 \\ 
+  14 & Verghello vs Asco & New.CleanUp.ReferenceOTU4452 & Phaeomoniella sp & Eurotiomycetes & -3.17267563744643 \\ 
+  15 & Verghello vs Asco & New.ReferenceOTU128 &  &  & 2.891473978103 \\ 
+  16 & Verghello vs Asco & New.CleanUp.ReferenceOTU2140 &  & Dothideomycetes & -2.87782099181598 \\ 
+  17 & Verghello vs Asco & New.ReferenceOTU83 & Capnobotryella sp MA 4642 & Dothideomycetes & -2.6675117357848 \\ 
+  18 & Verghello vs Asco & New.CleanUp.ReferenceOTU5403 &  &  & -2.71599552048226 \\ 
+  19 & Verghello vs Asco & New.CleanUp.ReferenceOTU6286 &  & Leotiomycetes & -3.37227698939496 \\ 
+  20 & Verghello vs Asco & New.CleanUp.ReferenceOTU405 &  &  & 3.02222564519143 \\ 
+  21 & Verghello vs Asco & New.CleanUp.ReferenceOTU2257 &  & Leotiomycetes & -1.94181850226078 \\ 
+  22 & Verghello vs Asco & New.ReferenceOTU91 & fungal sp TRN287 & unidentified & -3.35310980259584 \\ 
+  23 & Verghello vs Asco & New.CleanUp.ReferenceOTU1582 &  & Dothideomycetes & -3.8894236232724 \\ 
+  24 & Verghello vs Asco & New.CleanUp.ReferenceOTU3034 &  & Dothideomycetes & -3.7691205317524 \\ 
+  25 & Verghello vs Asco & New.CleanUp.ReferenceOTU3877 &  &  & -2.91496849506285 \\ 
+  26 & Verghello vs Asco & New.CleanUp.ReferenceOTU4128 &  & Dothideomycetes & -2.68118762168957 \\ 
+  27 & Verghello vs Asco & New.CleanUp.ReferenceOTU2204 &  &  & 3.48918515064991 \\ 
+  28 & Verghello vs Asco & New.CleanUp.ReferenceOTU1124 &  & Dothideomycetes & -3.0201750258822 \\ 
+  29 & Verghello vs Asco & New.ReferenceOTU77 &  & Dothideomycetes & -3.90157972475388 \\ 
+  30 & Verghello vs Asco & New.CleanUp.ReferenceOTU4251 & fungal sp TRN287 & unidentified & -3.74237103535745 \\ 
+  31 & Verghello vs Asco & New.CleanUp.ReferenceOTU4270 &  &  & 3.65642945371858 \\ 
+  32 & Verghello vs Asco & New.CleanUp.ReferenceOTU1866 &  &  & -4.29516742120644 \\ 
+  33 & Verghello vs Asco & New.CleanUp.ReferenceOTU2594 &  & Dothideomycetes & -2.92019526244776 \\ 
+  34 & Verghello vs Asco & New.CleanUp.ReferenceOTU4335 & Phaeothecoidea sp & Dothideomycetes & 2.23132133531876 \\ 
+  35 & Verghello vs Asco & New.CleanUp.ReferenceOTU1211 & Phaeotheca sp & Dothideomycetes & -4.15907125495757 \\ 
+  36 & Verghello vs Asco & New.CleanUp.ReferenceOTU3089 &  & Dothideomycetes & -2.46295965536206 \\ 
+  37 & Verghello vs Asco & New.CleanUp.ReferenceOTU2729 &  & Dothideomycetes & -8.17280664276634 \\ 
+  38 & Verghello vs Asco & New.CleanUp.ReferenceOTU1325 &  &  & 3.40278786005025 \\ 
+  39 & Verghello vs Asco & New.CleanUp.ReferenceOTU1779 & Capnobotryella sp MA 4642 & Dothideomycetes & -2.71716108510325 \\ 
+  40 & Verghello vs Asco & New.CleanUp.ReferenceOTU617 &  &  & -2.5522071382824 \\ 
+  41 & Verghello vs Asco & New.CleanUp.ReferenceOTU3655 &  &  & -2.92594421012468 \\ 
+  42 & Verghello vs Asco & SH027337.07FU\_EU707898\_reps\_singleton &  & Dothideomycetes & 2.51258937103459 \\ 
+  43 & Verghello vs Asco & New.CleanUp.ReferenceOTU2256 &  & Dothideomycetes & -3.40893529950565 \\ 
+  44 & Verghello vs Asco & New.ReferenceOTU24 &  & Dothideomycetes & -2.95229916712289 \\ 
+  45 & Verghello vs Asco & New.ReferenceOTU21 &  & Dothideomycetes & -3.17471556733971 \\ 
+  46 & Verghello vs Asco & New.CleanUp.ReferenceOTU5825 & Capnobotryella sp MA 4642 & Dothideomycetes & -2.59883342572787 \\ 
+  47 & Verghello vs Asco & New.CleanUp.ReferenceOTU3208 &  &  & 4.06811644065732 \\ 
+  48 & Verghello vs Asco & New.CleanUp.ReferenceOTU5870 &  &  & -3.60797778187428 \\ 
+  49 & Verghello vs Asco & SH215125.07FU\_KJ406972\_reps & Rhytismatales sp & Leotiomycetes & -4.83057303993148 \\ 
+  50 & Verghello vs Asco & SH020264.07FU\_KF800472\_reps\_singleton & Aureobasidium pullulans & Dothideomycetes & -24.7698542518091 \\ 
+  51 & Verghello vs Asco & New.CleanUp.ReferenceOTU3804 & Lachnellula calyciformis & Leotiomycetes & -4.47134827172345 \\ 
+  52 & Verghello vs Asco & SH018491.07FU\_JN053173\_reps\_singleton & fungal sp agrD488 & unidentified & -9.15113175973644 \\ 
+  53 & Verghello vs Asco & New.CleanUp.ReferenceOTU5038 &  & Dothideomycetes & -3.77537799709519 \\ 
+  54 & Verghello vs Asco & New.CleanUp.ReferenceOTU186 & Capnobotryella sp MA 4642 & Dothideomycetes & -3.12530974729654 \\ 
+  55 & Verghello vs Asco & New.CleanUp.ReferenceOTU733 & fungal sp agrD488 & unidentified & -5.17756965843196 \\ 
+  56 & Verghello vs Asco & New.CleanUp.ReferenceOTU496 &  &  & -5.24203193721767 \\ 
+  57 & Verghello vs Asco & New.CleanUp.ReferenceOTU485 & fungal sp TRN287 & unidentified & -3.50658784085513 \\ 
+  58 & Verghello vs Asco & New.CleanUp.ReferenceOTU4078 & Capnobotryella sp MA 4642 & Dothideomycetes & -3.28942465133106 \\ 
+  59 & Verghello vs Asco & New.CleanUp.ReferenceOTU551 &  & Dothideomycetes & -2.90877746553527 \\ 
+  60 & Verghello vs Asco & New.ReferenceOTU2 &  &  & -28.775503383438 \\ 
+  61 & Verghello vs Asco & New.CleanUp.ReferenceOTU1645 & Lophodermium seditiosum & Leotiomycetes & 2.54496105588887 \\ 
+  62 & Verghello vs Asco & New.CleanUp.ReferenceOTU2382 & Phaeotheca sp & Dothideomycetes & 2.85177899653228 \\ 
+  63 & Verghello vs Asco & New.CleanUp.ReferenceOTU1566 &  &  & 3.45767555951727 \\ 
+  64 & Verghello vs Asco & New.CleanUp.ReferenceOTU49 &  &  & 3.46893361479709 \\ 
+  65 & Verghello vs Asco & New.CleanUp.ReferenceOTU1312 &  & Dothideomycetes & -3.75954143874704 \\ 
+  66 & Verghello vs Asco & New.CleanUp.ReferenceOTU2784 &  & Dothideomycetes & -2.91450576680127 \\ 
+  67 & Verghello vs Asco & New.CleanUp.ReferenceOTU5448 &  & Dothideomycetes & -2.82804917380157 \\ 
+  68 & Verghello vs Asco & New.CleanUp.ReferenceOTU1778 &  & Dothideomycetes & -6.90844720707245 \\ 
+  69 & Verghello vs Asco & New.CleanUp.ReferenceOTU5003 & Sarea sp & Lecanoromycetes & 6.4277295951405 \\ 
+  70 & Verghello vs Asco & SH006640.07FU\_GU910926\_reps\_singleton & Sporormiaceae sp & Dothideomycetes & -5.97998200105863 \\ 
+  71 & Verghello vs Asco & New.CleanUp.ReferenceOTU4791 & fungal sp agrD488 & unidentified & -24.7666624761591 \\ 
+  72 & Verghello vs Asco & New.CleanUp.ReferenceOTU2190 &  & Dothideomycetes & -3.22755115301385 \\ 
+  73 & Verghello vs Asco & New.CleanUp.ReferenceOTU2400 &  & Dothideomycetes & -4.21110850370276 \\ 
+  74 & Verghello vs Asco & SH184176.07FU\_GU909656\_reps & Sporormiaceae sp & Dothideomycetes & -6.00364485230586 \\ 
+  75 & Verghello vs Asco & SH205426.07FU\_AY843155\_reps &  &  & -24.9579666000812 \\ 
+  76 & Verghello vs Asco & New.CleanUp.ReferenceOTU4861 &  & Leotiomycetes & 22.2388704716995 \\ 
+  77 & Verghello vs Asco & New.CleanUp.ReferenceOTU3295 &  &  & 6.65123975257568 \\ 
+  78 & Verghello vs Asco & SH202297.07FU\_KF675366\_reps &  & Dothideomycetes & 23.3317918150654 \\ 
+  79 & Verghello vs Asco & New.CleanUp.ReferenceOTU5274 &  & Eurotiomycetes & 21.2386330777242 \\ 
+  80 & Verghello vs Asco & New.CleanUp.ReferenceOTU5764 &  & Lecanoromycetes & 25.8033702549455 \\ 
+  81 & Verghello vs Bavella & SH197740.07FU\_EF419976\_reps & Phaeomoniella sp & Eurotiomycetes & 3.01191870374097 \\ 
+  82 & Verghello vs Bavella & SH214165.07FU\_AY843074\_reps &  & Dothideomycetes & 1.88265028828519 \\ 
+  83 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1083 & Lophodermium conigenum & Leotiomycetes & 3.95004407392942 \\ 
+  84 & Verghello vs Bavella & New.ReferenceOTU4 & fungal sp TRN287 & unidentified & 2.86251081858689 \\ 
+  85 & Verghello vs Bavella & SH017706.07FU\_AJ971406\_reps\_singleton & Capnobotryella sp MA 4642 & Dothideomycetes & 2.54623521500715 \\ 
+  86 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4468 &  & Dothideomycetes & 2.7737238869659 \\ 
+  87 & Verghello vs Bavella & SH006502.07FU\_FN868467\_reps\_singleton & Leotiomycetes sp BLD3 & Leotiomycetes & 3.89839831920109 \\ 
+  88 & Verghello vs Bavella & New.ReferenceOTU19 &  & Dothideomycetes & 2.55312805953063 \\ 
+  89 & Verghello vs Bavella & New.ReferenceOTU16 &  &  & 3.78324511694868 \\ 
+  90 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2078 &  & Leotiomycetes & 3.97186051632267 \\ 
+  91 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1128 &  & Leotiomycetes & 3.88411531596102 \\ 
+  92 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5051 &  &  & 5.47137216131685 \\ 
+  93 & Verghello vs Bavella & SH206392.07FU\_AM921728\_reps & Dothioraceae sp & Dothideomycetes & 2.49584211265739 \\ 
+  94 & Verghello vs Bavella & New.CleanUp.ReferenceOTU69 & Phaeotheca sp & Dothideomycetes & 5.59688808234295 \\ 
+  95 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1913 &  &  & 3.12787189465673 \\ 
+  96 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6463 &  & Dothideomycetes & 2.20132711628261 \\ 
+  97 & Verghello vs Bavella & New.ReferenceOTU51 & Lophodermium conigenum & Leotiomycetes & 4.03896922221753 \\ 
+  98 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5284 &  & Dothideomycetes & 2.19621641754827 \\ 
+  99 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4893 & fungal sp TRN287 & unidentified & 3.1463010425868 \\ 
+  100 & Verghello vs Bavella & SH211751.07FU\_KJ406871\_reps &  &  & 4.07499554637067 \\ 
+  101 & Verghello vs Bavella & New.CleanUp.ReferenceOTU765 & Ochrocladosporium sp & Dothideomycetes & 4.49907182970484 \\ 
+  102 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2528 &  & Leotiomycetes & 3.88850861419167 \\ 
+  103 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4409 &  & Leotiomycetes & 4.5910924430294 \\ 
+  104 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1703 &  &  & 6.53824338573641 \\ 
+  105 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3609 & fungal sp TRN287 & unidentified & 22.6742092560571 \\ 
+  106 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2145 &  & Leotiomycetes & 2.33068716549373 \\ 
+  107 & Verghello vs Bavella & New.CleanUp.ReferenceOTU406 & fungal sp TRN213 & unidentified & 3.54502529458945 \\ 
+  108 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1034 &  &  & 7.04690915507947 \\ 
+  109 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1805 &  & Dothideomycetes & -2.6470810338849 \\ 
+  110 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2995 & Leotiomycetes sp BLD3 & Leotiomycetes & 3.29001240215021 \\ 
+  111 & Verghello vs Bavella & New.ReferenceOTU75 & Ochrocladosporium sp & Dothideomycetes & 4.73369265414639 \\ 
+  112 & Verghello vs Bavella & New.ReferenceOTU27 & Knufia sp & Incertae sedis & 3.05668173259809 \\ 
+  113 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3996 & Capnobotryella sp MA 4642 & Dothideomycetes & 2.63595734773035 \\ 
+  114 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3961 &  & Dothideomycetes & 2.42560739841552 \\ 
+  115 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5928 &  & Leotiomycetes & 1.72821442202908 \\ 
+  116 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2018 &  &  & 4.79718637887881 \\ 
+  117 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1188 & fungal sp TRN287 & unidentified & 4.24946061869778 \\ 
+  118 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1514 &  & Dothideomycetes & 3.49430856510713 \\ 
+  119 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3782 & Lophodermium conigenum & Leotiomycetes & 3.30889709883757 \\ 
+  120 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4100 &  & Leotiomycetes & 2.04031093216133 \\ 
+  121 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1974 &  & Dothideomycetes & 2.2453723516831 \\ 
+  122 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6152 &  & Dothideomycetes & 2.61321485845682 \\ 
+  123 & Verghello vs Bavella & New.ReferenceOTU14 &  &  & 5.11574351637901 \\ 
+  124 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5852 &  & Leotiomycetes & 3.11335542949655 \\ 
+  125 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1023 &  &  & 3.44527380997411 \\ 
+  126 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2374 &  & Leotiomycetes & 3.14354194282968 \\ 
+  127 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6043 &  & Leotiomycetes & 4.54257266465432 \\ 
+  128 & Verghello vs Bavella & New.ReferenceOTU69 &  &  & 7.44702301417574 \\ 
+  129 & Verghello vs Bavella & New.ReferenceOTU117 &  &  & 3.68808981965122 \\ 
+  130 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1463 & Dothioraceae sp & Dothideomycetes & 2.39390757221355 \\ 
+  131 & Verghello vs Bavella & New.ReferenceOTU54 &  & Leotiomycetes & 4.49460759433195 \\ 
+  132 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1664 & Dothioraceae sp & Dothideomycetes & 2.62682328197884 \\ 
+  133 & Verghello vs Bavella & New.ReferenceOTU128 &  &  & 4.13257816950354 \\ 
+  134 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5181 & Lophodermium conigenum & Leotiomycetes & 2.24189263815127 \\ 
+  135 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2492 &  & Leotiomycetes & 3.52618384349437 \\ 
+  136 & Verghello vs Bavella & New.CleanUp.ReferenceOTU560 &  & Leotiomycetes & 3.01069298064754 \\ 
+  137 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2677 &  & Leotiomycetes & 3.82452298673865 \\ 
+  138 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5403 &  &  & 3.86205305978266 \\ 
+  139 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2201 &  & Dothideomycetes & 2.01395845089269 \\ 
+  140 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1157 &  &  & 3.5052710043339 \\ 
+  141 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5645 & Ochrocladosporium sp & Dothideomycetes & 2.96209232699264 \\ 
+  142 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1512 &  & Leotiomycetes & 2.88068789652219 \\ 
+  143 & Verghello vs Bavella & New.ReferenceOTU56 & Phaeomoniella sp & Eurotiomycetes & 3.6869145076684 \\ 
+  144 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5262 & Leotiomycetes sp BLD3 & Leotiomycetes & 3.04177238607156 \\ 
+  145 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5560 &  & Leotiomycetes & 4.01419539283498 \\ 
+  146 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1145 &  &  & 4.58788795339147 \\ 
+  147 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1268 &  & Dothideomycetes & 1.91029742177382 \\ 
+  148 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2278 & Cyclaneusma minus & Leotiomycetes & 2.14944411551492 \\ 
+  149 & Verghello vs Bavella & New.ReferenceOTU80 &  & Leotiomycetes & 3.05834891110638 \\ 
+  150 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4693 &  &  & 4.69798799569388 \\ 
+  151 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4510 & Leotiomycetes sp BLD3 & Leotiomycetes & 3.18062360105968 \\ 
+  152 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2084 &  & Leotiomycetes & 3.51828230849531 \\ 
+  153 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2229 &  & Leotiomycetes & 3.12124932528434 \\ 
+  154 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3034 &  & Dothideomycetes & -3.10175893899205 \\ 
+  155 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1725 &  & Leotiomycetes & 3.90318667642433 \\ 
+  156 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3877 &  &  & 3.43413772505093 \\ 
+  157 & Verghello vs Bavella & SH184038.07FU\_FN435818\_reps & Leotiomycetes sp BLD3 & Leotiomycetes & 2.76288819977702 \\ 
+  158 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3589 &  & Leotiomycetes & 4.0044483048082 \\ 
+  159 & Verghello vs Bavella & New.ReferenceOTU98 & Phaeothecoidea sp & Dothideomycetes & 2.85779092955155 \\ 
+  160 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4128 &  & Dothideomycetes & -2.91093119240415 \\ 
+  161 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6103 &  & Leotiomycetes & 3.21687052376387 \\ 
+  162 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2204 &  &  & 5.92255301290504 \\ 
+  163 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6078 &  & Leotiomycetes & 3.4991749316024 \\ 
+  164 & Verghello vs Bavella & New.CleanUp.ReferenceOTU342 & Phaeomoniella sp & Eurotiomycetes & 3.29028762713566 \\ 
+  165 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5767 & Ochrocladosporium sp & Dothideomycetes & 4.88834927551315 \\ 
+  166 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1866 &  &  & 3.46462634618229 \\ 
+  167 & Verghello vs Bavella & New.CleanUp.ReferenceOTU979 &  & Eurotiomycetes & 3.65318434619396 \\ 
+  168 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1315 & Lophodermium conigenum & Leotiomycetes & 4.34818433770529 \\ 
+  169 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5372 &  &  & 4.04171019731293 \\ 
+  170 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1028 &  & Leotiomycetes & 4.20815820814323 \\ 
+  171 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1211 & Phaeotheca sp & Dothideomycetes & 3.92239320210371 \\ 
+  172 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4560 &  & Leotiomycetes & 3.34206956892582 \\ 
+  173 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1821 &  &  & 4.3341184288606 \\ 
+  174 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1327 & Leotiomycetes sp BLD3 & Leotiomycetes & 2.6884993354755 \\ 
+  175 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1004 &  & Leotiomycetes & 3.09425220611284 \\ 
+  176 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5729 &  &  & 3.22572401712828 \\ 
+  177 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2729 &  & Dothideomycetes & 19.1306001839078 \\ 
+  178 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1325 &  &  & 6.60533230648282 \\ 
+  179 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2685 &  &  & 3.7703435180171 \\ 
+  180 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1864 &  &  & 3.28970016151667 \\ 
+  181 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5004 &  & Leotiomycetes & 2.92505301807619 \\ 
+  182 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4685 &  & Leotiomycetes & 3.55049958389883 \\ 
+  183 & Verghello vs Bavella & New.CleanUp.ReferenceOTU583 &  &  & 4.16048155811651 \\ 
+  184 & Verghello vs Bavella & New.CleanUp.ReferenceOTU617 &  &  & 3.5600699828284 \\ 
+  185 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4904 &  &  & 3.78582096006535 \\ 
+  186 & Verghello vs Bavella & New.ReferenceOTU115 &  &  & 3.79130283527176 \\ 
+  187 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1781 &  & Leotiomycetes & 2.92219509095538 \\ 
+  188 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2718 & Lophodermium conigenum & Leotiomycetes & 3.91894592295986 \\ 
+  189 & Verghello vs Bavella & New.ReferenceOTU32 & Leotiomycetes sp BLD3 & Leotiomycetes & 2.98860718147124 \\ 
+  190 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4515 & Ochrocladosporium sp & Dothideomycetes & 4.42739155821338 \\ 
+  191 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3122 &  &  & 5.1690915253963 \\ 
+  192 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4910 &  & Leotiomycetes & 3.45955979430129 \\ 
+  193 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6216 & Leotiomycetes sp BLD3 & Leotiomycetes & 3.17163336050831 \\ 
+  194 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2537 &  & Leotiomycetes & 2.5516292850209 \\ 
+  195 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2028 &  & Dothideomycetes & 6.63027326782936 \\ 
+  196 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1637 & Leotiomycetes sp BLD3 & Leotiomycetes & 2.74750590656811 \\ 
+  197 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1845 &  &  & 4.90916314833571 \\ 
+  198 & Verghello vs Bavella & New.ReferenceOTU67 &  &  & 6.48121469097534 \\ 
+  199 & Verghello vs Bavella & New.ReferenceOTU41 &  &  & 3.03711575547895 \\ 
+  200 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6109 &  & Leotiomycetes & 3.38977839527011 \\ 
+  201 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1125 & Aureobasidium pullulans & Dothideomycetes & 4.01337020548433 \\ 
+  202 & Verghello vs Bavella & SH189181.07FU\_AM901716\_reps & Phaeotheca sp & Dothideomycetes & 3.32777455582132 \\ 
+  203 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3967 &  & Leotiomycetes & 3.64430945077488 \\ 
+  204 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3915 &  & Leotiomycetes & 4.59172841603152 \\ 
+  205 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1575 & Dothioraceae sp & Dothideomycetes & 2.86635376402302 \\ 
+  206 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5902 &  & Leotiomycetes & 2.29850802961489 \\ 
+  207 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5439 &  & Dothideomycetes & -2.18418171575094 \\ 
+  208 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4739 &  & Leotiomycetes & 3.14779910917495 \\ 
+  209 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6352 &  & Leotiomycetes & 4.1274653293207 \\ 
+  210 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3882 & Lophodermium conigenum & Leotiomycetes & 2.59408253366974 \\ 
+  211 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6499 &  & Leotiomycetes & 2.85543789779017 \\ 
+  212 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4209 &  &  & 8.30360980808 \\ 
+  213 & Verghello vs Bavella & New.CleanUp.ReferenceOTU660 &  & Leotiomycetes & 3.90183635280575 \\ 
+  214 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3583 &  & Leotiomycetes & 3.61087286943366 \\ 
+  215 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3392 & Ochrocladosporium sp & Dothideomycetes & 2.56103443670943 \\ 
+  216 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5007 &  &  & 22.1932350385959 \\ 
+  217 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1566 &  &  & 4.25947987870524 \\ 
+  218 & Verghello vs Bavella & New.CleanUp.ReferenceOTU49 &  &  & 5.81477259616294 \\ 
+  219 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2784 &  & Dothideomycetes & -2.42302305893759 \\ 
+  220 & Verghello vs Bavella & New.ReferenceOTU130 & Lachnellula calyciformis & Leotiomycetes & -3.51703671893425 \\ 
+  221 & Verghello vs Bavella & New.CleanUp.ReferenceOTU2147 &  &  & -3.69792394487233 \\ 
+  222 & Verghello vs Bavella & SH407690.07FU\_AY213672\_refs &  & Eurotiomycetes & 4.08744732448547 \\ 
+  223 & Verghello vs Bavella & New.ReferenceOTU7 &  &  & 7.58023660373193 \\ 
+  224 & Verghello vs Bavella & New.CleanUp.ReferenceOTU3295 &  &  & 6.18698365393335 \\ 
+  225 & Verghello vs Bavella & New.CleanUp.ReferenceOTU1954 &  &  & 4.89409988759804 \\ 
+  226 & Verghello vs Bavella & New.CleanUp.ReferenceOTU93 &  &  & 2.9626787358061 \\ 
+  227 & Verghello vs Bavella & New.CleanUp.ReferenceOTU4260 &  & Leotiomycetes & 23.717264636723 \\ 
+  228 & Verghello vs Bavella & New.CleanUp.ReferenceOTU6011 & Sporormiaceae sp & Dothideomycetes & 9.98462308817199 \\ 
+  229 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5274 &  & Eurotiomycetes & 35.2431071052242 \\ 
+  230 & Verghello vs Bavella & New.CleanUp.ReferenceOTU5764 &  & Lecanoromycetes & 38.942622117759 \\ 
+  231 & Asco vs Bavella & SH197740.07FU\_EF419976\_reps & Phaeomoniella sp & Eurotiomycetes & 3.96192058648403 \\ 
+  232 & Asco vs Bavella & SH214165.07FU\_AY843074\_reps &  & Dothideomycetes & 2.67516624513345 \\ 
+  233 & Asco vs Bavella & New.ReferenceOTU103 & Cryptodiscus microstomus & Lecanoromycetes & 4.31076240442569 \\ 
+  234 & Asco vs Bavella & New.CleanUp.ReferenceOTU1083 & Lophodermium conigenum & Leotiomycetes & 4.35829031647911 \\ 
+  235 & Asco vs Bavella & New.ReferenceOTU4 & fungal sp TRN287 & unidentified & 5.20820243770481 \\ 
+  236 & Asco vs Bavella & SH200057.07FU\_AY843076\_reps &  &  & 4.13819302142388 \\ 
+  237 & Asco vs Bavella & SH017706.07FU\_AJ971406\_reps\_singleton & Capnobotryella sp MA 4642 & Dothideomycetes & 5.04801187488714 \\ 
+  238 & Asco vs Bavella & SH006502.07FU\_FN868467\_reps\_singleton & Leotiomycetes sp BLD3 & Leotiomycetes & 3.28021185295021 \\ 
+  239 & Asco vs Bavella & New.ReferenceOTU19 &  & Dothideomycetes & 2.97910567167047 \\ 
+  240 & Asco vs Bavella & New.ReferenceOTU16 &  &  & 4.33587315051026 \\ 
+  241 & Asco vs Bavella & New.CleanUp.ReferenceOTU2078 &  & Leotiomycetes & 4.45561102175795 \\ 
+  242 & Asco vs Bavella & New.CleanUp.ReferenceOTU1128 &  & Leotiomycetes & 4.55867413785044 \\ 
+  243 & Asco vs Bavella & New.CleanUp.ReferenceOTU5051 &  &  & 7.47573285642515 \\ 
+  244 & Asco vs Bavella & SH206392.07FU\_AM921728\_reps & Dothioraceae sp & Dothideomycetes & 3.12674401974399 \\ 
+  245 & Asco vs Bavella & New.CleanUp.ReferenceOTU69 & Phaeotheca sp & Dothideomycetes & 8.9667009416363 \\ 
+  246 & Asco vs Bavella & New.CleanUp.ReferenceOTU1770 &  &  & 25.4031349672268 \\ 
+  247 & Asco vs Bavella & New.CleanUp.ReferenceOTU6463 &  & Dothideomycetes & 2.68179262761663 \\ 
+  248 & Asco vs Bavella & New.ReferenceOTU51 & Lophodermium conigenum & Leotiomycetes & 4.69037106539435 \\ 
+  249 & Asco vs Bavella & New.CleanUp.ReferenceOTU5284 &  & Dothideomycetes & 2.16458713806187 \\ 
+  250 & Asco vs Bavella & New.CleanUp.ReferenceOTU4893 & fungal sp TRN287 & unidentified & 5.38686075130884 \\ 
+  251 & Asco vs Bavella & SH211751.07FU\_KJ406871\_reps &  &  & 5.19747155581467 \\ 
+  252 & Asco vs Bavella & New.CleanUp.ReferenceOTU765 & Ochrocladosporium sp & Dothideomycetes & 3.12229084292926 \\ 
+  253 & Asco vs Bavella & SH127907.07FU\_DQ780388\_refs & Davidiella tassiana & Dothideomycetes & 2.63969824367584 \\ 
+  254 & Asco vs Bavella & New.CleanUp.ReferenceOTU2528 &  & Leotiomycetes & 4.16694642580532 \\ 
+  255 & Asco vs Bavella & New.CleanUp.ReferenceOTU4409 &  & Leotiomycetes & 4.61299335954312 \\ 
+  256 & Asco vs Bavella & New.ReferenceOTU45 & Phaeomoniella sp & Eurotiomycetes & 2.2050950552507 \\ 
+  257 & Asco vs Bavella & New.CleanUp.ReferenceOTU117 & fungal sp TRN213 & unidentified & 7.40164140415132 \\ 
+  258 & Asco vs Bavella & New.CleanUp.ReferenceOTU5157 &  & Dothideomycetes & 5.88853204629036 \\ 
+  259 & Asco vs Bavella & New.CleanUp.ReferenceOTU1703 &  &  & 8.7369084269015 \\ 
+  260 & Asco vs Bavella & New.ReferenceOTU58 & Capnobotryella sp MA 4642 & Dothideomycetes & 2.80534886729003 \\ 
+  261 & Asco vs Bavella & SH023168.07FU\_AY843079\_reps\_singleton & fungal sp TRN213 & unidentified & 3.85008973303142 \\ 
+  262 & Asco vs Bavella & New.CleanUp.ReferenceOTU3609 & fungal sp TRN287 & unidentified & 24.3710029713882 \\ 
+  263 & Asco vs Bavella & New.CleanUp.ReferenceOTU2145 &  & Leotiomycetes & 2.78901998969413 \\ 
+  264 & Asco vs Bavella & New.CleanUp.ReferenceOTU406 & fungal sp TRN213 & unidentified & 4.08562947834546 \\ 
+  265 & Asco vs Bavella & New.CleanUp.ReferenceOTU1034 &  &  & 3.95806053810936 \\ 
+  266 & Asco vs Bavella & New.ReferenceOTU40 &  & Dothideomycetes & 2.26051359519485 \\ 
+  267 & Asco vs Bavella & New.CleanUp.ReferenceOTU1289 & Phaeomoniella sp & Eurotiomycetes & 3.50042276859704 \\ 
+  268 & Asco vs Bavella & New.CleanUp.ReferenceOTU4571 &  & Dothideomycetes & 3.6856120136672 \\ 
+  269 & Asco vs Bavella & New.CleanUp.ReferenceOTU2995 & Leotiomycetes sp BLD3 & Leotiomycetes & 2.50775512329203 \\ 
+  270 & Asco vs Bavella & New.ReferenceOTU27 & Knufia sp & Incertae sedis & 4.05445460172351 \\ 
+  271 & Asco vs Bavella & New.ReferenceOTU108 &  & Dothideomycetes & 2.54052385689849 \\ 
+  272 & Asco vs Bavella & New.CleanUp.ReferenceOTU3996 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.97992513211825 \\ 
+  273 & Asco vs Bavella & New.CleanUp.ReferenceOTU5258 &  &  & 6.25577497688328 \\ 
+  274 & Asco vs Bavella & New.CleanUp.ReferenceOTU3961 &  & Dothideomycetes & 2.11929879690525 \\ 
+  275 & Asco vs Bavella & New.CleanUp.ReferenceOTU5928 &  & Leotiomycetes & 1.89697601794379 \\ 
+  276 & Asco vs Bavella & New.CleanUp.ReferenceOTU2018 &  &  & 7.29522522545718 \\ 
+  277 & Asco vs Bavella & New.CleanUp.ReferenceOTU1188 & fungal sp TRN287 & unidentified & 4.38161045058769 \\ 
+  278 & Asco vs Bavella & New.CleanUp.ReferenceOTU1514 &  & Dothideomycetes & 2.8038717818185 \\ 
+  279 & Asco vs Bavella & New.CleanUp.ReferenceOTU3782 & Lophodermium conigenum & Leotiomycetes & 3.84236772620865 \\ 
+  280 & Asco vs Bavella & SH186613.07FU\_AY210347\_reps &  & Dothideomycetes & 3.14642125862191 \\ 
+  281 & Asco vs Bavella & New.CleanUp.ReferenceOTU4100 &  & Leotiomycetes & 1.99786585071939 \\ 
+  282 & Asco vs Bavella & New.CleanUp.ReferenceOTU6152 &  & Dothideomycetes & 2.81879716733691 \\ 
+  283 & Asco vs Bavella & New.ReferenceOTU14 &  &  & 7.28137918106343 \\ 
+  284 & Asco vs Bavella & New.CleanUp.ReferenceOTU5852 &  & Leotiomycetes & 3.21766496541212 \\ 
+  285 & Asco vs Bavella & New.CleanUp.ReferenceOTU1023 &  &  & 5.69479475121237 \\ 
+  286 & Asco vs Bavella & New.CleanUp.ReferenceOTU4016 & fungal sp TRN287 & unidentified & 3.08198794187448 \\ 
+  287 & Asco vs Bavella & New.CleanUp.ReferenceOTU2374 &  & Leotiomycetes & 3.68765290213757 \\ 
+  288 & Asco vs Bavella & New.CleanUp.ReferenceOTU6043 &  & Leotiomycetes & 4.78392840582428 \\ 
+  289 & Asco vs Bavella & New.ReferenceOTU69 &  &  & 4.0040475798647 \\ 
+  290 & Asco vs Bavella & New.CleanUp.ReferenceOTU2768 & Dothideomycetes sp 11147 & Dothideomycetes & 3.84897113016475 \\ 
+  291 & Asco vs Bavella & New.CleanUp.ReferenceOTU1463 & Dothioraceae sp & Dothideomycetes & 2.40866364862486 \\ 
+  292 & Asco vs Bavella & New.ReferenceOTU54 &  & Leotiomycetes & 3.78328648230088 \\ 
+  293 & Asco vs Bavella & New.CleanUp.ReferenceOTU1523 & fungal sp TRN287 & unidentified & 2.41732324750173 \\ 
+  294 & Asco vs Bavella & New.CleanUp.ReferenceOTU2783 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.18697006302669 \\ 
+  295 & Asco vs Bavella & New.CleanUp.ReferenceOTU4452 & Phaeomoniella sp & Eurotiomycetes & 3.02261634447441 \\ 
+  296 & Asco vs Bavella & New.CleanUp.ReferenceOTU1664 & Dothioraceae sp & Dothideomycetes & 2.51625629776142 \\ 
+  297 & Asco vs Bavella & New.CleanUp.ReferenceOTU1220 & Phaeothecoidea sp & Dothideomycetes & -2.38875795346011 \\ 
+  298 & Asco vs Bavella & New.CleanUp.ReferenceOTU3066 &  & Dothideomycetes & 5.2702119382648 \\ 
+  299 & Asco vs Bavella & New.CleanUp.ReferenceOTU5181 & Lophodermium conigenum & Leotiomycetes & 2.16029577227925 \\ 
+  300 & Asco vs Bavella & New.CleanUp.ReferenceOTU2140 &  & Dothideomycetes & 3.96061469978047 \\ 
+  301 & Asco vs Bavella & New.CleanUp.ReferenceOTU201 &  & Leotiomycetes & 2.99990731481593 \\ 
+  302 & Asco vs Bavella & New.CleanUp.ReferenceOTU2492 &  & Leotiomycetes & 3.08299339532952 \\ 
+  303 & Asco vs Bavella & New.CleanUp.ReferenceOTU1886 &  & Leotiomycetes & 2.87949870682971 \\ 
+  304 & Asco vs Bavella & New.CleanUp.ReferenceOTU560 &  & Leotiomycetes & 3.45680789691989 \\ 
+  305 & Asco vs Bavella & New.ReferenceOTU83 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.56977543525116 \\ 
+  306 & Asco vs Bavella & New.CleanUp.ReferenceOTU2677 &  & Leotiomycetes & 5.590936513816 \\ 
+  307 & Asco vs Bavella & New.CleanUp.ReferenceOTU5403 &  &  & 6.57804858026492 \\ 
+  308 & Asco vs Bavella & New.ReferenceOTU50 &  & Dothideomycetes & 2.2123290442227 \\ 
+  309 & Asco vs Bavella & New.CleanUp.ReferenceOTU1157 &  &  & 3.86002310758658 \\ 
+  310 & Asco vs Bavella & New.CleanUp.ReferenceOTU1512 &  & Leotiomycetes & 4.97470855149226 \\ 
+  311 & Asco vs Bavella & New.ReferenceOTU56 & Phaeomoniella sp & Eurotiomycetes & 3.20808028209095 \\ 
+  312 & Asco vs Bavella & New.CleanUp.ReferenceOTU5262 & Leotiomycetes sp BLD3 & Leotiomycetes & 2.57415036225594 \\ 
+  313 & Asco vs Bavella & New.CleanUp.ReferenceOTU5560 &  & Leotiomycetes & 3.86688154736795 \\ 
+  314 & Asco vs Bavella & New.CleanUp.ReferenceOTU1372 & Dothideomycetes sp 11147 & Dothideomycetes & 4.27301927420301 \\ 
+  315 & Asco vs Bavella & New.CleanUp.ReferenceOTU1145 &  &  & 6.96194844969042 \\ 
+  316 & Asco vs Bavella & New.CleanUp.ReferenceOTU1019 &  &  & -3.58425036256051 \\ 
+  317 & Asco vs Bavella & New.CleanUp.ReferenceOTU6286 &  & Leotiomycetes & 5.03782957880547 \\ 
+  318 & Asco vs Bavella & New.CleanUp.ReferenceOTU405 &  &  & -2.73847084088582 \\ 
+  319 & Asco vs Bavella & New.CleanUp.ReferenceOTU2516 & fungal sp TRN287 & unidentified & 4.21160840704692 \\ 
+  320 & Asco vs Bavella & New.CleanUp.ReferenceOTU1268 &  & Dothideomycetes & 2.93239757754555 \\ 
+  321 & Asco vs Bavella & New.CleanUp.ReferenceOTU3892 & Lophodermium conigenum & Leotiomycetes & 3.8297329054406 \\ 
+  322 & Asco vs Bavella & New.CleanUp.ReferenceOTU2390 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.24767245846034 \\ 
+  323 & Asco vs Bavella & New.CleanUp.ReferenceOTU2257 &  & Leotiomycetes & 3.18297923768624 \\ 
+  324 & Asco vs Bavella & New.ReferenceOTU91 & fungal sp TRN287 & unidentified & 4.87870164127042 \\ 
+  325 & Asco vs Bavella & New.CleanUp.ReferenceOTU4347 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.24175723887357 \\ 
+  326 & Asco vs Bavella & New.ReferenceOTU80 &  & Leotiomycetes & 3.14242880994476 \\ 
+  327 & Asco vs Bavella & New.CleanUp.ReferenceOTU1582 &  & Dothideomycetes & 2.57616645588577 \\ 
+  328 & Asco vs Bavella & New.CleanUp.ReferenceOTU4510 & Leotiomycetes sp BLD3 & Leotiomycetes & 2.10666521476639 \\ 
+  329 & Asco vs Bavella & New.CleanUp.ReferenceOTU4658 & Dothideomycetes sp 11147 & Dothideomycetes & 3.38311704711003 \\ 
+  330 & Asco vs Bavella & New.CleanUp.ReferenceOTU2084 &  & Leotiomycetes & 3.40632653320679 \\ 
+  331 & Asco vs Bavella & New.CleanUp.ReferenceOTU2229 &  & Leotiomycetes & 2.63445844769659 \\ 
+  332 & Asco vs Bavella & New.CleanUp.ReferenceOTU3259 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.31815456033593 \\ 
+  333 & Asco vs Bavella & New.CleanUp.ReferenceOTU1742 & Lophodermium conigenum & Leotiomycetes & 4.46380249135773 \\ 
+  334 & Asco vs Bavella & New.CleanUp.ReferenceOTU1725 &  & Leotiomycetes & 2.91361171711233 \\ 
+  335 & Asco vs Bavella & New.CleanUp.ReferenceOTU3877 &  &  & 6.34910622011378 \\ 
+  336 & Asco vs Bavella & New.ReferenceOTU89 & fungal sp TRN256 & unidentified & 3.91912199468894 \\ 
+  337 & Asco vs Bavella & New.CleanUp.ReferenceOTU2335 & Phaeomoniella sp & Eurotiomycetes & 4.48079008449393 \\ 
+  338 & Asco vs Bavella & New.ReferenceOTU49 &  & Dothideomycetes & 2.5450195198622 \\ 
+  339 & Asco vs Bavella & SH184038.07FU\_FN435818\_reps & Leotiomycetes sp BLD3 & Leotiomycetes & 2.28006198274214 \\ 
+  340 & Asco vs Bavella & New.CleanUp.ReferenceOTU3589 &  & Leotiomycetes & 4.09233053758234 \\ 
+  341 & Asco vs Bavella & New.CleanUp.ReferenceOTU2200 & fungal sp TRN287 & unidentified & 2.9065001257691 \\ 
+  342 & Asco vs Bavella & New.CleanUp.ReferenceOTU6103 &  & Leotiomycetes & 3.58274430369228 \\ 
+  343 & Asco vs Bavella & New.CleanUp.ReferenceOTU5599 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.28711019538041 \\ 
+  344 & Asco vs Bavella & New.CleanUp.ReferenceOTU5402 &  & Dothideomycetes & 3.03554150654958 \\ 
+  345 & Asco vs Bavella & New.CleanUp.ReferenceOTU1124 &  & Dothideomycetes & 3.05886130313579 \\ 
+  346 & Asco vs Bavella & New.ReferenceOTU77 &  & Dothideomycetes & 3.20668976646603 \\ 
+  347 & Asco vs Bavella & New.CleanUp.ReferenceOTU4251 & fungal sp TRN287 & unidentified & 4.24846982430894 \\ 
+  348 & Asco vs Bavella & New.CleanUp.ReferenceOTU6078 &  & Leotiomycetes & 3.66131146156911 \\ 
+  349 & Asco vs Bavella & New.CleanUp.ReferenceOTU1866 &  &  & 7.75979376738873 \\ 
+  350 & Asco vs Bavella & New.CleanUp.ReferenceOTU2594 &  & Dothideomycetes & 4.42222435417372 \\ 
+  351 & Asco vs Bavella & New.CleanUp.ReferenceOTU979 &  & Eurotiomycetes & 5.36900000751485 \\ 
+  352 & Asco vs Bavella & New.CleanUp.ReferenceOTU1788 &  &  & 4.22658100795083 \\ 
+  353 & Asco vs Bavella & New.CleanUp.ReferenceOTU1301 &  & Dothideomycetes & 2.31002118493302 \\ 
+  354 & Asco vs Bavella & New.CleanUp.ReferenceOTU1315 & Lophodermium conigenum & Leotiomycetes & 5.33849827918156 \\ 
+  355 & Asco vs Bavella & New.CleanUp.ReferenceOTU4335 & Phaeothecoidea sp & Dothideomycetes & -2.7002875999469 \\ 
+  356 & Asco vs Bavella & New.CleanUp.ReferenceOTU5372 &  &  & 3.36694365042075 \\ 
+  357 & Asco vs Bavella & New.ReferenceOTU119 & Dothideomycetes sp 11147 & Dothideomycetes & 3.52014467718456 \\ 
+  358 & Asco vs Bavella & New.CleanUp.ReferenceOTU995 &  & Dothideomycetes & 3.47114073418105 \\ 
+  359 & Asco vs Bavella & New.CleanUp.ReferenceOTU3115 &  &  & -2.88752291960669 \\ 
+  360 & Asco vs Bavella & New.CleanUp.ReferenceOTU1028 &  & Leotiomycetes & 4.2136171468793 \\ 
+  361 & Asco vs Bavella & New.CleanUp.ReferenceOTU1211 & Phaeotheca sp & Dothideomycetes & 8.08146445706128 \\ 
+  362 & Asco vs Bavella & New.CleanUp.ReferenceOTU4560 &  & Leotiomycetes & 3.67156523479048 \\ 
+  363 & Asco vs Bavella & New.CleanUp.ReferenceOTU1004 &  & Leotiomycetes & 3.37468861495675 \\ 
+  364 & Asco vs Bavella & New.CleanUp.ReferenceOTU3574 &  & Dothideomycetes & 2.1019847086988 \\ 
+  365 & Asco vs Bavella & New.CleanUp.ReferenceOTU5729 &  &  & 3.39995842642283 \\ 
+  366 & Asco vs Bavella & New.CleanUp.ReferenceOTU3792 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.81940242694709 \\ 
+  367 & Asco vs Bavella & New.CleanUp.ReferenceOTU6476 & fungal sp TRN213 & unidentified & 3.38367315614423 \\ 
+  368 & Asco vs Bavella & New.CleanUp.ReferenceOTU3089 &  & Dothideomycetes & 2.34200338079556 \\ 
+  369 & Asco vs Bavella & New.CleanUp.ReferenceOTU2729 &  & Dothideomycetes & 27.3034068266741 \\ 
+  370 & Asco vs Bavella & New.CleanUp.ReferenceOTU1325 &  &  & 3.20254444643257 \\ 
+  371 & Asco vs Bavella & New.CleanUp.ReferenceOTU1779 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.89292565857875 \\ 
+  372 & Asco vs Bavella & New.CleanUp.ReferenceOTU2262 &  & Dothideomycetes & 3.4079360087907 \\ 
+  373 & Asco vs Bavella & New.CleanUp.ReferenceOTU5479 & fungal sp TRN287 & unidentified & 3.04957439915666 \\ 
+  374 & Asco vs Bavella & New.CleanUp.ReferenceOTU1147 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.72760550007588 \\ 
+  375 & Asco vs Bavella & New.CleanUp.ReferenceOTU1864 &  &  & 5.58942940263828 \\ 
+  376 & Asco vs Bavella & New.CleanUp.ReferenceOTU2341 & Dothioraceae sp & Dothideomycetes & 2.5169589960988 \\ 
+  377 & Asco vs Bavella & New.CleanUp.ReferenceOTU5127 & Cyclaneusma minus & Leotiomycetes & -3.36191543240642 \\ 
+  378 & Asco vs Bavella & New.CleanUp.ReferenceOTU5909 & Dothioraceae sp & Dothideomycetes & 2.55227498646067 \\ 
+  379 & Asco vs Bavella & New.CleanUp.ReferenceOTU5145 & Phaeomoniella sp & Eurotiomycetes & 2.99325455710671 \\ 
+  380 & Asco vs Bavella & New.CleanUp.ReferenceOTU583 &  &  & 5.82650784737102 \\ 
+  381 & Asco vs Bavella & New.CleanUp.ReferenceOTU617 &  &  & 6.1122771211108 \\ 
+  382 & Asco vs Bavella & New.CleanUp.ReferenceOTU3655 &  &  & 2.81546839128599 \\ 
+  383 & Asco vs Bavella & SH027337.07FU\_EU707898\_reps\_singleton &  & Dothideomycetes & -2.7395972934321 \\ 
+  384 & Asco vs Bavella & New.CleanUp.ReferenceOTU2256 &  & Dothideomycetes & 3.30474198294441 \\ 
+  385 & Asco vs Bavella & New.CleanUp.ReferenceOTU4766 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.64321397288719 \\ 
+  386 & Asco vs Bavella & New.CleanUp.ReferenceOTU4904 &  &  & 6.05583514674814 \\ 
+  387 & Asco vs Bavella & New.CleanUp.ReferenceOTU1253 &  & Dothideomycetes & 3.86593891685792 \\ 
+  388 & Asco vs Bavella & New.CleanUp.ReferenceOTU5347 &  & Leotiomycetes & 2.25602792533079 \\ 
+  389 & Asco vs Bavella & New.ReferenceOTU115 &  &  & 3.71260883131502 \\ 
+  390 & Asco vs Bavella & New.CleanUp.ReferenceOTU1781 &  & Leotiomycetes & 3.45828269791419 \\ 
+  391 & Asco vs Bavella & New.CleanUp.ReferenceOTU3122 &  &  & 6.79552631091434 \\ 
+  392 & Asco vs Bavella & New.CleanUp.ReferenceOTU4910 &  & Leotiomycetes & 4.22990511443403 \\ 
+  393 & Asco vs Bavella & New.ReferenceOTU21 &  & Dothideomycetes & 4.33469309167408 \\ 
+  394 & Asco vs Bavella & New.CleanUp.ReferenceOTU2330 & Dothideomycetes sp 11147 & Dothideomycetes & 2.59961758610331 \\ 
+  395 & Asco vs Bavella & New.CleanUp.ReferenceOTU2230 & Capnobotryella sp MA 4642 & Dothideomycetes & 5.05381435535669 \\ 
+  396 & Asco vs Bavella & New.CleanUp.ReferenceOTU5825 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.48468166903087 \\ 
+  397 & Asco vs Bavella & New.CleanUp.ReferenceOTU3208 &  &  & -3.52250698044435 \\ 
+  398 & Asco vs Bavella & New.CleanUp.ReferenceOTU1015 & Leotiomycetes sp BLD3 & Leotiomycetes & 2.26528243144176 \\ 
+  399 & Asco vs Bavella & New.CleanUp.ReferenceOTU2319 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.65414494711834 \\ 
+  400 & Asco vs Bavella & New.CleanUp.ReferenceOTU5870 &  &  & 4.7433959967405 \\ 
+  401 & Asco vs Bavella & New.ReferenceOTU13 &  &  & 5.19738580412549 \\ 
+  402 & Asco vs Bavella & SH215125.07FU\_KJ406972\_reps & Rhytismatales sp & Leotiomycetes & 4.24740290909323 \\ 
+  403 & Asco vs Bavella & New.CleanUp.ReferenceOTU6359 &  &  & 7.31362481163121 \\ 
+  404 & Asco vs Bavella & SH193237.07FU\_AM901739\_reps &  & Eurotiomycetes & 3.05487286085765 \\ 
+  405 & Asco vs Bavella & SH020264.07FU\_KF800472\_reps\_singleton & Aureobasidium pullulans & Dothideomycetes & 25.4472779995012 \\ 
+  406 & Asco vs Bavella & New.CleanUp.ReferenceOTU2537 &  & Leotiomycetes & 2.8693926563869 \\ 
+  407 & Asco vs Bavella & New.CleanUp.ReferenceOTU5353 &  & Dothideomycetes & 4.37377150611883 \\ 
+  408 & Asco vs Bavella & SH195774.07FU\_AJ244232\_refs & Aureobasidium pullulans & Dothideomycetes & 4.64808345601095 \\ 
+  409 & Asco vs Bavella & SH018491.07FU\_JN053173\_reps\_singleton & fungal sp agrD488 & unidentified & 14.0266714340326 \\ 
+  410 & Asco vs Bavella & New.CleanUp.ReferenceOTU1872 &  & Dothideomycetes & 2.79442106219505 \\ 
+  411 & Asco vs Bavella & New.CleanUp.ReferenceOTU615 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.27292243194396 \\ 
+  412 & Asco vs Bavella & New.CleanUp.ReferenceOTU2929 &  & Leotiomycetes & 4.08829286047999 \\ 
+  413 & Asco vs Bavella & New.CleanUp.ReferenceOTU332 &  &  & 2.51779738681969 \\ 
+  414 & Asco vs Bavella & New.CleanUp.ReferenceOTU2028 &  & Dothideomycetes & 10.0929172598105 \\ 
+  415 & Asco vs Bavella & New.ReferenceOTU96 &  & Leotiomycetes & 2.83350124609465 \\ 
+  416 & Asco vs Bavella & New.CleanUp.ReferenceOTU186 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.13356940865677 \\ 
+  417 & Asco vs Bavella & New.CleanUp.ReferenceOTU6167 &  &  & 3.52627476553124 \\ 
+  418 & Asco vs Bavella & New.CleanUp.ReferenceOTU2611 &  &  & 3.57449692307147 \\ 
+  419 & Asco vs Bavella & New.CleanUp.ReferenceOTU733 & fungal sp agrD488 & unidentified & 6.3716594396382 \\ 
+  420 & Asco vs Bavella & New.CleanUp.ReferenceOTU6110 &  &  & 4.10284527841209 \\ 
+  421 & Asco vs Bavella & New.CleanUp.ReferenceOTU3748 &  &  & 5.62228122815018 \\ 
+  422 & Asco vs Bavella & New.CleanUp.ReferenceOTU3566 &  & Leotiomycetes & 2.75264634895668 \\ 
+  423 & Asco vs Bavella & New.CleanUp.ReferenceOTU1845 &  &  & 5.32273877734061 \\ 
+  424 & Asco vs Bavella & New.CleanUp.ReferenceOTU6399 &  &  & 4.00284053156701 \\ 
+  425 & Asco vs Bavella & New.CleanUp.ReferenceOTU3681 & Capnobotryella sp MA 4642 & Dothideomycetes & 3.61711622827629 \\ 
+  426 & Asco vs Bavella & New.CleanUp.ReferenceOTU2231 &  & Dothideomycetes & 2.88338184747444 \\ 
+  427 & Asco vs Bavella & New.ReferenceOTU41 &  &  & 3.13200269050175 \\ 
+  428 & Asco vs Bavella & New.CleanUp.ReferenceOTU6109 &  & Leotiomycetes & 3.91339828166529 \\ 
+  429 & Asco vs Bavella & New.CleanUp.ReferenceOTU3252 &  & Dothideomycetes & 3.60322623400288 \\ 
+  430 & Asco vs Bavella & New.CleanUp.ReferenceOTU1125 & Aureobasidium pullulans & Dothideomycetes & 4.43816883971919 \\ 
+  431 & Asco vs Bavella & New.CleanUp.ReferenceOTU3467 & fungal sp TRN213 & unidentified & 3.36487866601602 \\ 
+  432 & Asco vs Bavella & New.CleanUp.ReferenceOTU3057 &  &  & 4.51810104839955 \\ 
+  433 & Asco vs Bavella & New.CleanUp.ReferenceOTU496 &  &  & 6.4340762086302 \\ 
+  434 & Asco vs Bavella & New.CleanUp.ReferenceOTU453 & Dothioraceae sp & Dothideomycetes & -4.57117268526305 \\ 
+  435 & Asco vs Bavella & New.CleanUp.ReferenceOTU697 &  & Leotiomycetes & 3.49489042785635 \\ 
+  436 & Asco vs Bavella & New.CleanUp.ReferenceOTU952 &  & Dothideomycetes & 5.28161863865169 \\ 
+  437 & Asco vs Bavella & New.CleanUp.ReferenceOTU1575 & Dothioraceae sp & Dothideomycetes & 4.00880984214643 \\ 
+  438 & Asco vs Bavella & New.CleanUp.ReferenceOTU485 & fungal sp TRN287 & unidentified & 5.51711886148334 \\ 
+  439 & Asco vs Bavella & New.CleanUp.ReferenceOTU5902 &  & Leotiomycetes & 3.2826626197849 \\ 
+  440 & Asco vs Bavella & New.CleanUp.ReferenceOTU314 &  & Dothideomycetes & 3.29231458757217 \\ 
+  441 & Asco vs Bavella & New.CleanUp.ReferenceOTU4565 &  &  & -2.04145956580091 \\ 
+  442 & Asco vs Bavella & New.CleanUp.ReferenceOTU5439 &  & Dothideomycetes & -2.02521238949761 \\ 
+  443 & Asco vs Bavella & New.CleanUp.ReferenceOTU3195 &  &  & 3.49421655888074 \\ 
+  444 & Asco vs Bavella & New.CleanUp.ReferenceOTU6352 &  & Leotiomycetes & 3.44278899564086 \\ 
+  445 & Asco vs Bavella & New.CleanUp.ReferenceOTU3882 & Lophodermium conigenum & Leotiomycetes & 3.05098234409047 \\ 
+  446 & Asco vs Bavella & New.CleanUp.ReferenceOTU2887 &  &  & 4.1320258068265 \\ 
+  447 & Asco vs Bavella & New.CleanUp.ReferenceOTU6439 &  & Leotiomycetes & 3.32091212304331 \\ 
+  448 & Asco vs Bavella & New.CleanUp.ReferenceOTU1187 & fungal sp agrD488 & unidentified & 5.16210022964662 \\ 
+  449 & Asco vs Bavella & New.CleanUp.ReferenceOTU4078 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.19161121277482 \\ 
+  450 & Asco vs Bavella & New.CleanUp.ReferenceOTU3548 & fungal sp TRN287 & unidentified & 2.68331346174545 \\ 
+  451 & Asco vs Bavella & New.CleanUp.ReferenceOTU397 & fungal sp TRN287 & unidentified & 3.77691665171943 \\ 
+  452 & Asco vs Bavella & New.ReferenceOTU2 &  &  & 29.3244253718228 \\ 
+  453 & Asco vs Bavella & New.CleanUp.ReferenceOTU4209 &  &  & 12.6456366963938 \\ 
+  454 & Asco vs Bavella & New.CleanUp.ReferenceOTU690 &  &  & 3.08226233257537 \\ 
+  455 & Asco vs Bavella & SH209326.07FU\_JN053133\_reps & Sarea sp & Lecanoromycetes & 6.83955998877082 \\ 
+  456 & Asco vs Bavella & New.CleanUp.ReferenceOTU660 &  & Leotiomycetes & 3.59806290809416 \\ 
+  457 & Asco vs Bavella & New.CleanUp.ReferenceOTU3583 &  & Leotiomycetes & 3.21507688069471 \\ 
+  458 & Asco vs Bavella & New.CleanUp.ReferenceOTU6522 &  & Lecanoromycetes & 4.50070386484607 \\ 
+  459 & Asco vs Bavella & New.CleanUp.ReferenceOTU282 &  & Dothideomycetes & 2.71543719056717 \\ 
+  460 & Asco vs Bavella & New.CleanUp.ReferenceOTU1645 & Lophodermium seditiosum & Leotiomycetes & -3.43806582824115 \\ 
+  461 & Asco vs Bavella & New.CleanUp.ReferenceOTU463 &  &  & 4.39907537516746 \\ 
+  462 & Asco vs Bavella & New.CleanUp.ReferenceOTU2720 &  &  & 5.14366482161817 \\ 
+  463 & Asco vs Bavella & New.CleanUp.ReferenceOTU3479 &  & Dothideomycetes & 3.6388627101205 \\ 
+  464 & Asco vs Bavella & New.CleanUp.ReferenceOTU1980 &  &  & 3.70280251951865 \\ 
+  465 & Asco vs Bavella & New.CleanUp.ReferenceOTU1390 &  & Eurotiomycetes & 4.61749941269477 \\ 
+  466 & Asco vs Bavella & New.CleanUp.ReferenceOTU4133 &  &  & 8.37264052347123 \\ 
+  467 & Asco vs Bavella & New.CleanUp.ReferenceOTU5007 &  &  & 24.8271305391912 \\ 
+  468 & Asco vs Bavella & New.CleanUp.ReferenceOTU3788 &  & Dothideomycetes & 3.62206432550848 \\ 
+  469 & Asco vs Bavella & New.CleanUp.ReferenceOTU6164 & fungal sp TRN213 & unidentified & 3.79599955358664 \\ 
+  470 & Asco vs Bavella & New.CleanUp.ReferenceOTU612 &  & Dothideomycetes & 4.71217852034354 \\ 
+  471 & Asco vs Bavella & New.CleanUp.ReferenceOTU3383 &  &  & -4.01201842105195 \\ 
+  472 & Asco vs Bavella & New.CleanUp.ReferenceOTU2628 &  &  & -3.51168400158143 \\ 
+  473 & Asco vs Bavella & New.CleanUp.ReferenceOTU6220 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.31030384421857 \\ 
+  474 & Asco vs Bavella & New.CleanUp.ReferenceOTU1312 &  & Dothideomycetes & 5.31150385427134 \\ 
+  475 & Asco vs Bavella & New.CleanUp.ReferenceOTU1716 &  & Dothideomycetes & 2.94073841558555 \\ 
+  476 & Asco vs Bavella & New.CleanUp.ReferenceOTU2869 & Capnobotryella sp MA 4642 & Dothideomycetes & 2.85657831526659 \\ 
+  477 & Asco vs Bavella & New.CleanUp.ReferenceOTU1640 & Capnobotryella sp MA 4642 & Dothideomycetes & 4.95381133044497 \\ 
+  478 & Asco vs Bavella & New.CleanUp.ReferenceOTU3023 &  & Dothideomycetes & 3.36283912200616 \\ 
+  479 & Asco vs Bavella & New.CleanUp.ReferenceOTU5448 &  & Dothideomycetes & 4.46607804294135 \\ 
+  480 & Asco vs Bavella & New.CleanUp.ReferenceOTU1778 &  & Dothideomycetes & 7.14472873151857 \\ 
+  481 & Asco vs Bavella & SH407690.07FU\_AY213672\_refs &  & Eurotiomycetes & 5.06509955358604 \\ 
+  482 & Asco vs Bavella & New.CleanUp.ReferenceOTU1401 &  & Dothideomycetes & 4.9829211437824 \\ 
+  483 & Asco vs Bavella & New.CleanUp.ReferenceOTU1801 &  & Dothideomycetes & 4.30521154136594 \\ 
+  484 & Asco vs Bavella & New.CleanUp.ReferenceOTU4147 &  &  & 6.31000796704258 \\ 
+  485 & Asco vs Bavella & New.ReferenceOTU84 &  &  & 6.93943835812642 \\ 
+  486 & Asco vs Bavella & New.CleanUp.ReferenceOTU5003 & Sarea sp & Lecanoromycetes & -6.27352404814219 \\ 
+  487 & Asco vs Bavella & New.ReferenceOTU7 &  &  & 10.1208878786978 \\ 
+  488 & Asco vs Bavella & New.CleanUp.ReferenceOTU2270 &  &  & 8.61407694307237 \\ 
+  489 & Asco vs Bavella & New.CleanUp.ReferenceOTU4791 & fungal sp agrD488 & unidentified & 25.5977357200864 \\ 
+  490 & Asco vs Bavella & New.CleanUp.ReferenceOTU2190 &  & Dothideomycetes & 3.59043655719029 \\ 
+  491 & Asco vs Bavella & New.CleanUp.ReferenceOTU3076 &  &  & 4.13681896288251 \\ 
+  492 & Asco vs Bavella & New.CleanUp.ReferenceOTU5917 &  &  & 3.57928840429584 \\ 
+  493 & Asco vs Bavella & New.CleanUp.ReferenceOTU3386 &  &  & 5.55062842611089 \\ 
+  494 & Asco vs Bavella & New.CleanUp.ReferenceOTU3282 &  & Dothideomycetes & 4.61823424996468 \\ 
+  495 & Asco vs Bavella & SH184176.07FU\_GU909656\_reps & Sporormiaceae sp & Dothideomycetes & 7.47450513766923 \\ 
+  496 & Asco vs Bavella & SH205426.07FU\_AY843155\_reps &  &  & 25.6703657889081 \\ 
+  497 & Asco vs Bavella & New.CleanUp.ReferenceOTU1609 &  & Dothideomycetes & -2.02354687656915 \\ 
+  498 & Asco vs Bavella & New.CleanUp.ReferenceOTU4861 &  & Leotiomycetes & -19.6320742368887 \\ 
+  499 & Asco vs Bavella & New.CleanUp.ReferenceOTU4260 &  & Leotiomycetes & 16.1445974368274 \\ 
+  500 & Asco vs Bavella & New.CleanUp.ReferenceOTU1890 &  & unidentified & -3.87584324628004 \\ 
+  501 & Asco vs Bavella & SH202297.07FU\_KF675366\_reps &  & Dothideomycetes & -22.6512096608775 \\ 
+  502 & Asco vs Bavella & New.CleanUp.ReferenceOTU5274 &  & Eurotiomycetes & 14.0044740274999 \\ 
+  503 & Asco vs Bavella & New.CleanUp.ReferenceOTU5764 &  & Lecanoromycetes & 13.1392518628135 \\ 
+   \hline
+\end{tabular}
+\endgroup
+\caption{OTUs showing differential abundances in the different sites.} 
+\end{table}
+
+
+    \subsubsection{Pairwise comparison of Order composition by sites}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{res_VA_o} \hlkwb{<-} \hlkwd{plot_deseq2_phyloseq}\hlstd{(data.f3,} \hlkwc{contrast} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"Sites"}\hlstd{,} \hlstr{"Verghello"}\hlstd{,} \hlstr{"Asco"}\hlstd{),}
+                               \hlkwc{taxDepth} \hlstd{=} \hlstr{"Order"}\hlstd{,} \hlkwc{color_tax} \hlstd{=} \hlstr{"Class"}\hlstd{)}
+\hlstd{res_VB_o} \hlkwb{<-} \hlkwd{plot_deseq2_phyloseq}\hlstd{(data.f3,} \hlkwc{contrast} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"Sites"}\hlstd{,} \hlstr{"Verghello"}\hlstd{,} \hlstr{"Bavella"}\hlstd{),}
+                               \hlkwc{taxDepth} \hlstd{=} \hlstr{"Order"}\hlstd{,} \hlkwc{color_tax} \hlstd{=} \hlstr{"Class"}\hlstd{)}
+\hlstd{res_AB_o} \hlkwb{<-} \hlkwd{plot_deseq2_phyloseq}\hlstd{(data.f3,} \hlkwc{contrast} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"Sites"}\hlstd{,} \hlstr{"Asco"}\hlstd{,} \hlstr{"Bavella"}\hlstd{),}
+                               \hlkwc{taxDepth} \hlstd{=} \hlstr{"Order"}\hlstd{,} \hlkwc{color_tax} \hlstd{=} \hlstr{"Class"}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:24:03 2017
+\begin{table}[ht]
+\centering
+\begingroup\tiny
+\begin{tabular}{lllll}
+  \hline
+ & Comparison & Order & Class & log2FoldChange 
+ (negative = more on second levels) \\ 
+  \hline
+1 & Verghello vs Asco & Xylariales & Sordariomycetes & 5.04736158531515 \\ 
+  2 & Verghello vs Bavella & Incertae sedis & Leotiomycetes & -1.3470109106199 \\ 
+  3 & Verghello vs Bavella & unidentified & unidentified & 1.59296035953185 \\ 
+  4 & Asco vs Bavella & Botryosphaeriales & Dothideomycetes & 7.46092665033677 \\ 
+  5 & Asco vs Bavella & Eurotiales & Eurotiomycetes & 1.80585521286681 \\ 
+  6 & Asco vs Bavella & Incertae sedis & Leotiomycetes & -1.68998134956396 \\ 
+  7 & Asco vs Bavella & unidentified & unidentified & 1.46261385771009 \\ 
+  8 & Asco vs Bavella & Xylariales & Sordariomycetes & -4.7735371857996 \\ 
+   \hline
+\end{tabular}
+\endgroup
+\caption{Order showing differential abundances in the different sites.} 
+\end{table}
+
+
+
+\subsection{Distribution of OTUs abundance in the fungal phylogeny}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{library}\hlstd{(}\hlstr{"cluster"}\hlstd{)}
+\hlkwd{library}\hlstd{(}\hlstr{"phytools"}\hlstd{)}
+\end{alltt}
+
+
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# Loading required package: maps}}
+
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# \\\#\# Attaching package: 'maps'}}
+
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# The following object is masked from 'package:plyr':\\\#\# \\\#\#\ \ \ \  ozone}}
+
+{\ttfamily\noindent\itshape\color{messagecolor}{\#\# The following object is masked from 'package:cluster':\\\#\# \\\#\#\ \ \ \  votes.repub}}\begin{alltt}
+\hlstd{data.f3_interm} \hlkwb{<-} \hlstd{data.f3}
+\hlstd{data.f3_interm}\hlopt{@}\hlkwc{otu_table} \hlkwb{<-} \hlkwd{otu_table}\hlstd{(}\hlkwd{apply}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{,} \hlnum{2}\hlstd{,} \hlkwa{function}\hlstd{(}\hlkwc{x}\hlstd{)} \hlkwd{tapply}\hlstd{(x,} \hlkwd{as.factor}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Species"}\hlstd{]), sum)),} \hlkwc{taxa_are_rows} \hlstd{=} \hlnum{TRUE}\hlstd{)}
+\hlstd{data.f3_interm}\hlopt{@}\hlkwc{tax_table} \hlkwb{<-} \hlkwd{tax_table}\hlstd{(}\hlkwd{apply}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{,} \hlnum{2}\hlstd{,} \hlkwa{function}\hlstd{(}\hlkwc{x}\hlstd{)} \hlkwd{tapply}\hlstd{(x,} \hlkwd{as.factor}\hlstd{(data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Species"}\hlstd{]),} \hlkwa{function}\hlstd{(}\hlkwc{xx}\hlstd{) xx[}\hlnum{1}\hlstd{])))}
+\hlstd{data.f3_interm}\hlopt{@}\hlkwc{refseq} \hlkwb{<-} \hlkwa{NULL}
+
+\hlstd{data.f3_interm} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3_interm,} \hlopt{!}\hlkwd{grepl}\hlstd{(}\hlstr{"uncultured"}\hlstd{, data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Species"}\hlstd{]))}
+\hlstd{data.f3_interm} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3_interm,} \hlopt{!}\hlkwd{grepl}\hlstd{(}\hlstr{"sp$"}\hlstd{, data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Species"}\hlstd{]))}
+\hlstd{data.f3_interm} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3_interm,} \hlopt{!}\hlkwd{grepl}\hlstd{(}\hlstr{"unidentified"}\hlstd{, data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Family"}\hlstd{]))}
+\hlstd{data.f3_interm} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3_interm,} \hlopt{!}\hlkwd{grepl}\hlstd{(}\hlstr{"unidentified"}\hlstd{, data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Order"}\hlstd{]))}
+\hlstd{data.f3_interm} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3_interm,} \hlopt{!}\hlkwd{grepl}\hlstd{(}\hlstr{"unidentified"}\hlstd{, data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Class"}\hlstd{]))}
+\hlstd{data.f3_interm} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3_interm,} \hlopt{!}\hlkwd{grepl}\hlstd{(}\hlstr{"Myxotrichaceae"}\hlstd{, data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Species"}\hlstd{]))}
+\hlstd{data.f3_interm} \hlkwb{<-} \hlkwd{subset_taxa}\hlstd{(data.f3_interm,} \hlkwd{rowSums}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{otu_table}\hlstd{)}\hlopt{>}\hlnum{100}\hlstd{)}
+
+
+\hlstd{tree_tax_interm} \hlkwb{<-} \hlkwd{as.data.frame}\hlstd{(}\hlkwd{unclass}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{))}
+\hlstd{tree_tax_interm}\hlopt{$}\hlstd{OTUs} \hlkwb{<-} \hlkwd{rownames}\hlstd{(tree_tax_interm)}
+
+\hlstd{tree_tax_interm} \hlkwb{<-} \hlkwd{as.data.frame}\hlstd{(}\hlkwd{replace}\hlstd{(}\hlkwd{as.matrix}\hlstd{(tree_tax_interm),} \hlkwd{which}\hlstd{(}\hlkwd{is.na}\hlstd{(tree_tax_interm)),} \hlkwd{as.character}\hlstd{(}\hlkwd{c}\hlstd{(}\hlnum{1}\hlopt{:}\hlkwd{sum}\hlstd{(}\hlkwd{is.na}\hlstd{(tree_tax_interm))))))}
+
+\hlstd{data.f3_interm}\hlopt{@}\hlkwc{tax_table} \hlkwb{<-} \hlkwd{tax_table}\hlstd{(}\hlkwd{as.matrix}\hlstd{(tree_tax_interm))}
+
+\hlstd{tree_tax_interm}\hlopt{$}\hlstd{pathString} \hlkwb{<-} \hlkwd{paste}\hlstd{(}\hlstr{"Fungi"}\hlstd{,}
+                            \hlstd{tree_tax_interm}\hlopt{$}\hlstd{Phylum,}
+                            \hlstd{tree_tax_interm}\hlopt{$}\hlstd{Class,}
+                            \hlstd{tree_tax_interm}\hlopt{$}\hlstd{Order,}
+                            \hlstd{tree_tax_interm}\hlopt{$}\hlstd{Family,}
+                            \hlstd{tree_tax_interm}\hlopt{$}\hlstd{Genus,}
+                            \hlstd{tree_tax_interm}\hlopt{$}\hlstd{OTUs,}
+                            \hlkwc{sep} \hlstd{=} \hlstr{"/"}\hlstd{)}
+
+\hlkwd{write}\hlstd{(}\hlkwd{ToNewick}\hlstd{(}\hlkwd{as.Node}\hlstd{(tree_tax_interm,} \hlkwc{na.rm} \hlstd{=} \hlnum{TRUE}\hlstd{)),} \hlkwc{file}\hlstd{=}\hlstr{"tree.txt"}\hlstd{)}
+\hlstd{tree} \hlkwb{<-} \hlstd{phytools}\hlopt{::}\hlkwd{read.newick}\hlstd{(}\hlkwc{file}\hlstd{=}\hlstr{"tree.txt"}\hlstd{)}
+\hlstd{tree} \hlkwb{<-} \hlstd{ape}\hlopt{::}\hlkwd{collapse.singles}\hlstd{(tree)}
+
+\hlstd{data.f3_interm}\hlopt{@}\hlkwc{phy_tree} \hlkwb{<-} \hlstd{tree}
+\hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{phy_tree}\hlstd{)} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{"_"}\hlstd{,} \hlstr{" "}\hlstd{,} \hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{phy_tree}\hlstd{))}
+\hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{"_"}\hlstd{,} \hlstr{" "}\hlstd{,} \hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{otu_table}\hlstd{))}
+\hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{)} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{"_"}\hlstd{,} \hlstr{" "}\hlstd{,} \hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{))}
+\hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{phy_tree}\hlstd{)} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{","}\hlstd{,} \hlstr{""}\hlstd{,} \hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{phy_tree}\hlstd{))}
+\hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{","}\hlstd{,} \hlstr{""}\hlstd{,} \hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{otu_table}\hlstd{))}
+\hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{)} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{","}\hlstd{,} \hlstr{""}\hlstd{,} \hlkwd{taxa_names}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{))}
+
+\hlstd{ptree} \hlkwb{<-} \hlkwd{plot_tree}\hlstd{(data.f3_interm,} \hlkwc{color} \hlstd{=} \hlstr{"Class"}\hlstd{,} \hlkwc{shape} \hlstd{=} \hlstr{"Sites"}\hlstd{,} \hlkwc{ladderize} \hlstd{=} \hlstr{"left"}\hlstd{,} \hlkwc{justify} \hlstd{=} \hlstr{"left"} \hlstd{,} \hlkwc{size} \hlstd{=} \hlstr{"Abundance"}\hlstd{,} \hlkwc{sizebase} \hlstd{=} \hlnum{2}\hlstd{,} \hlkwc{min.abundance} \hlstd{=} \hlnum{10000}\hlstd{,}  \hlkwc{base.spacing} \hlstd{=} \hlnum{0.08}\hlstd{)}
+
+\hlstd{cond} \hlkwb{<-} \hlkwd{gsub}\hlstd{(}\hlstr{","}\hlstd{,} \hlstr{""}\hlstd{,} \hlkwd{rownames}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{otu_table}\hlstd{)[}\hlkwd{rowSums}\hlstd{(data.f3_interm}\hlopt{@}\hlkwc{otu_table}\hlstd{)} \hlopt{>=} \hlnum{1}\hlstd{])}
+\hlstd{df_cond} \hlkwb{<-} \hlkwd{as.data.frame}\hlstd{(ptree}\hlopt{$}\hlstd{data)[ptree}\hlopt{$}\hlstd{data}\hlopt{$}\hlstd{OTU} \hlopt{%in%} \hlstd{cond,]}
+\hlstd{df_cond}\hlopt{$}\hlstd{Species} \hlkwb{<-} \hlstd{data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{[}\hlkwd{taxa_names}\hlstd{(data.f3_interm)} \hlopt{%in%} \hlstd{cond,}\hlstr{"OTUs"}\hlstd{]}
+
+
+\hlstd{cond_Deseq} \hlkwb{<-} \hlkwd{levels}\hlstd{(df}\hlopt{$}\hlstd{Species)}
+\hlstd{df_cond_Deseq} \hlkwb{<-} \hlkwd{as.data.frame}\hlstd{(ptree}\hlopt{$}\hlstd{data)[ptree}\hlopt{$}\hlstd{data}\hlopt{$}\hlstd{OTU} \hlopt{%in%} \hlstd{cond_Deseq,]}
+\hlstd{df_cond_Deseq}\hlopt{$}\hlstd{Species} \hlkwb{<-} \hlstd{data.f3_interm}\hlopt{@}\hlkwc{tax_table}\hlstd{[}\hlkwd{gsub}\hlstd{(}\hlstr{"_"}\hlstd{,} \hlstr{" "}\hlstd{,} \hlkwd{taxa_names}\hlstd{(data.f3_interm))} \hlopt{%in%} \hlstd{cond_Deseq,}\hlstr{"OTUs"}\hlstd{]}
+
+\hlstd{ptree} \hlopt{+} \hlkwd{geom_text}\hlstd{(}\hlkwc{data} \hlstd{= df_cond,} \hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{=} \hlnum{215}\hlstd{,} \hlkwc{y} \hlstd{= y,} \hlkwc{label} \hlstd{= OTU),} \hlkwc{hjust} \hlstd{=} \hlstr{"left"}\hlstd{)} \hlopt{+} \hlkwd{scale_shape_manual}\hlstd{(}\hlkwc{values} \hlstd{=} \hlkwd{c}\hlstd{(}\hlnum{16}\hlstd{,} \hlnum{16}\hlstd{,} \hlnum{16}\hlstd{))}
+
+\hlkwd{sum}\hlstd{(}\hlopt{!}\hlkwd{is.na}\hlstd{(}\hlkwd{match}\hlstd{(}\hlkwd{gsub}\hlstd{(}\hlstr{"_"}\hlstd{,} \hlstr{" "}\hlstd{, data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Species"}\hlstd{]),} \hlkwd{gsub}\hlstd{(}\hlstr{"_"}\hlstd{,} \hlstr{" "}\hlstd{, tree}\hlopt{$}\hlstd{tip.label))))}
+\end{alltt}
+\begin{verbatim}
+## [1] 613
+\end{verbatim}
+\begin{alltt}
+\hlkwd{sum}\hlstd{(}\hlkwd{rowSums}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{)[}\hlkwd{gsub}\hlstd{(}\hlstr{"_"}\hlstd{,} \hlstr{" "}\hlstd{, data.f3}\hlopt{@}\hlkwc{tax_table}\hlstd{[,}\hlstr{"Species"}\hlstd{])} \hlopt{%in%} \hlkwd{gsub}\hlstd{(}\hlstr{"_"}\hlstd{,} \hlstr{" "}\hlstd{, tree}\hlopt{$}\hlstd{tip.label)])}\hlopt{/}\hlkwd{sum}\hlstd{(data.f3}\hlopt{@}\hlkwc{otu_table}\hlstd{)}\hlopt{*}\hlnum{100}
+\end{alltt}
+\begin{verbatim}
+## [1] 38.44194
+\end{verbatim}
+\end{kframe}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-78-1} 
+
+}
+
+
+
+\end{knitrout}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlstd{ptree} \hlopt{+} \hlkwd{geom_text}\hlstd{(}\hlkwc{data} \hlstd{= df_cond,} \hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{=} \hlnum{585}\hlstd{,} \hlkwc{y} \hlstd{= y,} \hlkwc{label} \hlstd{= OTU),} \hlkwc{hjust} \hlstd{=} \hlstr{"left"}\hlstd{)} \hlopt{+} \hlkwd{scale_shape_manual}\hlstd{(}\hlkwc{values} \hlstd{=} \hlkwd{c}\hlstd{(}\hlnum{16}\hlstd{,} \hlnum{16}\hlstd{,} \hlnum{16}\hlstd{))} \hlopt{+} \hlkwd{geom_text}\hlstd{(}\hlkwc{data} \hlstd{= df_cond_Deseq,} \hlkwd{aes}\hlstd{(}\hlkwc{x} \hlstd{=} \hlnum{580}\hlstd{,} \hlkwc{y} \hlstd{= y}\hlopt{-}\hlnum{0.2}\hlstd{),} \hlkwc{label} \hlstd{=} \hlstr{"*"}\hlstd{,} \hlkwc{hjust} \hlstd{=} \hlstr{"left"}\hlstd{)}
+\hlkwd{ggsave}\hlstd{(}\hlstr{"phylo_map.pdf"}\hlstd{,}  \hlkwc{width} \hlstd{=} \hlnum{20}\hlstd{,} \hlkwc{height} \hlstd{=} \hlnum{15}\hlstd{)}
+\end{alltt}
+\end{kframe}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-79-1} 
+
+}
+
+
+
+\end{knitrout}
+
+
+
+\section{Summary}
+\label{sect:summary}
+
+  \subsection{Filtering summary}
+
+The raw data are made of \ensuremath{8.398038\times 10^{6}} sequences representing 4373 OTUs allocated to 80 samples.
+
+After filtering, the dataset includes \ensuremath{8.373567\times 10^{6}} sequences representing 3382 OTUs allocated to 72 samples.
+
+% latex table generated in R 3.4.2 by xtable 1.8-2 package
+% Thu Nov  9 15:24:09 2017
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrr}
+  \hline
+ & Nb.of.OTUs & Nb.of.samples & Nb.of.sequences \\ 
+  \hline
+No filter & 4373 &  80 & 8398038.00 \\ 
+  Nb of sequences by sample $>$=  20000 & 4359 &  72 & 8375892.00 \\ 
+  Nb of sample by OTUs $>$=  1 & 4359 &  72 & 8375892.00 \\ 
+  Nb of sequences by OTUs $>$=  5 & 3382 &  72 & 8373567.00 \\ 
+   \hline
+\end{tabular}
+\caption{Number of OTUs, samples and sequences after filtering} 
+\end{table}
+
+
+  \subsection{Alpha diversity}
+
+Host age and elevation within tree do not impact any aspect of fungal local diversity. Despite similar OTUs richness, Asco is a site more diverse than Verghello and Bavella.
+
+  \subsection{Beta diversity}
+
+Site (R2 = 0.106), age (R2 = 0.037) and interaction age*site (R2 = 0.087) statistically structured the fungal endophytic beta-diversity. 
+
+
+\cleardoublepage
+\listoffigures
+\listoftables
+
+\end {document}

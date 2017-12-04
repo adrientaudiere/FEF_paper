@@ -1,471 +1,664 @@
-OTU_ID	S1	S2	Taxonomy	Taxon	Taxon Level	Trophic Mode	Guild	Confidence Ranking	Growth Morphology	Trait	Notes	Citation/Source
-OTU_579_2	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_434_140	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
-OTU_421_20	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecideales	-	-	-	-	-	-	-	Unassigned	-
-OTU_479_101	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_536_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_379_150	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_568_1223	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_65_4330	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_315_69	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_200_136	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_576_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_497_5	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_403_17	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__unidentified;s__uncultured Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_327_30	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_389_15	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_513_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_310_80	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_209_115	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_253_118	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_77_1145	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_600_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_632_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_380_233	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
-OTU_85_653	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
-OTU_67_9582	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
-OTU_561_68	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_46_9801	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_630_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_572_20	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_144_482	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_153_373	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_271_159	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_350_23	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
-OTU_239_143	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
-OTU_175_299	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_177_775	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_628_10	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_64_3036	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_426_17	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Hypocreaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_457_34	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
-OTU_597_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Montagnulaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_463_10	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_409_44	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_619_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_30_17919	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD488	-	-	-	-	-	-	-	Unassigned	-
-OTU_609_18	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_549_3	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_210_220	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_631_6	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_610_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Rutstroemiaceae;g__unidentified;s__Rutstroemiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_367_70	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_358_40	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_338_44	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
-OTU_212_227	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_516_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_192_131	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Pezizomycotina	-	-	-	-	-	-	-	Unassigned	-
-OTU_658_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_515_164	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_438_14	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_339_79	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_117_755	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_71_2384	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_373_26	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_128_475	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_546_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_341_48	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
-OTU_136_288	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_292_83	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales;f__Lecanoraceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_127_1334	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_268_207	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_540_6	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales	-	-	-	-	-	-	-	Unassigned	-
-OTU_547_3	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_270_665	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_40_7084	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
-OTU_125_1210	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_399_225	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_238_94	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Xenomeris;s__Xenomeris juniperi	-	-	-	-	-	-	-	Unassigned	-
-OTU_405_105	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_359_21	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Venturiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_412_36	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_633_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_59_1955	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_135_792	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_284_112	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp PIMO_369	-	-	-	-	-	-	-	Unassigned	-
-OTU_368_32	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_611_4	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
-OTU_590_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Toxicocladosporium	-	-	-	-	-	-	-	Unassigned	-
-OTU_50_2223	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_643_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_523_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium	-	-	-	-	-	-	-	Unassigned	-
-OTU_293_142	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_273_300	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium;s__Cladosporium halotolerans	-	-	-	-	-	-	-	Unassigned	-
-OTU_487_24	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_584_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_511_20	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_131_5541	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_1_2201354	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_298_110	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales;f__Stictidaceae;g__unidentified;s__Stictidaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_496_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_361_30	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_588_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_508_15	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_214_126	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_474_12	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Incertae sedis;g__Ophiognomonia;s__Ophiognomonia melanostyla	-	-	-	-	-	-	-	Unassigned	-
-OTU_525_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_539_27	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_569_3	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Microascales;f__Ceratocystidaceae;g__Huntiella	-	-	-	-	-	-	-	Unassigned	-
-OTU_76_9981	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
-OTU_256_109	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Acarosporales;f__Acarosporaceae;g__unidentified;s__Acarosporaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_400_16	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__unidentified;s__Teratosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_656_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_218_557	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__Mycosphaerellaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_383_21	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_80_709	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Trichosphaeriales;f__Incertae sedis;g__unidentified;s__Trichosphaeriales sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_376_78	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_287_127	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp acwVHT66_5	-	-	-	-	-	-	-	Unassigned	-
-OTU_257_80	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_266_154	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_179_179	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_105_1300	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_208_138	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_37_8860	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_198_2074	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
-OTU_662_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_18_33192	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_17_51593	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Knufia	-	-	-	-	-	-	-	Unassigned	-
-OTU_560_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_659_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_648_64	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_22_61263	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_444_82	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_481_6	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_533_3	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_194_275	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Nectriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_309_155	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__Mycosphaerellaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_211_121	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_346_222	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_160_275	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Knufia;s__Knufia sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_437_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_410_13	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_302_78	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_100_936	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_614_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_282_50	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_356_65	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_604_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_11_97592	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_477_61	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_647_4	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
-OTU_575_8	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_184_188	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales	-	-	-	-	-	-	-	Unassigned	-
-OTU_429_26	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_570_125	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_344_53	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_180_148	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_176_1188	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
-OTU_460_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_314_44	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_262_72	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_466_50	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513	-	-	-	-	-	-	-	Unassigned	-
-OTU_250_116	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_506_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_155_928	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_645_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_69_2287	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_267_2297	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_480_23	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_74_1602	1	1	k__Fungi;p__Basidiomycota;c__Tremellomycetes;o__Tremellales	-	-	-	-	-	-	-	Unassigned	-
-OTU_324_37	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales	-	-	-	-	-	-	-	Unassigned	-
-OTU_377_22	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_629_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_114_862	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_454_88	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_407_33	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_92_1439	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_593_326	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_620_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_418_149	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_473_25	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales	-	-	-	-	-	-	-	Unassigned	-
-OTU_274_113	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_222_309	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_277_150	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_641_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_573_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_489_20	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_396_15	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_316_11186	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_504_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Incertae sedis;g__Camarosporium;s__Camarosporium sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_462_35	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_36_15960	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_428_70	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_510_26	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
-OTU_156_412	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_415_27	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_613_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_562_11	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_70_1633	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_318_95	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_650_2	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal endophyte sp SS_1813	-	-	-	-	-	-	-	Unassigned	-
-OTU_512_7	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_384_26	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_103_4433	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_455_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_388_48	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_483_11	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_432_15	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_236_184	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_571_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_73_1034	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp CCFEE 5409	-	-	-	-	-	-	-	Unassigned	-
-OTU_627_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
-OTU_491_8	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__unidentified;f__unidentified;g__unidentified;s__Sordariomycetes sp genotype 398	-	-	-	-	-	-	-	Unassigned	-
-OTU_605_8	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_340_59	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_661_2	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD488	-	-	-	-	-	-	-	Unassigned	-
-OTU_255_112	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_649_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
-OTU_652_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_39_16638	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
-OTU_624_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium;s__Cladosporium sphaerospermum	-	-	-	-	-	-	-	Unassigned	-
-OTU_201_339	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_190_362	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota sp Di58_1	-	-	-	-	-	-	-	Unassigned	-
-OTU_112_1190	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_493_5	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_599_6	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota sp Di58_1	-	-	-	-	-	-	-	Unassigned	-
-OTU_132_2288	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_66_1021	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_265_54	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_185_3897	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_43_10449	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_224_319	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_586_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_38_7721	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_453_15	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_260_1324	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_450_17	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_397_22	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_31_11636	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_283_49	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_23_15298	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
-OTU_385_123	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__unidentified;g__unidentified;s__Botryosphaeriales sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_447_28	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_118_525	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_522_17	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_90_1343	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_308_63	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Sarcinomyces;s__Sarcinomyces crustaceus	-	-	-	-	-	-	-	Unassigned	-
-OTU_2_252639	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_618_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_172_614	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_351_31	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_458_34	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_141_405	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_475_102	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_394_332	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_330_64	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
-OTU_170_285	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_336_53	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_24_20068	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_243_211	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_280_63	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_134_485	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_116_1040	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_461_12	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Botryosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_249_68	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_12_63896	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_602_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_552_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_237_237	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Teloschistaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_246_65	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales	-	-	-	-	-	-	-	Unassigned	-
-OTU_502_14	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513	-	-	-	-	-	-	-	Unassigned	-
-OTU_468_13	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae;g__unidentified;s__Phaeosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_166_303	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_49_8102	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrAR171	-	-	-	-	-	-	-	Unassigned	-
-OTU_301_41	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Incertae sedis;g__Calcarisporiella;s__Calcarisporiella sp YP_2010	-	-	-	-	-	-	-	Unassigned	-
-OTU_286_103	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_72_4654	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Rhytismatales;f__unidentified;g__unidentified;s__Rhytismatales sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_490_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_44_8227	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales	-	-	-	-	-	-	-	Unassigned	-
-OTU_433_12	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_5_301734	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_157_227	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_441_29	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales	-	-	-	-	-	-	-	Unassigned	-
-OTU_278_53	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Amphisphaeriaceae;g__unidentified;s__Amphisphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_417_44	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_178_365	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_148_229	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_488_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
-OTU_372_38	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_352_47	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_169_454	1	1	k__Fungi;p__Basidiomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_577_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_261_149	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Chaetomiaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_381_32	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_195_328	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_163_348	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_109_473	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Elasticomyces;s__Elasticomyces elasticus	-	-	-	-	-	-	-	Unassigned	-
-OTU_93_4887	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae;g__unidentified;s__uncultured Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_660_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
-OTU_269_131	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_254_127	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_247_146	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_294_97	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_439_19	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium	-	-	-	-	-	-	-	Unassigned	-
-OTU_47_5708	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Phaeotheca	-	-	-	-	-	-	-	Unassigned	-
-OTU_303_39	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Xylariaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
-OTU_353_57	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_25_60948	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_526_6	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_329_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_51_1530	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
-OTU_425_90	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
-OTU_395_39	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_416_22	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_245_309	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_401_125	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_517_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_111_2247	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium	-	-	-	-	-	-	-	Unassigned	-
-OTU_45_7268	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_325_55	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales	-	-	-	-	-	-	-	Unassigned	-
-OTU_585_14	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_391_20	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales	-	-	-	-	-	-	-	Unassigned	-
-OTU_559_7	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium	-	-	-	-	-	-	-	Unassigned	-
-OTU_158_375	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_162_363	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_521_22	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_607_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_57_2950	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_580_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Arthrocatena;s__Arthrocatena tenebrio	-	-	-	-	-	-	-	Unassigned	-
-OTU_486_13	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_186_2238	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae;g__Cladosporium	-	-	-	-	-	-	-	Unassigned	-
-OTU_321_41	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_591_204	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_206_121	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_229_235	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_532_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_528_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_537_79	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_413_24	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_42_7156	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_551_14	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_555_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Friedmanniomyces;s__Friedmanniomyces sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_534_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_606_4	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__melanized limestone ascomycete CR_2004	-	-	-	-	-	-	-	Unassigned	-
-OTU_252_112	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_531_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_311_70	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_147_237	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_622_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_408_66	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
-OTU_35_5758	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_392_24	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
-OTU_501_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_558_9	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_276_51	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_263_14534	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_349_35	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_456_20	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_634_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_101_1099	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_32_17599	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca fissurella	-	-	-	-	-	-	-	Unassigned	-
-OTU_354_75	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_193_145	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_226_228	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_617_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_288_53	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_431_16	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales	-	-	-	-	-	-	-	Unassigned	-
-OTU_625_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_126_1054	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_564_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_411_13	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_362_2754	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
-OTU_203_256	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_56_3290	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Phaeotheca	-	-	-	-	-	-	-	Unassigned	-
-OTU_332_56	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_348_157	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_653_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_232_201	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_129_736	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_357_21	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_97_3308	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_8_69915	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_424_26	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_519_14	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_494_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_87_1706	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_106_1036	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
-OTU_94_2788	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_440_22	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_89_1687	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_63_5846	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_469_61	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_102_821	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_499_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_81_1102	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_150_326	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Lasiosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_140_553	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_543_278	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_248_128	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_452_24	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_207_381	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_485_11	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN441	-	-	-	-	-	-	-	Unassigned	-
-OTU_217_538	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_137_1739	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_638_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_86_1205	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_323_31	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_657_2	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Microascales;f__Halosphaeriaceae;g__unidentified;s__Halosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_312_71	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_182_139	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Diatrypaceae;g__unidentified;s__Diatrypaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_635_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_26_40323	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_520_7	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_296_50	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_110_1261	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_4_124210	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_500_12	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_567_5	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales	-	-	-	-	-	-	-	Unassigned	-
-OTU_138_441	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_20_46614	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_582_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_173_430	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD392	-	-	-	-	-	-	-	Unassigned	-
-OTU_451_45	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_235_305	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_337_90	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_83_1536	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
-OTU_326_691	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_61_4439	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_113_895	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
-OTU_374_34	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_258_132	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_345_40	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Eurotiales;f__Trichocomaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_55_2741	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
-OTU_655_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales;f__Elsinoaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_556_64	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_264_101	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_154_433	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_443_11	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_333_62	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__Valsaceae;g__unidentified;s__Valsaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_6_107905	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_420_22	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_188_175	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_60_3994	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_369_182	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513	-	-	-	-	-	-	-	Unassigned	-
-OTU_654_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_234_179	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
-OTU_623_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_219_197	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Ophiocordycipitaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_34_9222	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
-OTU_189_3613	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_538_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_589_2	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_215_199	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_387_40	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_19_17710	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
-OTU_427_11	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
-OTU_216_277	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified	-	-	-	-	-	-	-	Unassigned	-
-OTU_231_85	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_259_60	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes;o__Pezizales;f__Pyronemataceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_492_12	1	1	k__Fungi;p__Ascomycota;c__Incertae sedis;o__Incertae sedis;f__Pseudeurotiaceae;g__unidentified;s__Pseudeurotiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_343_167	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_21_66904	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae;g__unidentified;s__Sporormiaceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_402_14	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
-OTU_449_28	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_446_19	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_300_96	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_96_1061	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
-OTU_484_140	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
-OTU_498_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
-OTU_251_72	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Montagnulaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_334_65	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
-OTU_406_22	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_ID	S1	S2	Taxonomy	Taxon	Taxon Level	Trophic Mode	Guild	Growth Morphology	Trait	Confidence Ranking	Notes	Citation/SourceOTU_429_20	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_455_38	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_488_21	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_252_114	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_14_28332	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_321_35	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_230_69	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_169_207	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_704_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_211_126	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_192_107	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_47_1072	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_660_1041	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_286_48	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_255_54	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_114_197	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_62_771	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_424_45	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_349_50	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_392_21	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_679_402	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_298_41	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Hyaloscyphaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_609_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_651_69	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_19_38344	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_578_16	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_170_101	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_707_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_372_33	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_561_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_657_3	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_74_2428	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_674_6	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_163_116	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_731_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_91_331	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_775_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_68_452	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_81_391	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_260_50	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_566_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_750_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_322_32	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_398_96	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_311_35	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_341_217	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_461_13	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_104_1247	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes sp 11147	-	-	-	-	-	-	-	Unassigned	-
+OTU_380_23	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_470_92	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_438_17	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_476_18	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_34_5098	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_747_64	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_763_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_452_15	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_112_264	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_760_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_126_427	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_49_1308	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_343_27	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_577_21	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_491_12	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_778_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_692_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_408_35	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_441_475	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_478_36	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_383_150	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_527_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_356_38	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_585_12	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_728_44	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_773_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_553_182	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_556_1541	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_559_1163	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_463_13	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_82_510	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_85_343	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_614_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_27_6759	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_218_82	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_705_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_310_37	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_80_479	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Coniochaetales;f__Coniochaetaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_231_60	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_718_30	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_378_23	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_497_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_264_47	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_257_141	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_669_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_783_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_177_219	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_608_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_498_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_262_105	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_313_198	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_284_73	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_12_58637	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_630_7	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_362_47	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_462_13	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_754_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_219_65	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_176_101	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_249_55	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_670_3	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_617_73	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_270_48	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_387_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_500_9	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_79_443	1	1	k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__uncultured Phaeotheca	-	-	-	-	-	-	-	Unassigned	-
+OTU_119_622	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_668_56	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_254_67	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_256_202	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_166_151	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_75_792	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_194_79	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_627_3	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_76_356	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_690_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_304_309	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_180_86	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_687_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_685_20	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_368_953	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_746_14	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_25_13205	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_686_182	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_118_190	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_127_165	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_562_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_113_216	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrAR171	-	-	-	-	-	-	-	Unassigned	-
+OTU_105_818	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_662_3	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_536_45	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_385_50	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_109_702	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_288_41	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Physciaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_46_1428	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_421_88	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_426_188	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_467_12	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Sclerotiniaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_570_8	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_641_7	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_454_14	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_206_73	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_592_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_776_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_332_30	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_503_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_789_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_395_48	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_400_4175	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_359_29	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_229_211	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_217_230	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_594_19	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_60_720	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_471_12	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_365_36	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_458_23	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_339_28	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_216_79	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_698_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_188_1160	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_546_21	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_593_10	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_155_155	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_528_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_606_71	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales	-	-	-	-	-	-	-	Unassigned	-
+OTU_305_79	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_381_23	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_563_13	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_213_68	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_519_12	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_123_193	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_40_1943	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_205_74	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_501_9	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_244_102	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_739_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_78_334	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_786_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_149_327	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_200_77	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_316_140	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_146_137	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_560_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_770_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_490_10	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_691_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_347_38	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_531_7	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_301_36	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_351_47	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_274_86	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_195_78	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_204_244	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_430_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_591_87	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_232_60	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_327_33	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_472_252	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_352_26	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_38_4978	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_719_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_403_20	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_565_447	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_148_176	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_223_65	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_680_32	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_56_2420	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_777_8	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_756_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_99_359	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_374_28	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_110_364	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_434_30	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_726_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_672_5	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_598_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_224_121	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_625_12	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_487_57	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_653_37	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_348_72	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_621_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_772_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_511_10	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_147_385	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_342_66	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_543_195	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_142_175	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_551_256	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_317_82	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_444_25	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_250_100	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_771_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_285_41	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_295_61	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
+OTU_393_21	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_414_42	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_124_196	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_90_344	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_584_72	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_9_151056	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_279_46	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_549_337	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_399_23	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_10_58948	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_389_519	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_405_20	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_268_136	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_667_52	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_413_19	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_335_29	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_333_30	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_616_11	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_156_126	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium	-	-	-	-	-	-	-	Unassigned	-
+OTU_714_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_628_31	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_529_7	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_198_79	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_576_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_542_133	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_323_70	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Rachicladosporium	-	-	-	-	-	-	-	Unassigned	-
+OTU_33_4103	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Phaeosphaeriaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_440_40	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_792_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_30_5197	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_1_276653	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_485_11	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_768_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_645_9	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_537_7	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_639_36	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca fissurella	-	-	-	-	-	-	-	Unassigned	-
+OTU_433_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_64_2757	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_227_76	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_144_128	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_504_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_94_641	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_136_164	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Lecanorales	-	-	-	-	-	-	-	Unassigned	-
+OTU_181_160	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_706_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_509_51	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Teratosphaeriaceae;g__unidentified;s__Teratosphaeriaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_468_18	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_748_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_16_20216	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_160_128	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_533_7	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_72_599	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_676_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_626_3	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_733_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_2_272908	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_140_141	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_446_1024	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_557_58	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_605_31	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_460_83	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_590_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_696_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_235_121	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_524_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_367_44	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_63_1145	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_292_51	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_779_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_214_105	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_483_11	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_294_221	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_307_95	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_102_259	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_709_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_689_14	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_185_184	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_730_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_86_3303	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_774_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_409_40	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_44_2395	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_103_234	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_98_233	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_261_58	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_283_42	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_492_52	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_128_182	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_106_254	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_787_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_453_39	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_758_24	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_336_122	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_69_712	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_618_20	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_743_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_369_1851	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_596_124	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_129_290	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal endophyte sp SS_1813	-	-	-	-	-	-	-	Unassigned	-
+OTU_65_516	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_258_54	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_701_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_540_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_659_51	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_443_26	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_572_7	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_702_140	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_326_480	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_96_234	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_303_35	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_265_805	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_473_17	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_697_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_634_3	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_52_1179	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_299_39	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_132_408	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_354_110	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_290_200	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_15_21321	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_650_6	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_597_8	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_161_132	1	1	k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Xylariales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_328_430	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_569_5	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_790_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_406_20	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_755_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_215_472	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_781_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Xenomeris;s__Xenomeris juniperi	-	-	-	-	-	-	-	Unassigned	-
+OTU_259_52	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_445_41	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_36_12606	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_640_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_474_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_366_24	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_675_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_388_56	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_337_80	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_276_101	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_495_22	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_552_112	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_236_79	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_723_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_210_385	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_269_520	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_412_135	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_237_56	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_620_13	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_633_3	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_331_70	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_363_112	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_376_53	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_164_3347	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_482_11	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_568_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_410_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_479_110	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_197_147	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_631_17	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_241_122	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_196_195	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_699_6	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_173_159	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_507_296	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_494_9	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_448_15	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_693_22	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_29_5325	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_558_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_724_10	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_520_13	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_505_5283	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_39_2839	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN256	-	-	-	-	-	-	-	Unassigned	-
+OTU_762_208	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_117_176	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_613_30	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_535_102	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_477_100	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_437_16	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_350_31	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_439_359	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_309_243	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_642_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_547_49	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_186_167	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_358_32	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_411_19	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_179_99	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Helotiales;f__Rutstroemiaceae;g__unidentified;s__Rutstroemiaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_451_29	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_330_33	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_233_60	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_417_18	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_190_82	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_246_85	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_416_36	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_711_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_238_168	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_338_1547	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_145_207	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_459_13	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_581_5	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_629_12	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_58_589	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_589_5	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_767_14	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_678_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_162_205	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_77_489	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_579_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_681_2	1	1	k__Fungi;p__Ascomycota;c__Pezizomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_765_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_435_25	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_610_78	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_370_38	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_386_22	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_753_6	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_532_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_20_11286	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_515_25	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_291_76	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_59_856	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_382_34	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_523_41	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_449_99	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_267_49	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_50_978	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Teloschistales;f__Teloschistaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_715_92	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_425_81	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_447_22	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_530_139	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_518_44	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_242_127	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_423_17	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_397_171	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_95_562	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_486_12	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_757_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_207_89	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_171_208	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_710_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_502_11	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_329_30	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_345_1083	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_13_44524	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_404_22	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_18_39930	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_539_7	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_221_158	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_282_204	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Xenomeris;s__Xenomeris juniperi	-	-	-	-	-	-	-	Unassigned	-
+OTU_418_21	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_138_197	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Mycosphaerellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_340_44	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_682_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_582_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_396_21	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_571_86	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_201_370	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_253_53	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_263_48	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_31_5190	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_315_36	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_302_62	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_199_96	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_622_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_141_289	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_137_184	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_289_114	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_516_8	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_287_1336	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_150_138	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_745_18	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_737_36	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_615_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_635_45	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_88_439	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_174_138	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_37_6183	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_42_1457	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Sporormiaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_601_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_742_8	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_228_61	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_220_73	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_465_35	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_324_31	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_212_69	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_469_145	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca	-	-	-	-	-	-	-	Unassigned	-
+OTU_664_7	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_496_151	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_159_248	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_158_122	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_427_250	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_312_13191	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_456_14	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_266_140	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_11_63242	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_510_11	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_415_20	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_538_56	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_334_35	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Myriangiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_632_23	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_281_169	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_70_472	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_736_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_636_3	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_708_2	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_422_43	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_239_175	1	1	k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Sarcinomyces;s__Sarcinomyces crustaceus	-	-	-	-	-	-	-	Unassigned	-
+OTU_595_4	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_4_145286	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_167_152	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_740_10	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_637_19	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_248_92	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_133_147	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_428_175	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_178_150	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales;f__Stictidaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_7_48489	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_764_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_587_9	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_373_47	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_17_14136	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_729_4	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_390_229	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_567_5	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_713_8	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_666_3	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_607_660	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_308_37	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_189_116	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_154_236	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_466_33	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_135_780	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_464_131	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_245_54	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_612_95	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_182_149	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp T2513	-	-	-	-	-	-	-	Unassigned	-
+OTU_784_2	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_751_28	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_684_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_275_75	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_3_191837	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_116_374	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_319_32	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_521_1488	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN287	-	-	-	-	-	-	-	Unassigned	-
+OTU_360_27	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_722_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_297_37	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_55_767	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_8_120237	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_93_583	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_717_38	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_481_14	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_526_1375	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_6_291822	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_107_568	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_277_671	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp TRN213	-	-	-	-	-	-	-	Unassigned	-
+OTU_643_30	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_184_85	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_24_22443	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_541_20	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_420_42	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_522_338	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_583_22	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_23_7152	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_394_48	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae;g__unidentified;s__Dothioraceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_401_121	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_153_341	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_300_57	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_604_4	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_222_95	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_647_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_130_176	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_574_14	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_514_101	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_111_249	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Pleosporaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_143_405	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_588_5	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_361_25	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_661_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_586_24	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_379_23	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_377_23	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_508_9	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_694_12	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_619_9	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales	-	-	-	-	-	-	-	Unassigned	-
+OTU_208_298	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_22_30003	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_663_3	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_712_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_506_11	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_346_26	1	1	k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Ostropales;f__Stictidaceae;g__unidentified;s__Stictidaceae sp	-	-	-	-	-	-	-	Unassigned	-
+OTU_280_76	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_603_4	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_720_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Dothideales;f__Dothioraceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_203_143	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_673_2	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Davidiellaceae	-	-	-	-	-	-	-	Unassigned	-
+OTU_357_32	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_293_88	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_278_48	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_48_3711	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Incertae sedis;g__Phaeotheca;s__Phaeotheca fissurella	-	-	-	-	-	-	-	Unassigned	-
+OTU_325_44	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_734_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_306_42	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_320_32	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_407_22	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_623_410	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_83_522	1	1	k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__fungal sp agrD488	-	-	-	-	-	-	-	Unassigned	-
+OTU_225_93	1	1	k__Fungi	-	-	-	-	-	-	-	Unassigned	-
+OTU_402_20	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales;f__Incertae sedis	-	-	-	-	-	-	-	Unassigned	-
+OTU_683_280	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes	-	-	-	-	-	-	-	Unassigned	-
+OTU_364_24	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_353_232	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_735_2	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_371_24	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__unidentified;f__unidentified;g__unidentified;s__Leotiomycetes sp BLD3	-	-	-	-	-	-	-	Unassigned	-
+OTU_671_5	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_92_245	1	1	k__Fungi;p__Ascomycota	-	-	-	-	-	-	-	Unassigned	-
+OTU_240_85	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-
+OTU_172_432	1	1	k__Fungi;p__Ascomycota;c__Leotiomycetes;o__Incertae sedis;f__Incertae sedis;g__Cyclaneusma;s__Cyclaneusma minus	-	-	-	-	-	-	-	Unassigned	-
+OTU_234_170	1	1	k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Pleosporales	-	-	-	-	-	-	-	Unassigned	-

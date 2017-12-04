@@ -1,0 +1,34 @@
+\select@language {english}
+\select@language {english}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Number of sequences by sample}}{9}{figure.caption.2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Number of OTU present in a given number of samples}}{10}{figure.caption.3}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Number of sequences by OTU (log10 transformed)}}{11}{figure.caption.4}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Number of OTUs by sample in fonction of the number of sequences by sample (log10 axe)}}{12}{figure.caption.6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Distribution of reference sequences length}}{13}{figure.caption.7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Number of sequences by OTUs (log10 axe) in fonction of the number of samples where OTUs were found}}{13}{figure.caption.8}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Distribution of the number of sequences in the Ascomycota taxonomy}}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Number of sequences of the 30 most abundant OTUs (number of sequences)}}{16}{figure.caption.11}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of OTUs into functional Guild}}{18}{figure.caption.13}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Distribution of sequences (log10 transformed) into functional Guild}}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Rarefaction curves for each site}}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Rarefaction curves for each sample using sequences number on x-axes}}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diversity of each sites}}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Rarefaction curves for each host age}}{23}{figure.caption.18}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Diversity in function of tree age}}{24}{figure.caption.19}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Rarefaction curves for each elevation}}{25}{figure.caption.20}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Diversity in function of elevation}}{26}{figure.caption.21}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Results of the Tuckey HSD testing for differences in mean Hill numbers among pairs of modalities}}{27}{figure.caption.25}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Venn diagramm of the distribution of OTUs among Sites}}{28}{figure.caption.26}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Venn diagramm of the distribution of OTUs among host age}}{29}{figure.caption.27}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Venn diagramm of the distribution of OTUs among elevation of samples}}{29}{figure.caption.28}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Venn diagramm of the distribution of OTUs among Sites}}{30}{figure.caption.29}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Venn diagramm of the distribution of OTUs among host age}}{30}{figure.caption.30}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Venn diagramm of the distribution of OTUs among elevation of samples whitin the tree}}{31}{figure.caption.31}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Stress plot of the NMDS}}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces NMDS of OTU table}}{32}{figure.caption.33}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Comparison of different distances (bray (up) and gower (bottom)) and ordination methods (NMDS (left), PCoA (center) and DCA (right))}}{34}{figure.caption.34}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Taxonomic distribution of sequences in the different site * age combinaison}}{38}{figure.caption.41}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Taxonomic distribution of OTUs in the different site * age combinaison}}{39}{figure.caption.42}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces OTUs significantly different in terms of abundances between Verghello (positive values) and Asco (negative values)}}{40}{figure.caption.43}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces OTUs significantly different in terms of abundances between Verghello (positive values) and Bavella (negative values)}}{41}{figure.caption.44}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces OTUs significantly different in terms of abundances between Asco (positive values) and Bavella (negative values)}}{42}{figure.caption.45}

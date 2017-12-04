@@ -88,6 +88,54 @@ plot_edgeR_phyloseq <- function(data, contrast = NULL, alpha = 0.01, taxa = "Gen
 }
 ################################################################################
 
+
+################################################################################
+#' Compute paired distances among matrix (e.g. otu_table), 
+#' @note the first column of the first matrix is compare to the first column of the second matrix, the second column of the first matrix is compare to the second column of the second matrix and so on.
+#' @param x (Required): A first matrix.
+#' @param y (Required): A second matrix.
+#' @param method (default = 'bray'): the method to use internally in the vegdist function.
+#' @param nperm ((default = 99): The number of permutations
+#' 
+#' @author Adrien Taudiere
+#'
+#' @return A list of length two : (i) a vector of observed distance ($obs) and (ii) a matrix of the distance after randomization ($null)  
+#'
+#' @seealso \code{\link[vegdist]{vegdist}}
+
+dist_bycol <- function (x, y, method="bray", nperm=99, ...) 
+{
+  require(vegan)
+  x <- as.matrix(unclass(x))
+  y <- as.matrix(unclass(y))
+  
+  if(nrow(x)!=nrow(y) | ncol(x)!=ncol(y)){stop("x and y must be of the same dimension")}
+  
+  res<-list()
+  res$obs <- rep(NA, ncol(x))
+  res$null <- list(length=nperm)
+  
+  for (i in 1:ncol(x)){
+    res$obs[i] <- vegdist(rbind(x[,i], y[,i]), method=method, ...)  
+  }
+  
+  for (n in 1:nperm){
+    y_null <- y[, sample(1:ncol(y), replace = FALSE)]
+    res$null[[n]] <- rep(NA, ncol(x))
+    for (i in 1:ncol(x)){
+      res$null[[n]][i] <- vegdist(rbind(x[,i], y_null[,i]), method=method, ...)  
+    }
+    print(n)
+  }
+  
+  names(res$obs) <- colnames(x)
+  return(res)
+}
+################################################################################
+
+
+
+
 ################################################################################
 #' Convert phyloseq data to DESeq2 dds object
 #'
@@ -172,6 +220,7 @@ phyloseq_to_deseq2 = function(physeq, design, ...){
 #' @param contrast (Required):This argument specifies what comparison to extract from the object to build a results table. See \code{\link[DESeq2]{results}} man page for more details.
 #' @param alpha (default = 0.01): the significance cutoff used for optimizing the independent filtering. If the adjusted p-value cutoff (FDR) will be a value other than 0.1, alpha should be set to that value.
 #' @param taxa (default = 'Genus'): taxonomic level of interest
+#' @param select_taxa (default = 'No'): logical vector to select taxa to plot  
 #' @param color_tax (default = 'Phylum'): taxonomic level used for color or a color vector.
 #' @param taxDepth (default = NULL): Taxonomic depth to test for differential distribution among contrast. If Null the analysis is done at the OTU (i.e. Species) level. If not Null data need to be a \code{\link{phyloseq-class}} object.
 #' @param verbose : whether the function print some information during the computation
@@ -199,7 +248,8 @@ phyloseq_to_deseq2 = function(physeq, design, ...){
 #' @seealso \code{\link{plot_edgeR_phyloseq}}
 
 plot_deseq2_phyloseq <- function(data, contrast = NULL, tax_table = NULL, alpha = 0.01, 
-                                 taxa = "Genus", color_tax = "Phylum", taxDepth = NULL, verbose = TRUE, ...) {
+                                 taxa = "Genus", select_taxa = "No",
+                                 color_tax = "Phylum", taxDepth = NULL, verbose = TRUE, ...) {
   
   if (!inherits(data, "phyloseq")) {
     if (!inherits(data, "DESeqDataSet")) {
@@ -239,6 +289,10 @@ plot_deseq2_phyloseq <- function(data, contrast = NULL, tax_table = NULL, alpha 
   # Calcul deseq2 results
   res <- results(data, contrast = contrast)
   
+  if(select_taxa[1] != "No"){
+    res <- res[select_taxa,]
+  }
+  
   d <- res[which(res$padj < alpha), ]
   
   if (dim(d)[1] == 0) {
@@ -269,12 +323,14 @@ plot_deseq2_phyloseq <- function(data, contrast = NULL, tax_table = NULL, alpha 
   
   if (!sum(areColors(color_tax)) > 0) {
     p <- ggplot(d, aes(x = tax, y = log2FoldChange, color = col_tax), ...) + geom_point(size = 6) + 
-      theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust = 0.5)) + labs(title = paste("Change in abundance for ", 
-                                                                                                  contrast[1], " (", contrast[2], " vs ", contrast[3], ")", sep = ""))
+      theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust = 0.5)) +
+      labs(title = paste("Change in abundance for ", 
+                         contrast[1], " (", contrast[2], " vs ", contrast[3], ")", sep = ""))
   } else {
     p <- ggplot(d, aes(x = tax, y = log2FoldChange), ...) + geom_point(size = 6, color = d$col_tax) + 
-      theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust = 0.5)) + labs(title = paste("Change in abundance for ", 
-                                                                                                  contrast[1], " (", contrast[2], " vs ", contrast[3], ")", sep = ""))
+      theme(axis.text.x = element_text(angle = -90, hjust = 0, vjust = 0.5)) + 
+      labs(title = paste("Change in abundance for ", 
+                         contrast[1], " (", contrast[2], " vs ", contrast[3], ")", sep = ""))
   }
   
   return(p)
@@ -471,16 +527,19 @@ accu_plot <- function(physeq, fact = NULL, nbSeq = TRUE, step = NULL, by.fact = 
 #' Plot OTU circle for \code{\link{phyloseq-class}} object
 #' @param physeq (Required): a \code{\link{phyloseq-class}} object.
 #' @param fact (Required): Name of the factor to cluster samples by modalities. Need to be in \code{physeq@sam_data}.
-#' @param taxa (Default:'Order'): Name of the taxonomic rank of interest
+#' @param taxa (Default:'Order'): Name of the taxonomic rank of interest. Need to be a name present in \code{physeq@tax_table}.
 #' @param nbSeq (Default: TRUE): Represent the number of sequences or the number of OTUs (nbSeq = FALSE)
-#' @param rarefy (logical): Does each samples modalities need to be rarefy in order to compare them with the same amount of sequences?
+#' @param rarefy (logical): Does each samples modalities need to be rarefy in order to compare them with the same amount of sequences? Only work with nbSeq = TRUE.
 #' @param min.prop.tax (Default: 0.01): The minimum proportion for taxon to be ploted
 #' @param min.prop.mod (Default: 0.1) : The minimum proportion for modalities to be ploted
 #' @param gap.degree : Gap between two neighbour sectors. It can be a single value or a vector. If it is a vector, the first value corresponds to the gap after the first sector.
 #' @param start.degree : The starting degree from which the circle begins to draw. Note this degree is measured in the standard polar coordinate which means it is always reverse-clockwise.
 #' @param row.col : Color vector for row
+#' @param column.col : Color vector for column
 #' @param grid.col : Grid colors which correspond to sectors. The length of the vector should be either 1 or the number of sectors. It's preferred that grid.col is a named vector of which names correspond to sectors. If it is not a named vector, the order of grid.col corresponds to order of sectors.
 #' @param log10trans (logical): Should sequence be log10 transformed (more precisely by log10(1+x))?
+#' @param color_by_taxa : Name of the taxonomic rank to color column. Need to be a name present in \code{physeq@tax_table}.
+#' @param
 #' @param ... Additional arguments passed on to \code{\link[circlize]{chordDiagram}} or \code{\link[circlize]{circos.par}}
 #'
 #' @examples
@@ -495,18 +554,17 @@ accu_plot <- function(physeq, fact = NULL, nbSeq = TRUE, step = NULL, by.fact = 
 #' @seealso \code{\link[circlize]{chordDiagram}}
 #' @seealso \code{\link[circlize]{circos.par}}
 
-otu_circle <- function(physeq = NULL, fact = NULL, taxa = "Order", nbSeq = TRUE, rarefy = FALSE, 
-                       min.prop.tax = 0.01, min.prop.mod = 0.1, gap.degree = NULL, start.degree = NULL, row.col = NULL, 
-                       grid.col = NULL, log10trans = F,...) {
+otu_circle <- function(physeq = NULL, fact = NULL, taxa = "Order", nbSeq = TRUE, 
+                       rarefy = FALSE, min.prop.tax = 0.01, min.prop.mod = 0.1, 
+                       gap.degree = NULL, start.degree = NULL, row.col = NULL, 
+                       column.col = NULL, grid.col = NULL, log10trans = F, 
+                       color_by_taxa =  NULL, col_for_tax = NULL,
+                       OTU_nb_text = FALSE, ...) {
   
   if (!inherits(physeq, "phyloseq")) {
     stop("physeq must be an object of class 'phyloseq'")
   }
-  
-  if (!nbSeq) {
-    physeq@otu_table[physeq@otu_table > 0] <- 1
-  }
-  
+
   taxcol <- match(taxa, colnames(physeq@tax_table))
   if (is.na(taxcol)) {
     stop("The taxa argument do not match any taxa rank in physeq@tax_table")
@@ -517,20 +575,39 @@ otu_circle <- function(physeq = NULL, fact = NULL, taxa = "Order", nbSeq = TRUE,
     stop("The samples argument do not match any sample attributes in physeq@sam_data")
   }
   
+  if (!nbSeq) { 
+    xxx <- physeq@otu_table
+    xxx[xxx > 0] <- 1
+    otu_table_tax <- apply(xxx, 2, function(x) 
+      tapply(x, physeq@tax_table[, taxcol], function(xx) sum(xx, na.rm = T)))
+    otu_table_ech <- apply(otu_table_tax, 1, function(x) 
+      tapply(x, physeq@sam_data[, taxsamp], function(xx) sum(xx, na.rm = T)))
+  }
+  
+  if (nbSeq) {
     otu_table_tax <- apply(physeq@otu_table, 2, function(x) tapply(x, physeq@tax_table[, taxcol], 
                                                                  function(xx) sum(xx, na.rm = T)))
     otu_table_ech <- apply(otu_table_tax, 1, function(x) tapply(x, physeq@sam_data[, taxsamp], 
                                                               function(xx) sum(xx, na.rm = T)))
-  if (rarefy) {
-    otu_table_ech_interm <- rrarefy(otu_table_ech, min(rowSums(otu_table_ech)))
-    print(paste("Rarefaction by modalities deletes ", sum(otu_table_ech) - sum(otu_table_ech_interm), 
-                " (", round(100 * (sum(otu_table_ech) - sum(otu_table_ech_interm))/sum(otu_table_ech), 
-                            2), "%) sequences.", sep = ""))
-    otu_table_ech <- otu_table_ech_interm
+    if (rarefy) {
+      otu_table_ech_interm <- rrarefy(otu_table_ech, min(rowSums(otu_table_ech)))
+      print(paste("Rarefaction by modalities deletes ", sum(otu_table_ech) - sum(otu_table_ech_interm), 
+                  " (", round(100 * (sum(otu_table_ech) - sum(otu_table_ech_interm))/sum(otu_table_ech), 
+                              2), "%) sequences.", sep = ""))
+      otu_table_ech <- otu_table_ech_interm
+    }
+    
+    otu_table_ech <- otu_table_ech[, colSums(otu_table_ech) > 0]
   }
   
-  otu_table_ech <- otu_table_ech[, colSums(otu_table_ech) > 0]
-  
+  if (OTU_nb_text){
+    nb_OTUs.interm <- table(physeq@tax_table[, taxa])
+    nb_OTUs_tax <- nb_OTUs.interm[(names(nb_OTUs.interm)%in%colnames(otu_table_ech))]
+    
+    nb_OTUs_samp <- rowSums(apply(physeq@otu_table, 1, function(x) tapply(x, physeq@sam_data[, taxsamp], 
+                                                                 function(xx) sum(xx, na.rm = T)))>0)
+  }
+ 
   # Keep only taxa and modalities with a sufficient proportion (min.prop.tax,
   # min.prop.mod) to plot
   o_t_e_interm <- otu_table_ech[(rowSums(otu_table_ech)/sum(otu_table_ech)) > min.prop.mod, 
@@ -562,19 +639,48 @@ otu_circle <- function(physeq = NULL, fact = NULL, taxa = "Order", nbSeq = TRUE,
     start.degree <- 170
   }
   
+  
+  #### COLOR ####
+  # funky.col and fac2col from the adegenet package
+ 
   funky.color <- colorRampPalette(c("#A6CEE3", "#1F78B4", "#B2DF8A", "#33A02C", "#FB9A99", 
                                     "#E31A1C", "#FDBF6F", "#FF7F00", "#CAB2D6", "#6A3D9A", "#FFFF99", "#B15928"))
   
+  if(!is.null(color_by_taxa)){
+    x <- as.factor(physeq@tax_table[,color_by_taxa] [match(colnames(otu_table_ech), physeq@tax_table[,taxa])])
+    if (is.null(col_for_tax)){col_for_tax <- funky.color(nlevels(x))}
+    column.col <- col_for_tax[match(x, levels(x))]
+  }
+  
+  if(is.null(column.col)){
+    column.col <-  rep("grey", ncol(otu_table_ech))
+  }
+  
+  if(length(column.col)==1){
+    column.col <-  rep(column.col, ncol(otu_table_ech))
+  }
+  
   if (is.null(grid.col)) {
-    grid.col <- c(funky.color(nrow(otu_table_ech)), rep("grey", ncol(otu_table_ech)))
+    grid.col <- c(funky.color(nrow(otu_table_ech)), column.col)
   }
   
   if (is.null(row.col)) {
-    row.col <- c(funky.color(nrow(otu_table_ech)), rep("grey", ncol(otu_table_ech)))
+    row.col <- c(funky.color(nrow(otu_table_ech)), column.col)
   }
   
-  circos.par(gap.degree = gap.degree, start.degree = start.degree, ...)
-  chordDiagram(otu_table_ech, row.col = row.col, grid.col = grid.col, ...)
+  circos.par(gap.degree = gap.degree, start.degree = start.degree, track.height = 0.5)
+  chordDiagram(otu_table_ech, row.col = row.col, grid.col = grid.col, column.col = column.col, ...)
+  if(OTU_nb_text){
+    
+    for(si in get.all.sector.index()) {
+      xcenter = get.cell.meta.data("xcenter", sector.index = si, track.index = 1) 
+      ycenter = get.cell.meta.data("ycenter", sector.index = si, track.index = 1) -1.5
+      labs <- c(nb_OTUs_samp, nb_OTUs_tax)
+      circos.text(xcenter, ycenter, labels = as.character(labs[names(labs)%in%si]), sector.index = si, track.index = 1, 
+                  cex = 0.75, adj = c(1, 0.5))
+    }
+
+  }
   circos.clear()
 }
 ################################################################################
@@ -872,14 +978,16 @@ venn_phyloseq <- function(physeq, fact, min.nb.seq = 0, printValues = TRUE) {
 #' @return A \code{\link{html}} file
 #'
 #' @author Adrien Taudiere
+#' 
+
 krona <- function(physeq, file = "krona.html", nbSeq = TRUE, ranks = "All", add_unassigned_rank = 0, name = NULL){
-  
-  df <- data.frame(unclass(physeq@tax_table[,ranks]))
-  df$OTUs <- rownames(physeq@tax_table)
   
   if (ranks[1] == "All") {
     ranks <- seq_along(physeq@tax_table[1,])
   }
+  
+  df <- data.frame(unclass(physeq@tax_table[,ranks]))
+  df$OTUs <- rownames(physeq@tax_table)
   
   if (is.null(name)) {
     if (nbSeq) {name <- "Number.of.sequences"}

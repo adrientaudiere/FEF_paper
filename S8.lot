@@ -1,0 +1,17 @@
+\select@language {english}
+\select@language {english}
+\contentsline {table}{\numberline {1}{\ignorespaces Number of OTUs, samples and sequences after filtering\relax }}{11}{table.caption.5}
+\contentsline {table}{\numberline {2}{\ignorespaces Taxonomie of the 30 more abundant OTUs (number of sequences)\relax }}{15}{table.caption.10}
+\contentsline {table}{\numberline {3}{\ignorespaces Taxonomie of the 30 more frequent OTUs (number of samples)\relax }}{17}{table.caption.12}
+\contentsline {table}{\numberline {4}{\ignorespaces Summary of the linear model of species richness (Hill number with q = 0)\relax }}{23}{table.caption.22}
+\contentsline {table}{\numberline {5}{\ignorespaces Summary of the linear model of the exponential of Shannon\IeC {\textquoteright }s entropy index (Hill number with q = 1)\relax }}{27}{table.caption.23}
+\contentsline {table}{\numberline {6}{\ignorespaces Summary of the linear model of inverse of Simpson\IeC {\textquoteright }s concentration index (Hill number with q = 2)\relax }}{27}{table.caption.24}
+\contentsline {table}{\numberline {7}{\ignorespaces Result of the permanova on abundances (number of sequence).\relax }}{35}{table.caption.35}
+\contentsline {table}{\numberline {8}{\ignorespaces Result of the permanova on abundances (number of sequence) using only OTUs present in more than 30 samples\relax }}{36}{table.caption.36}
+\contentsline {table}{\numberline {9}{\ignorespaces Result of the permanova on OTUs (each OTU is representing by one sequence)).\relax }}{36}{table.caption.37}
+\contentsline {table}{\numberline {10}{\ignorespaces Result of the permanova on abundances (number of sequence).\relax }}{37}{table.caption.38}
+\contentsline {table}{\numberline {11}{\ignorespaces Result of the permanova on abundances (number of sequence) using only OTUs present in more than 30 samples\relax }}{37}{table.caption.39}
+\contentsline {table}{\numberline {12}{\ignorespaces Result of the permanova on OTUs (each OTU is representing by one sequence)).\relax }}{37}{table.caption.40}
+\contentsline {table}{\numberline {13}{\ignorespaces OTUs showing differential abundances in the different sites.\relax }}{43}{table.caption.46}
+\contentsline {table}{\numberline {14}{\ignorespaces Order showing differential abundances in the different sites.\relax }}{43}{table.caption.47}
+\contentsline {table}{\numberline {15}{\ignorespaces Number of OTUs, samples and sequences after filtering\relax }}{48}{table.caption.48}
