@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Supplementary materials of Taudiere et al. (submitted)
 
 To rerun the supplementary scripts with different parameter, please [clone](https://help.github.com/articles/cloning-a-repository/) this repository and open the *.rnw* files with Rstudio.
@@ -28,4 +27,4 @@ Supplementary materials:
 =======
 # FEF_paper
 Appendix for the article entitle "Finding fungi in a needle stack: high α- and low β-diversity of foliar endophytic Ascomycetes revealed by metabarcoding in Corsican pine forests" by Taudière et al.
->>>>>>> bfb715e2395581eaff2b7a7b9f87f2abd9869a0c
+
